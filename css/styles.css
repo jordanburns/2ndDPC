@@ -17,16 +17,23 @@ li:hover ul {
 }
 #nav{
     text-align: right;
-    padding-top: 30%;
+    padding-top: 10%;
     
     
 }
-#nav ul li a{padding:1%;
+#nav ul li a:link{padding:1%;
            font-family:Arial, Helvetica, sans-serif;
            text-decoration:none;
            color:black;
 }
-#nav ul li a:focus, a:hover{color:#990000;
+#nav ul li a:visited{padding:1%;
+           font-family:Arial, Helvetica, sans-serif;
+           text-decoration:none;
+           color:black;
+}
+#nav ul li a:hover{color:#990000;
+}
+#nav ul li a:focus{color:#990000;
 }
 
 
