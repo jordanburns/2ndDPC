@@ -17,11 +17,11 @@ li:hover ul {
 }
 #nav{
     text-align: right;
-    padding-top: 10%;
+    padding-top: -5%;
     
     
 }
-#nav ul li a:link, a:visited{padding:1%;
+#nav ul li a{padding:1%;
            font-family:Arial, Helvetica, sans-serif;
            text-decoration:none;
            color:black;
