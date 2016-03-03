@@ -46,7 +46,7 @@ ul #cert ul {
 #logo {  width: 5%;
          height: 5%;
          height: auto; 
-         width: 50%; 
+         width: auto;
          max-width: 100px; 
          max-height: 100px;
          float:left;
@@ -58,5 +58,4 @@ ul #cert ul {
         display:inline-block;
         position: relative;
         float:left;
-        width:50%;
 }
