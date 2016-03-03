@@ -34,10 +34,10 @@ li:hover ul {
 }
 #nav ul li a:focus{color:#990000;
 }
-#product ul {
-    right: 30%;
+ul #product ul {
+    padding-right: 30%;
 }
-#cert ul {
+ul #cert ul {
 }
 
 
