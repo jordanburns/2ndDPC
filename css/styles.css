@@ -17,8 +17,8 @@ li:hover ul {
 }
 #nav{
     clear:right;
-    width:50%;
-    padding-top:100px;
+    padding-top:7%;
+    padding-left:60%;
 }
 #nav ul li a:link{padding:1%;
            font-family:Arial, Helvetica, sans-serif;
