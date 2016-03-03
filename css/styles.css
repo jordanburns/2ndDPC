@@ -16,6 +16,7 @@ li:hover ul {
     display: block;
 }
 #nav{
+    clear:right;
     width:50%;
 }
 #nav ul li a:link{padding:1%;
