@@ -16,9 +16,9 @@ li:hover ul {
     display: block;
 }
 #nav{
-    text-align: right;
-    padding-top: 7%;
-    
+    clear:right;
+    width:50%;
+    padding-top:100px;
 }
 #nav ul li a:link{padding:1%;
            font-family:Arial, Helvetica, sans-serif;
@@ -34,12 +34,18 @@ li:hover ul {
 }
 #nav ul li a:focus{color:#990000;
 }
+#product ul {
+    right: 30%;
+}
+#cert ul {
+}
+
 
 
 #logo {  width: 5%;
          height: 5%;
          height: auto; 
-         width: auto; 
+         width: 50%; 
          max-width: 100px; 
          max-height: 100px;
          float:left;
@@ -51,4 +57,5 @@ li:hover ul {
         display:inline-block;
         position: relative;
         float:left;
+        width:50%;
 }
