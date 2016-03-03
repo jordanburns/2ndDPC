@@ -15,11 +15,6 @@ ul ul {
 li:hover ul {
     display: block;
 }
-#nav{
-    clear:right;
-    width:50%;
-    padding-top:100px;
-}
 #nav ul li a:link{padding:1%;
            font-family:Arial, Helvetica, sans-serif;
            text-decoration:none;
