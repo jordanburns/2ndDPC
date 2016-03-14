@@ -21,12 +21,12 @@ li:hover ul {
     padding-left:710px;
     margin-right:0px;
 }
-#nav ul li a:link{padding:1%;
+#nav ul li a:link {padding:1%;
            font-family:Arial, Helvetica, sans-serif;
            text-decoration:none;
            color:black;
 }
-#nav ul li a:visited{padding:1%;
+#nav ul li a:visited {padding:1%;
            font-family:Arial, Helvetica, sans-serif;
            text-decoration:none;
            color:black;
@@ -51,40 +51,15 @@ div #cert {
          width: auto;
          max-width: 100px; 
          max-height: 100px;
-         float:left;
+         float: left;
 }
 #title{ font-family:"Palatino Linotype", "Book Antiqua", Palatino, serif;
-        font-size:25px;
-        font-weight:bold;
-        text-align:left;
-        display:inline-block;
+        font-size: 25px;
+        font-weight: bold;
+        text-align: left;
+        display: inline-block;
         position: relative;
         float:left;
 }
 
-#nav ul ul
-{
-	display:none;
-	position:absolute;
-	top:100%;
-	left:0;
-	background:#fff;
-	padding:0
-}
-
-#nav ul ul li
-{
-	float:none;
-	width:200px
-}
-
-#nav ul ul a
-{
-	line-height:120%;
-	padding:10px 15px
-}
-
-#primary_nav_wrap ul li:hover > ul
-{
-	display:block
-}
+#homelink {font-family: arial;}
