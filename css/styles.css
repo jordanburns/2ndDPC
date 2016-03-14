@@ -17,8 +17,8 @@ li:hover ul {
 }
 #nav{
     clear:right;
-    padding-top:7%;
-    padding-left:59%;
+    padding-top:100px;
+    padding-left:1000px;
     margin-right:0px;
 }
 #nav ul li a:link{padding:1%;
@@ -36,10 +36,10 @@ li:hover ul {
 #nav ul li a:focus{color:#990000;
 }
 ul #product ul {
-   padding-left: 20%;
+   
 }
 ul #cert ul {
-  padding-right: 20%;  
+    
 }
 
 
