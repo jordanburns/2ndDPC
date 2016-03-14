@@ -61,3 +61,30 @@ div #cert {
         position: relative;
         float:left;
 }
+
+#nav ul ul
+{
+	display:none;
+	position:absolute;
+	top:100%;
+	left:0;
+	background:#fff;
+	padding:0
+}
+
+#nav ul ul li
+{
+	float:none;
+	width:200px
+}
+
+#nav ul ul a
+{
+	line-height:120%;
+	padding:10px 15px
+}
+
+#primary_nav_wrap ul li:hover > ul
+{
+	display:block
+}
