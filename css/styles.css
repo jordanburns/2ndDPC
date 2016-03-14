@@ -35,16 +35,6 @@ li:hover ul {
 }
 #nav ul li a:focus{color:#990000;
 }
-ul #product ul {
-   
-}
-div #cert {
-    
-    float: right;
-}
-
-
-
 #logo {  width: 5%;
          height: 5%;
          height: auto; 
@@ -62,30 +52,11 @@ div #cert {
         float:left;
 }
 
-#nav
-{
-	margin-top:15px
-}
-
 #nav ul
 {
 	list-style:none;
 	position:relative;
 	float:left;
-	margin:0;
-	padding:0
-}
-
-#nav ul a
-{
-	display:block;
-	color:#333;
-	text-decoration:none;
-	font-weight:700;
-	font-size:12px;
-	line-height:32px;
-	padding:0 15px;
-	font-family:"HelveticaNeue","Helvetica Neue",Helvetica,Arial,sans-serif
 }
 
 #nav ul li
@@ -100,12 +71,6 @@ div #cert {
 {
 	background:#ddd
 }
-
-#nav ul li:hover
-{
-	background:#f6f6f6
-}
-
 #nav ul ul
 {
 	display:none;
