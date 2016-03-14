@@ -1,10 +1,10 @@
 //* #0053A0 blue, #990000 red, #666666 gray*//
 
-#nav ul {
+ul {
     padding: 0;
     margin: 0;
 }
-#nav li {
+li {
     display: inline;
     position: relative;
 }
@@ -63,6 +63,8 @@ li:hover ul {
 {
 	position:relative;
 	float:left;
+	margin:0;
+	padding:0
 }
 
 #nav ul li.current-menu-item
@@ -101,3 +103,5 @@ li:hover ul {
 {
 	display:block
 }
+
+#homelink {font-family: arial;}
