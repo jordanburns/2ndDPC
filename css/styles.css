@@ -53,41 +53,19 @@ li:hover ul {
         float:left;
 }
 
-#nav ul
-{
-	list-style:none;
-	position:relative;
-	float:left;
+nav ul li {
+    display:  block;
+    float: left;
 }
-
-#nav ul li
-{
-	position:relative;
-	float:left;
+nav ul ul {
+    display: none;  
 }
-
-#nav ul li.current-menu-item
-{
-	background:#ddd
+nav ul li:hover > ul {
+    display: block;
+    position: absolute;
+    margin-left: -30px;
 }
-#nav ul ul
-{
-	display:none;
-	position:absolute;
-	top:100%;
-	background:#fff;
-}
-
-#nav ul ul li
-{
-	float:none;
-	width:200px
-}
-
-#nav ul li:hover > ul
-{
-	display:block
-}
-.drpdwn {
-	position: relative;
+nav ul ul li {
+    display: block; 
+    float: none;
 }
