@@ -74,13 +74,13 @@ li:hover ul {
 	position:absolute;
 	top:100%;
 	background:#666666;
-	color:white;
 }
 
 #nav ul ul li
 {
 	float:none;
 	width:200px
+		color:white;
 }
 
 #nav ul li:hover > ul
