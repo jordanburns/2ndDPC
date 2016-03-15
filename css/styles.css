@@ -80,14 +80,15 @@ li:hover ul {
 {
 	float:none;
 	width:200px
+		color:white;
 }
-#nav ul ul li a{color:#FFFFFF;
-}
+
 #nav ul li:hover > ul
 {
 	display:block
 }
 
 #header {text-decoration: bold;
-	font-size: 50px;
+	font-size: 35px;
+	text-align: center;
 	}
