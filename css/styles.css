@@ -17,8 +17,8 @@
   margin: 0;
   padding: 0;
   position: relative;
-  clear:left;
 }
+
 #cssmenu {
   line-height: 1;
   border-radius: 5px 5px 0 0;
@@ -33,6 +33,7 @@
   background: linear-gradient(to bottom, #ffffff 0%, #ffffff 100%);
   border-bottom: 2px solid #db000b;
   width: auto;
+  clear:left;
 }
 #cssmenu:after,
 #cssmenu ul:after {
