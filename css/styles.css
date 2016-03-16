@@ -1,6 +1,6 @@
 //* #0053A0 blue, #990000 red, #666666 gray*//
-#logo {      float:left;
-}
+#logo {float:left;}
+
 #title{ font-family:"Palatino Linotype", "Book Antiqua", Palatino, serif;
         font-size:25px;
         font-weight:bold;
@@ -8,6 +8,7 @@
         display:inline-block;
         position: relative;
         float:left;
+        margin:0px;
 }
 #cssmenu ul,
 #cssmenu li,
