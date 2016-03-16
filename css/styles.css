@@ -81,7 +81,7 @@ li:hover ul {
 	float:none;
 	width:200px
 }
-#nav ul ul li a{color:#FFFFFF;
+#nav ul li ul li a{color:#FFFFFF;
 }
 #nav ul li:hover > ul
 {
