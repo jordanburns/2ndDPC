@@ -201,3 +201,16 @@ position: relative;
                 left: 8%;
                 top: 25%;
 }
+img {
+	width: 800px;
+	height: 400px;
+}
+.images
+{
+    position: relative;
+}
+.images img
+{
+    display: none;
+    position: absolute;
+}
