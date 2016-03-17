@@ -37,6 +37,7 @@ position: relative;
   width: auto;
   clear:left;
   position:absolute;
+  right:0px;
   padding-right:0px;
   margin-right:0px;
 }
