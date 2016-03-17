@@ -197,7 +197,7 @@ position: relative;
   border-bottom: 0;
 }
 
-#contactpara {position: relative;
+#contactpara {position: absolute;
                 left: 15%;
                 top: 25%;
 }
