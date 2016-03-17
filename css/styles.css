@@ -37,7 +37,8 @@ position: relative;
   width: auto;
   clear:left;
   position:absolute;
-  padding-right:8%;
+  padding-right:0px;
+  margin-right:0px;
 }
 #cssmenu:after,
 #cssmenu ul:after {
