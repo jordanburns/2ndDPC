@@ -36,6 +36,10 @@
   border-bottom: 2px solid #db000b;
   width: auto;
   clear:left;
+  position:absolute;
+  right:0px;
+  padding-right:0px;
+  margin-right:0px;
 }
 #cssmenu:after,
 #cssmenu ul:after {
@@ -191,17 +195,4 @@
 #cssmenu .has-sub ul li:last-child > a,
 #cssmenu .has-sub ul li.last > a {
   border-bottom: 0;
-}
-img {
-	width: 800px;
-	height: 400px;
-}
-.images
-{
-    position: relative;
-}
-.images img
-{
-    display: none;
-    position: absolute;
 }
