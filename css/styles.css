@@ -12,6 +12,16 @@
         position: relative;
         margin:40px 0px 40px 15px;
 }
+#subtitle { 
+        font-family:"Palatino Linotype", "Book Antiqua", Palatino, serif;
+        font-size:15px;
+        font-weight:bold;
+        text-align:left;
+        display:inline-block;
+        position: relative;
+        margin:40px 0px 40px 15px;
+}
+}
 #cssmenu ul,
 #cssmenu li,
 #cssmenu span,
@@ -200,17 +210,4 @@ position: relative;
 #contactpara {position: absolute;
                 left: 8%;
                 top: 25%;
-}
-img {
-	width: 800px;
-	height: 400px;
-}
-.images
-{
-    position: relative;
-}
-.images img
-{
-    display: none;
-    position: absolute;
 }
