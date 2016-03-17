@@ -192,3 +192,16 @@
 #cssmenu .has-sub ul li.last > a {
   border-bottom: 0;
 }
+img {
+	width: 800px;
+	height: 400px;
+}
+.images
+{
+    position: relative;
+}
+.images img
+{
+    display: none;
+    position: absolute;
+}
