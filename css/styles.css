@@ -202,12 +202,12 @@ position: relative;
                 top: 25%;
 }
 #myPhoto{position:absolute;
-         top:175px;
+         top:173px;
          margin-left:auto;
          margin-right:auto;
          display:block;
          padding-left:auto;
          padding-right:auto;
-         left:125px;
+         left:115px;
          
 }
