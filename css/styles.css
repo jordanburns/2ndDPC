@@ -196,3 +196,8 @@ position: relative;
 #cssmenu .has-sub ul li.last > a {
   border-bottom: 0;
 }
+
+#contactpara {position: relative;
+                left: 15%;
+                top: 25%;
+}
