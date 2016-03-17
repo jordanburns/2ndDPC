@@ -12,16 +12,6 @@
         position: relative;
         margin:40px 0px 40px 15px;
 }
-#subtitle { 
-        font-family:"Palatino Linotype", "Book Antiqua", Palatino, serif;
-        font-size:15px;
-        font-weight:bold;
-        text-align:left;
-        display:inline-block;
-        position: relative;
-        margin:40px 0px 40px 15px;
-}
-}
 #cssmenu ul,
 #cssmenu li,
 #cssmenu span,
@@ -44,10 +34,10 @@ position: relative;
   background: -ms-linear-gradient(top, #ffffff 0%, #ffffff 100%);
   background: linear-gradient(to bottom, #ffffff 0%, #ffffff 100%);
   border-bottom: 2px solid #db000b;
-  width: 100%;
+  width: auto;
   clear:left;
   position:absolute;
-  right:0px;
+  right:5%;
   padding-right:0px;
   margin-right:0px;
 }
