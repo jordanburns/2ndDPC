@@ -207,16 +207,9 @@ position: relative;
 }
 #myPhoto{position:absolute;
          top:174px;
-         left:20%;
+         left:15%;
          right:25%;
          width:50%;
          
          
 }
-#slideshow{background-color:#666666;
-           width:100%;
-           position: absolute;
-           top: 100px;
-
-}
-
