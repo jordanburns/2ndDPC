@@ -78,11 +78,11 @@ position: relative;
 #cssmenu.align-center ul ul {
   text-align: left;
 }
-#cssmenu.align-right > ul {
-  float: right;
+#cssmenu.align-left > ul {
+  float: left;
 }
-#cssmenu.align-right ul ul {
-  text-align: right;
+#cssmenu.align-left ul ul {
+  text-align: left;
 }
 #cssmenu > ul > li > a {
   color: #000000;
@@ -215,9 +215,7 @@ position: relative;
 #slideshow{background-color:#666666;
            width:100%;
            position: absolute;
-           top: 50px;
-           padding-left:auto;
-         padding-right:auto;
+           top: 100px;
 
 }
 
