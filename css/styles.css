@@ -216,6 +216,8 @@ position: relative;
            width:100%;
            position: absolute;
            top: 50px;
+           padding-left:auto;
+         padding-right:auto;
 
 }
 
