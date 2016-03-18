@@ -38,7 +38,7 @@ position: relative;
   clear: left;
   position:absolute;
   padding-right:0px;
-  margin-right:20px;
+  margin-right:0px;
   left:0;
   padding-top: 20px;
   width: 70%;
@@ -207,12 +207,8 @@ position: relative;
 }
 #myPhoto{position:absolute;
          top:174px;
-         margin-left:auto;
-         margin-right:auto;
-         display:block;
-         padding-left:auto;
-         padding-right:auto;
-         left:75px;
+         left:25%;
+         right:25%;
          width:50%;
          
          
