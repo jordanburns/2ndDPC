@@ -214,6 +214,8 @@ position: relative;
 }
 #slideshow{background-color:#666666;
            width:100%;
+           position: absolute;
+           top: 200px;
 
 }
 
