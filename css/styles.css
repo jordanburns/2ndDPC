@@ -62,7 +62,7 @@ position: relative;
   font-family: Helvetica, Arial, Verdana, sans-serif;
   padding: 19px 20px;
   text-decoration: none;
-  width: 10px;
+  width: 60%;
 }
 #cssmenu ul {
   list-style: none;
@@ -211,5 +211,14 @@ position: relative;
          display:block;
          padding-left:auto;
          padding-right:auto;
+         left:75px;
+         
          
 }
+#slideshow{background-color:#666666;
+           width:100%;
+           position: absolute;
+           top: 100px;
+
+}
+
