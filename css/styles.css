@@ -34,15 +34,13 @@ position: relative;
   background: -ms-linear-gradient(top, #ffffff 0%, #ffffff 100%);
   background: linear-gradient(to bottom, #ffffff 0%, #ffffff 100%);
   border-bottom: 2px solid #db000b;
-  width: auto;
+  width: 65%;
   clear: left;
   position:absolute;
-  
   margin-left:8%;
   left:0;
   padding-top: 20px;
-  padding-left: 10px;
-  padding-right: 10px;
+
   
    
 }
