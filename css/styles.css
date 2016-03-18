@@ -62,7 +62,7 @@ position: relative;
   font-family: Helvetica, Arial, Verdana, sans-serif;
   padding: 19px 20px;
   text-decoration: none;
- 
+  width: 10px;
 }
 #cssmenu ul {
   list-style: none;
@@ -212,7 +212,6 @@ position: relative;
          padding-left:auto;
          padding-right:auto;
          left:75px;
-         width:100%;
          
          
 }
