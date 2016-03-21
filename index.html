@@ -5,33 +5,16 @@
 <link type="text/css" rel="stylesheet" href="css/styles.css" media="screen">
 <script>
 
-  var myImage=document.getElementById("myPhoto");
+  var current = 0,
+    slides = document.getElementsByTagName("img");
 
-  var imageArray=["images/logopp.jpg", "images/equipment1.jpg", "images/trucks2.jpg"];
-
-  var imageIndex=0;
-
-  function changeImage () {
-  	myPhoto.setAttribute("src", imageArray [imageIndex]);
-  	imageIndex++;
-  	if (imageIndex>=imageArray.length) { imageIndex=0;
-  	}
+setInterval(function() {
+  for (var i = 0; i < slides.length; i++) {
+    slides[i].style.opacity = 0;
   }
-  
-  var intervalHandle= setInterval (changeImage,4000);
-  
-  myPhoto.onlick=function() {
-  	clearInterval(intervalHandle);
-  }
-  
-      var images = $(".images img").hide();
-      var current = 0;
-      setInterval(function() {
-          var next = ((current + 1) % images.length);
-          images.eq(current).fadeOut();
-          images.eq(next).fadeIn();
-          current = next;
-      });
+  current = (current != slides.length - 1) ? current + 1 : 0;
+  slides[current].style.opacity = 1;
+}, 3000);
 </script>
 </head>
 
@@ -66,7 +49,9 @@
 </ul>
 </div>
 <div id='slideshow'>
-  <img id="myPhoto" src="/images/Logo.jpg" alt="logo" height="400" width="800"/>
+  <img src="/images/equipment.jpg" height="400" width="800"/> 
+<img src="/images/trucks2.jpg" height="400" width="800"/>
+<img src="/images/Logo.jpg" alt="logo" height="400" width="800"/>
 </div>
 </body>
 <footer>
