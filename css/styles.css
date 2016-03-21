@@ -227,3 +227,9 @@ position: relative;
     width: 100%;
     overflow:hidden;
 }
+img {
+  position: absolute;
+  transition: opacity .5s ease-in;
+}
+
+img + img { opacity: 0; }
