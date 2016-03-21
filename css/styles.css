@@ -227,9 +227,9 @@ position: relative;
     width: 100%;
     overflow:hidden;
 }
-img {
+slideshow {
   position: absolute;
   transition: opacity .5s ease-in;
 }
 
-img + img { opacity: 0; }
+slideshow + slideshow { opacity: 0; }
