@@ -218,4 +218,6 @@ position: relative;
 #slideshow{background-color:#gray;
            width:100%;
 }
-
+footer { 
+    display: block;
+}
