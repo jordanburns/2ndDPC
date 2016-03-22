@@ -218,13 +218,13 @@ position: relative;
 #slideshow{background-color:#gray;
            width:100%;
 }
-#footer {
-    background-color: orange;
-    position: absolute;
-    left: 0;
-    bottom: 0;
-    height: 100px;
-    width: 100%;
-    overflow:hidden;
+#footer { position: absolute;
+          right: 0;
+          bottom: 0;
+          left: 0;
+          padding: 1rem;
+          background-color: #efefef;
+          text-align: center;
+
 }
 
