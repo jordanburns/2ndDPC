@@ -234,3 +234,11 @@ position: relative;
 #body {margin-left: 72;
         margin-right: 72;
 }
+img.slideshow {
+  position: absolute;
+  transition: opacity .5s ease-in;
+}
+
+img.slideshow + img.slideshow {
+  opacity: 0;
+}
