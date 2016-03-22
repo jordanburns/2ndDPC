@@ -4,7 +4,16 @@
 <title> Diversified Plastics Corporation </title>
 <link type="text/css" rel="stylesheet" href="css/styles.css" media="screen">
 <script>
+var current = 0,
+    slides = document.getElementsByClassName("slideshow");
 
+setInterval(function() {
+  for (var i = 0; i < slides.length; i++) {
+    slides[i].style.opacity = 0;
+  }
+  current = (current != slides.length - 1) ? current + 1 : 0;
+  slides[current].style.opacity = 1;
+}, 3000);
   
 </script>
 </head>
@@ -37,6 +46,11 @@
    <li class='active'><a href='contact.html'><span>Contact</span></a></li>
    <li class='active last'><a href='docform.html'><span>Documents and Forms</span></a></li>
 </ul>
+</div>
+<div>
+<img class="slideshow" src="../../images/Equipment.jpg"  width="800" height="400"/> 
+<img class="slideshow" src="../../images/trucks2.jpg" width="800" height="400"/>
+<img class="slideshow" src="../../images/Logo.jpg" width="800" height="400"/>
 </div>
 <div id="footer">
   <p class>Copyright 2nd Hour Web Design</p>
