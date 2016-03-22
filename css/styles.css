@@ -237,7 +237,7 @@ position: relative;
 img.slideshow {
   position: absolute;
   transition: opacity .5s ease-in;
-  top: 300px;
+  top: 310px;
 }
 
 img.slideshow + img.slideshow {
