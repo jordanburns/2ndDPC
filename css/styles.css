@@ -244,6 +244,4 @@ img.slideshow {
 img.slideshow + img.slideshow {
   opacity: 0;
 }
-#google{position:relative;
-        display:inline-block;
-}
+
