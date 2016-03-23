@@ -233,8 +233,8 @@ position: relative;
           
 }
 
-#body {margin-left: 72;
-        margin-right: 72;
+#body {margin-left: 72px;
+        margin-right: 72px;
 }
 img.slideshow {
   position: absolute;
