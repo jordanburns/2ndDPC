@@ -231,16 +231,16 @@ position: relative;
           font-size:1em;
 }
 
-#body {margin-left: 72px;
-        margin-right: 72px;
+body {margin-left: 72;
+        margin-right: 72;
 }
 img.slideshow {
   position: absolute;
   transition: opacity .5s ease-in;
   top: 200px;
   right: 40px;
-  width:1200px;
-  height:270px;
+  width:1000px;
+  height:290px;
 
 }
 
@@ -259,9 +259,4 @@ img.slideshow + img.slideshow {
         top: 100px;
         margin-left: 8%;
         margin-right: 8%;
-}
-#form{float:left;
-      position:relative;
-      left:100px;
-      
 }
