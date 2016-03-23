@@ -260,7 +260,9 @@ img.slideshow + img.slideshow {
         top: 100px;
         margin-left: 8%;
         margin-right: 8%;
+         overflow: scroll;
 }
 #form{width:30%;
       float:right;
+      left:100px;
 }
