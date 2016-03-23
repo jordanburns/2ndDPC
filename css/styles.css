@@ -225,10 +225,12 @@ position: relative;
           padding: 1rem;
           background-color: gray;
           text-align: center;
+          margin-top: 90%;
 
 }
 #footer p{text-align:center;
           font-size:1em;
+          
 }
 
 #body {margin-left: 72;
