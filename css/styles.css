@@ -237,7 +237,7 @@ body {margin-left: 72;
 img.slideshow {
   position: absolute;
   transition: opacity .5s ease-in;
-  top: 150px;
+  top: 200px;
   right: 250px;
   width:1200px;
   height:270px;
