@@ -238,7 +238,7 @@ img.slideshow {
   position: absolute;
   transition: opacity .5s ease-in;
   top: 150px;
-  right: 500px;
+  right: 250px;
   width:1200px;
   height:270px;
 
