@@ -244,7 +244,10 @@ img.slideshow {
 img.slideshow + img.slideshow {
   opacity: 0;
 }
+#contactpara{position:absolute;
+}
 #map{top:500px;
      left:250px;
+     position:relative;
      
 }   
