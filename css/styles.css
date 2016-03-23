@@ -244,4 +244,6 @@ img.slideshow {
 img.slideshow + img.slideshow {
   opacity: 0;
 }
+#main{top:250px;
 
+}
