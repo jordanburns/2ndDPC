@@ -260,3 +260,8 @@ img.slideshow + img.slideshow {
         margin-left: 8%;
         margin-right: 8%;
 }
+#form{float:left;
+      position:relative;
+      left:100px;
+      
+}
