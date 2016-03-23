@@ -225,16 +225,14 @@ position: relative;
           padding: 1rem;
           background-color: gray;
           text-align: center;
-          margin-top: 90%;
 
 }
 #footer p{text-align:center;
           font-size:1em;
-          
 }
 
-#body {margin-left: 72px;
-        margin-right: 72px;
+#body {margin-left: 72;
+        margin-right: 72;
 }
 img.slideshow {
   position: absolute;
@@ -252,8 +250,9 @@ img.slideshow + img.slideshow {
 #contactpara{position:absolute;
 }
 #map{top:150px;
-     left:300px;
+     left:100px;
      position:relative;
+     width:50%;
      
 }   
 #content {
@@ -261,4 +260,8 @@ img.slideshow + img.slideshow {
         top: 100px;
         margin-left: 8%;
         margin-right: 8%;
+}
+#form{width:30%;
+      float:left;
+      left:100px;
 }
