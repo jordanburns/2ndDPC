@@ -238,7 +238,7 @@ img.slideshow {
   position: absolute;
   transition: opacity .5s ease-in;
   top: 200px;
-  right: 200px;
+  right: 250px;
   width:1200px;
   height:270px;
 
@@ -257,4 +257,6 @@ img.slideshow + img.slideshow {
 #content {
         position: relative;
         top: 100px;
+        margin-left: 8%;
+        margin-right: 8%;
 }
