@@ -271,4 +271,5 @@ img.slideshow + img.slideshow {
 }
 #form{width:30%;
       float:right;
+      top:100px;
 }
