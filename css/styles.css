@@ -288,7 +288,7 @@ img.slideshow + img.slideshow {
 }
 
 #form{position:relative;
-      left:10px;
+      left:0px;
       float:right;
-      top:125px;
+      top:100px;
 }
