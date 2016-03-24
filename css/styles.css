@@ -241,6 +241,7 @@ position: relative;
     padding: 0 0 80px; /* footer height + space */
     box-sizing: border-box;
     overflow: auto;
+}
 
 #body {margin-left: 72px;
         margin-right: 72px;
