@@ -219,22 +219,7 @@ position: relative;
 #slideshow{background-color:#gray;
            width:100%;
 }
-#footer { position: absolute;
-          right: 0;
-          bottom: 0;
-          left: 0;
-          padding: 1rem;
-          background-color: gray;
-          text-align: center;
-          height: 20px;
 
-}
-#footer p{text-align:center;
-          font-size:1em;
-                
-       
-        
-}
 
 
 #body {margin-left: 72px;
@@ -269,11 +254,7 @@ img.slideshow + img.slideshow {
         padding-bottom:60px;  
        
 }
-.page-wrap {
-  min-height: 100%;
-  /* equal to footer height */
-  margin-bottom: -142px; 
-}
+
 #form{position:relative;
       left:100px;
       float:right;
