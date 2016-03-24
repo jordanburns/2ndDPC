@@ -259,7 +259,24 @@ img.slideshow + img.slideshow {
      left:100px;
      position:relative;
      width:30%;
-     
+}
+#footer { position: absolute;
+          right: 0;
+          bottom: 0;
+          left: 0;
+          padding: 1rem;
+          background-color: gray;
+          text-align: center;
+          height: 20px;
+
+}
+#footer p{text-align:center;
+          font-size:1em;
+                
+       
+        
+}
+
 }   
 #content {
         position: relative;
@@ -276,5 +293,6 @@ img.slideshow + img.slideshow {
 }
 #form{position:relative;
       left:100px;
+      float:right;
         
 }
