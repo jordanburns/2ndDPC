@@ -226,7 +226,7 @@ position: relative;
           padding: 1rem;
           background-color: gray;
           text-align: center;
-         
+          height: 20px;
 
 }
 #footer p{text-align:center;
@@ -269,6 +269,8 @@ img.slideshow + img.slideshow {
         padding-bottom:60px;  
        
 }
-#form{width:30%;
+#form{position:relative;
+      left:100px;
       float:right;
+        
 }
