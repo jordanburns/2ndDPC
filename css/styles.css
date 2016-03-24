@@ -254,8 +254,8 @@ img.slideshow + img.slideshow {
   opacity: 0;
 }
 
-#map{top:150px;
-     left:100px;
+#map{top:125px;
+     left:50px;
      position:relative;
      width:30%;
      float:left;
