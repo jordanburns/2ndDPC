@@ -264,11 +264,11 @@ img.slideshow + img.slideshow {
           right: 0;
           bottom: 0;
           left: 0;
-          
+          padding: 10px;
           background-color: gray;
           text-align: center;
           height: 30px;
-        width: 100%;
+
 }
 #footer p{text-align:center;
           font-size:1em;
@@ -292,10 +292,9 @@ img.slideshow + img.slideshow {
       float:right;
       top:100px;
 }
-h2{color:#990000;
 
-}
-#cu{position:relative;
-    top:100px;
-    
-}
+
+#google_translate_element {position:absolute;
+                           top: 50px;
+                           right: 50px;
+                          }
