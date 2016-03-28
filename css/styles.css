@@ -244,8 +244,8 @@ img.slideshow {
   position: absolute;
   transition: opacity .5s ease-in;
   top: 200px;
-  width:100%;
-  height:250px;
+  width:900px;
+  height:280px;
   left:80px;
 
 }
@@ -264,7 +264,7 @@ img.slideshow + img.slideshow {
           right: 0;
           bottom: 0;
           left: 0;
-          padding: 1rem;
+          padding: 5px;
           background-color: gray;
           text-align: center;
           height: 30px;
