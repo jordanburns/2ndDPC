@@ -254,7 +254,7 @@ img.slideshow + img.slideshow {
   opacity: 0;
 }
 
-#map{top:125px;
+#map{top:175px;
      left:50px;
      position:relative;
      width:30%;
@@ -272,7 +272,6 @@ img.slideshow + img.slideshow {
 }
 #footer p{text-align:center;
           font-size:1em;
-          font-family: impact, verdana, serif;
                 
        
         
@@ -291,17 +290,17 @@ img.slideshow + img.slideshow {
 #form{position:relative;
       left:-100px;
       float:right;
-      top:175px;
+      top:100px;
 }
 h2{color:#990000;
 
 }
 #cu{position:relative;
-    top:100px;
+    top:75px;
     text-align:center;
 }
 #eu{position:relative;
-    top:150px;
+    top:100px;
     text-align:center;
     left:100px;
     
