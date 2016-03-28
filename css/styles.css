@@ -255,7 +255,7 @@ img.slideshow + img.slideshow {
   opacity: 0;
 }
 
-#map{top:175px;
+#map{top:75px;
      left:50px;
      position:relative;
      width:30%;
@@ -291,7 +291,7 @@ img.slideshow + img.slideshow {
 #form{position:relative;
       left:-100px;
       float:right;
-      top:100px;
+      top:75px;
 }
 h2{color:#990000;
 
@@ -301,7 +301,7 @@ h2{color:#990000;
     text-align:center;
 }
 #eu{position:relative;
-    top:100px;
+    top:50px;
     text-align:center;
     left:100px;
     
