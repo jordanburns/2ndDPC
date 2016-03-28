@@ -231,6 +231,7 @@ position: relative;
 }
 #footer p{text-align:center;
           font-size:1em;
+          text-decoration: bold;
                 
        
         
@@ -254,7 +255,7 @@ img.slideshow + img.slideshow {
   opacity: 0;
 }
 
-#map{top:125px;
+#map{top:175px;
      left:50px;
      position:relative;
      width:30%;
@@ -299,4 +300,9 @@ h2{color:#990000;
     top:75px;
     text-align:center;
 }
-
+#eu{position:relative;
+    top:100px;
+    text-align:center;
+    left:100px;
+    
+}
