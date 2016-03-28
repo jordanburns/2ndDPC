@@ -291,7 +291,7 @@ img.slideshow + img.slideshow {
 #form{position:relative;
       left:-100px;
       float:right;
-      top:75px;
+      top:50px;
 }
 h2{color:#990000;
 
@@ -306,8 +306,3 @@ h2{color:#990000;
     left:100px;
     
 }
-
-#google_translate_element {position: absolute;
-                           top: 50px;
-                           right: 50px;
-                           }
