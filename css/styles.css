@@ -231,7 +231,10 @@ position: relative;
 }
 #footer p{text-align:center;
           font-size:1em;
+         font-weight: bold;
                 
+       
+        
 }
 
 
@@ -252,7 +255,7 @@ img.slideshow + img.slideshow {
   opacity: 0;
 }
 
-#map{top:125px;
+#map{top:175px;
      left:50px;
      position:relative;
      width:30%;
@@ -288,7 +291,7 @@ img.slideshow + img.slideshow {
 #form{position:relative;
       left:-100px;
       float:right;
-      top:75px;
+      top:100px;
 }
 h2{color:#990000;
 
@@ -297,4 +300,9 @@ h2{color:#990000;
     top:75px;
     text-align:center;
 }
-
+#eu{position:relative;
+    top:100px;
+    text-align:center;
+    left:100px;
+    
+}
