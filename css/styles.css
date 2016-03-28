@@ -306,3 +306,8 @@ h2{color:#990000;
     left:100px;
     
 }
+
+#google_translate_element {position: absolute;
+                           top: 50px;
+                           right: 50px;
+                           }
