@@ -246,7 +246,7 @@ img.slideshow {
   transition: opacity .5s ease-in;
   top: 200px;
   width:900px;
-  height:250px;
+  height:280px;
   left:80px;
 
 }
@@ -310,3 +310,8 @@ h2{color:#990000;
          font-family: "Brush Script MT", cursive;
          
 }
+
+#google_translate_element {position: absolute;
+                           top: 50px;
+                           right: 50px;
+                           }
