@@ -279,6 +279,7 @@ img.slideshow + img.slideshow {
 
 #footer p{text-align:center;
           font-size:1em;
+          position: absolute;
         
 }
 
