@@ -244,9 +244,9 @@ position: relative;
 img.slideshow {
   position: absolute;
   transition: opacity .5s ease-in;
-  top: 200px;
+  top: 250px;
   width:900px;
-  height:280px;
+  height:290px;
   left:80px;
 
 }
