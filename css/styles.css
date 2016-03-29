@@ -259,16 +259,14 @@ img.slideshow + img.slideshow {
      width:30%;
      float:left;
 }
-#footer { position: absolute;
-          right: 0;
-          bottom: 0;
-          left: 0;
-          
-          background-color: gray;
-          text-align: center;
-          height: 30px;
-        width: 100%;
+#footer {
+    clear: both;
+    position: relative;
+    z-index: 10;
+    height: 3em;
+    margin-top: -3em;
 }
+
 #footer p{text-align:center;
           font-size:1em;
         
