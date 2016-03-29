@@ -243,6 +243,7 @@ position: relative;
 
 #body {margin-left: 72px;
         margin-right: 72px;
+        height: 100%;
 }
 img.slideshow {
   position: absolute;
@@ -261,7 +262,7 @@ img.slideshow + img.slideshow {
 #map{top:75px;
      left:50px;
      position:relative;
-     width:30%;
+     width:40%;
      float:left;
      height:2500px;
 }
@@ -320,4 +321,3 @@ h2{color:#990000;
                            top: 50px;
                            right: 50px;
                            }
-#aheading { position:relative;}
