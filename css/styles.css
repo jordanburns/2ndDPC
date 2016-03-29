@@ -265,7 +265,7 @@ img.slideshow + img.slideshow {
      float:left;
 }
 #footer {
-    clear: both;
+    
     position: relative;
     z-index: 10;
     height: 3em;
