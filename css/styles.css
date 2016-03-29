@@ -321,3 +321,7 @@ h2{color:#990000;
                            top: 50px;
                            right: 50px;
                            }
+#aheading {position:relative;
+    top:75px;
+    text-align:center;
+}
