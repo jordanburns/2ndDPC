@@ -219,15 +219,13 @@ position: relative;
 #slideshow{background-color:#gray;
            width:100%;
 }
-#footer { position: absolute;
-          right: 0;
-          bottom: 0;
-          left: 0;
-          padding: 1rem;
-          background-color: gray;
-          text-align: center;
-          
 
+#footer {
+    clear: both;
+    position: relative;
+    z-index: 10;
+    height: 3em;
+    margin-top: -3em;
 }
 #footer p{text-align:center;
           font-size:1em;
