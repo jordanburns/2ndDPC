@@ -264,17 +264,10 @@ img.slideshow + img.slideshow {
       top:25px;
 }
 h2{color:#990000;
+   position:relative;
+   top:75px;
+   text-align:center;
 
-}
-#cu{position:relative;
-    top:75px;
-    text-align:center;
-}
-#eu{position:relative;
-    top:50px;
-    text-align:center;
-    left:100px;
-    
 }
 #mission{color:#0053A0;
          font-family:  "Copperplate", "Copperplate Gothic Light", sans-serif;
