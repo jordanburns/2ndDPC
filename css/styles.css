@@ -241,7 +241,7 @@ img.slideshow + img.slideshow {
   opacity: 0;
 }
 
-#map{top:200px;
+#map{top:250px;
      left:50px;
      position:relative;
      width:40%;
@@ -289,3 +289,8 @@ h2{color:#990000;
     top:75px;
     text-align:center;
 }
+#automotive {position: relative;
+        top: 100px;
+        margin-left: 8%;
+        margin-right: 8%;
+        padding-bottom:60px; }
