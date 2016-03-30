@@ -228,7 +228,7 @@ position: relative;
           padding: 1rem;
           background-color: gray;
           text-align: center;
-          clear: 0;
+          
 
 }
 
@@ -266,24 +266,6 @@ img.slideshow + img.slideshow {
      float:left;
      height:2500px;
 }
-#footer { position: absolute;
-          right: 0;
-          bottom: 0;
-          left: 0;
-          padding: 1rem;
-          background-color: gray;
-          text-align: center;
-          
-
-}
-
-
-#footer p{text-align:center;
-          font-size:1em;
-          position: absolute;
-        
-}
-
 
 #content {
         position: relative;
