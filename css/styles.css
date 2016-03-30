@@ -241,7 +241,7 @@ img.slideshow + img.slideshow {
   opacity: 0;
 }
 
-#map{top:100px;
+#map{top:200px;
      left:50px;
      position:relative;
      width:40%;
@@ -264,9 +264,17 @@ img.slideshow + img.slideshow {
       top:25px;
 }
 h2{color:#990000;
-   position:relative;
-   top:75px;
-   text-align:center;
+
+}
+#cu{position:relative;
+    top:75px;
+    text-align:center;
+}
+#eu{position:relative;
+    top:50px;
+    text-align:center;
+    left:100px;
+    
 }
 #mission{color:#0053A0;
          font-family:  "Copperplate", "Copperplate Gothic Light", sans-serif;
@@ -281,17 +289,11 @@ h2{color:#990000;
     top:75px;
     text-align:center;
 }
-#automotive {position: relative;
-        top: 100px;
-        margin-left: 8%;
-        margin-right: 8%;
-        padding-bottom:60px; }
+
+#paddednav {padding-left: 20px;
+            padding-right: 20px;
+           }
 #ccompcontent {
         margin: 70px;
-        padding-top: 20px;
-}
-#pqt{position:relative;
-     top:25px;
-     width:200px;
-
+        padding-top: 30px;
 }
