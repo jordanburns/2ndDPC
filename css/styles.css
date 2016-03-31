@@ -311,3 +311,21 @@ h2{color:#990000;
 body {background-color: white;}
 
 html  {background-image: url("../images/dpcmargindesign.gif");
+
+
+
+* {
+margin: 0;
+}
+html, body {
+height: 100%;
+}
+.wrapper {
+min-height: 100%;
+height: auto !important;
+height: 100%;
+margin: 0 auto -4em;
+}
+.footer, .push {
+height: 4em;
+}
