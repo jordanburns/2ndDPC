@@ -343,7 +343,9 @@ html  {background-image: url("../images/dpcmargindesign.gif");}
 	 top:-250px;
 	 left:300px;
 	 margin-left:30px;
-	 width:500px;
+	 
+}
+#pck{	 width:500px;
 	 height:700px;
 	 
 }
