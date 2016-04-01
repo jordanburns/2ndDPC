@@ -339,6 +339,7 @@ html  {background-image: url("../images/dpcmargindesign.gif");}
 	
 }
 #collage{position:relative;
+	 top:-300px;
 	 left:300px;
 	 width:300px;
 	 height:175px;
