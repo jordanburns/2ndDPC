@@ -303,7 +303,7 @@ h2{color:#990000;
 #pqt{position:relative;
      top:100px;
      width:200px;
-     left:30px;
+     margin-left:30px;
      font-family:Arial, Helvetica, sans-serif;
 }
 .automotive { position: absolute;
@@ -341,7 +341,8 @@ html  {background-image: url("../images/dpcmargindesign.gif");}
 }
 #collage{position:relative;
 	 top:-250px;
-	 left:330px;
+	 left:300px;
+	 margin-left:30px;
 	 width:500px;
 	 height:700px;
 	 
