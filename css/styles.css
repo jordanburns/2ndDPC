@@ -63,7 +63,8 @@ position: relative;
   color: #ffffff;
   display: block;
   font-family: Helvetica, Arial, Verdana, sans-serif;
-  padding: 19px 20px;
+  /* padding is for width and height of navigation bar*/
+  padding: 19px 25px;
   text-decoration: none;
   
  
