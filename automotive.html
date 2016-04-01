@@ -3,6 +3,17 @@
 <meta charset=utf-8">
 <title> Diversified Plastics Company </title>
 <link type="text/css" rel="stylesheet" href="css/styles.css" media="screen">
+<script>
+var current = 0,
+    slides = document.getElementsByClassName("slideshow");
+setInterval(function() {
+  for (var i = 0; i < slides.length; i++) {
+    slides[i].style.opacity = 0;
+  }
+  current = (current != slides.length - 1) ? current + 1 : 0;
+  slides[current].style.opacity = 1;
+}, 3000);
+</script>
 </head>
 <body class="body">
   <div >
@@ -15,6 +26,7 @@
 	  new google.translate.TranslateElement({pageLanguage: 'en', layout: google.translate.TranslateElement.InlineLayout.HORIZONTAL}, 'google_translate_element');
 	}
 	</script><script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+
     
   <div class='cssmenu'>
 <ul>
@@ -39,10 +51,6 @@
    <li class='active last'><a href='docform.html'><span>Documents and Forms</span></a></li>
 </ul>
 </div>
-<h2> Automotive </h2>
-<p id="automotive">DPC is a custom shape molders of foam automotive components including head/side impact absorbers, bolsters, head rests, substrates, filler blocks and structural foam like jack holders, duct work, and laminated deck boards. Our variety of materials allows us to find the most cost-effective solution to your component needs. We are capable of molding your products in expandable polystyrene (EPS), expandable polypropylene (EPP), and GECET. 
-Automotive components molded by DPC of expandable polypropylene (EPP) feature exceptional cushioning properties, durability and resilience plus cost savings. 
-DPC's automobile components molded of shock-absorbent, heat-resistant GECET are more passenger friendly and less expensive than other materials. 
-DPC's automotive components molded of expandable polystyrene (EPS) offers energy absorption and structurability mixed with low unit costs</p>
 </body>
+
 </html>
