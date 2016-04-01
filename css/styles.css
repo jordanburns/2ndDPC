@@ -63,8 +63,7 @@ position: relative;
   color: #ffffff;
   display: block;
   font-family: Helvetica, Arial, Verdana, sans-serif;
-  /* padding is for width and height of navigation bar*/
-  padding: 19px 35px;
+  padding: 19px 20px;
   text-decoration: none;
   
  
@@ -329,3 +328,11 @@ html  {background-image: url("../images/dpcmargindesign.gif");}
 	margin-left: auto;
 	
 }
+#main {
+	background-color: #FFFFFF;
+	margin-right: 10px;
+	margin-left: 10px;
+	background-position: center center;
+	
+}
+
