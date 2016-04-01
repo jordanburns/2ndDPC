@@ -317,5 +317,14 @@ body {background-color: white;}
 
 html  {background-image: url("../images/dpcmargindesign.gif");}
 
-#bigbox { background-color: #fff; }
-
+#bigbox {
+	background-color: #FFF;
+	height: auto;
+	width: 800px;
+	border: thin solid #000;
+	margin-top: 0px;
+	margin-right: auto;
+	margin-bottom: 0px;
+	margin-left: auto;
+	
+}
