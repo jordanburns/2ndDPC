@@ -340,9 +340,10 @@ html  {background-image: url("../images/dpcmargindesign.gif");}
 	
 }
 #collage{position:relative;
-	 left:650px;
+	 left:675px;
 	 margin-left:30px;
 	 width:400px;
+	 top:-350px;
 	 
 }
 #pck{width:400px;
