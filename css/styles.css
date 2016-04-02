@@ -354,7 +354,6 @@ html  {background-image: url("../images/dpcmargindesign.gif");}
      position:relative;
      left:325px;
      top:-175px;
-     font-size:17px;
      
 }
 h3{color:#0053A0;
@@ -363,4 +362,7 @@ h3{color:#0053A0;
 #paquete li{padding:1em 0;
  	    font-weight:bold;
  	    font-size:18px;
+}
+#stock{color:#990000;
+       text-decoration:none;
 }
