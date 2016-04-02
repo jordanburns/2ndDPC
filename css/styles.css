@@ -351,7 +351,7 @@ html  {background-image: url("../images/dpcmargindesign.gif");}
 }     
 #pqt{width:500px;
      position:relative;
-     top:-250px;
-     left:100px;
+     top:100px;
+     left:250px;
      
 }
