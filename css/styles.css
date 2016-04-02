@@ -302,7 +302,7 @@ h2{color:#990000;
 }
 #bnft{position:relative;
      top:100px;
-     width:250px;
+     width:270px;
      margin-left:30px;
      font-family:Arial, Helvetica, sans-serif;
 }
@@ -349,3 +349,9 @@ html  {background-image: url("../images/dpcmargindesign.gif");}
      height:350px;
      
 }     
+#pqt{width:500px;
+     position:relative;
+     top:-250px;
+     left:100px;
+     
+}
