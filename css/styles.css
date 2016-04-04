@@ -371,12 +371,12 @@ table tr td figure{display:inline-block;
 }
 #f {
 	display: block;
-	margin-top: 40%;
+	margin-top: 50%;
 	width: 100%;
 	background-color: red;
 	height: 40px;
 	margin-left: -72px;
-	margin-right: -72px;
+	margin-right: -100px;
 }
 #f p{
 	color: white;
