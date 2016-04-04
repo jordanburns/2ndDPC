@@ -293,6 +293,7 @@ h2{color:#990000;
 #ccompcontent {
         margin: 70px;
         padding-top: 30px;
+        padding-bottom: 0;
 }
 #ccompimage {
         clear: right;
