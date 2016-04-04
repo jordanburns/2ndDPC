@@ -370,5 +370,6 @@ table tr td figure{display:inline-block;
 }
 footer {
 	display: block;
+	margin-top: 90%;
 }
-}
+
