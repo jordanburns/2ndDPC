@@ -317,7 +317,8 @@ h2{color:#990000;
                 
 body {background-color: white;
 	border-image-width: 72px;
-        border-image-source: url(images/dpcmargindesign.gif);
+        border-image-source: url(/images/dpcmargindesign.gif);
+        border-image-repeat: repeat;
 }
 
 
@@ -376,7 +377,7 @@ table tr td figure{display:inline-block;
 	background-color: red;
 	height: 40px;
 	margin-left: -72px;
-	margin-right: -144px;
+	margin-right: -100px;
 }
 #f p{
 	color: white;
