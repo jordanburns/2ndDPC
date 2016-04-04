@@ -35,11 +35,10 @@ position: relative;
   background: -ms-linear-gradient(top, #ffffff 0%, #ffffff 100%);
   background: linear-gradient(to bottom, #ffffff 0%, #ffffff 100%);
   border-bottom: 2px solid #db000b;
-  width: auto;
+  width: 100%;
   clear: left;
   position:absolute;
   padding-right:0px;
-  margin-left:8%;
   left:0;
   padding-top: 20px;
   padding: 10px;
@@ -76,6 +75,7 @@ position: relative;
   display: inline-block;
   float: left;
   margin: 0;
+  width:14.2%;
 }
 .cssmenu.align-center {
   text-align: center;
@@ -148,8 +148,7 @@ position: relative;
 .cssmenu .has-sub ul {
   display: none;
   position: absolute;
-  width: 200px;
-  top: 100%;
+  width: 100%;
   left: 0;
 }
 .cssmenu.align-right .has-sub ul {
@@ -202,8 +201,7 @@ position: relative;
 .cssmenu ul ul ul li.last > a,
 .cssmenu ul ul ul li:last-child > a,
 .cssmenu .has-sub ul li:last-child > a,
-.cssmenu .has-sub ul li.last > a {
-  border-bottom: 0;
+.cssmenu .has-sub ul li.last > a {border-bottom: 0;
 }
 
 #contactpara {position: absolute;
