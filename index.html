@@ -3,22 +3,6 @@
 <meta charset=utf-8">
 <title> Diversified Plastics Company </title>
 <link type="text/css" rel="stylesheet" href="css/styles.css" media="screen">
-<script src="js/jquery-1.9.1.min.js"></script>
-<script src="js/modernizr.custom.js"></script>
-<script>
-    $(document).ready(function(){
-        $("#nav-mobile").html($("#nav-main").html());
-        $("#nav-trigger span").click(function(){
-            if ($("nav#nav-mobile ul").hasClass("expanded")) {
-                $("nav#nav-mobile ul.expanded").removeClass("expanded").slideUp(250);
-                $(this).removeClass("open");
-            } else {
-                $("nav#nav-mobile ul").addClass("expanded").slideDown(250);
-                $(this).addClass("open");
-            }
-        });
-    });
-</script>
 <script>
 var current = 0,
     slides = document.getElementsByClassName("slideshow");
@@ -32,46 +16,40 @@ setInterval(function() {
 </script>
 </head>
 <body class="body">
-
-
-
-<div class="container">
-        <div id="nav-trigger">
-            <span>Menu</span>
-        </div>
-        <nav id="nav-main">
-            <ul>
-                <li><a href="">Home</a></li>
-                <ul>
-        	 <li><a href='#'>Product 1</a>
-            <ul>
-               <li><a href='#'>Sub Product</a></li>
-               <li><a href='#'>Sub Product</a></li>
-            </ul>
-                <li><a href="">About</a></li>
-                <li><a href="">Gallery</a></li>
-                <li><a href="">Tutorials</a></li>
-                <li><a href="">Contact</a></li>
-            </ul>
-        </nav>
-        <nav id="nav-mobile"></nav>
-
-        <section>
-            <h1>Hello World</h1>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-            tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-            quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-            consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-            cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-            proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-            tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-            quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-            consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-            cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-            proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-        </section>
-    </div>
+  <div >
+    <a href='index.html'><img src="images/logo2.gif" alt="logo" id="logo" ></a>
+  </div>
+    <p id='title'> Diversified Plastics Corporation </p>
+    
+     	<div id="google_translate_element"></div><script type="text/javascript">
+	function googleTranslateElementInit() {
+	  new google.translate.TranslateElement({pageLanguage: 'en', layout: google.translate.TranslateElement.InlineLayout.HORIZONTAL}, 'google_translate_element');
+	}
+	</script><script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+    
+  <div class='cssmenu'>
+<ul>
+   <li class='active'><a href='index.html'><span>Home</span></a></li>
+   <li class='active has-sub'><a href='#'><span>Product</span></a>
+      <ul>
+      <li><a href='packaging.html'><span>Packaging</span></a></li>
+         <li><a href='automotive.html'><span>Automotive</span></a></li>
+         <li><a href='ccomp.html'><span>Construction Comp</span></a></li>
+         <li class='last'><a href='oems.html'><span>OEMS</span></a></li>
+      </ul>
+   </li>
+   <li class='active'><a href='materials.html'><span>Materials</span></a></li>
+   <li class='active has-sub'><a href='#l'><span>Certifications</span></a>
+      <ul>
+         <li><a href='quality.html'><span>Quality</span></a></li>
+         <li class='last'><a href='environmental.html'><span>Environmental</span></a></li>
+      </ul>
+   </li>
+   <li class='active'><a href='about.html'><span>About</span></a></li>
+   <li class='active'><a href='contact.html'><span>Contact</span></a></li>
+   <li class='active last'><a href='docform.html'><span>Documents and Forms</span></a></li>
+</ul>
+</div>
 <div id='cssmenu'>
 <ul>
    <li><a href='#'>Home</a></li>
@@ -95,56 +73,26 @@ setInterval(function() {
    <li><a href='#'>Contact</a></li>
 </ul>
 </div>
-  <div >
-    <a href='index.html'><img src="images/logo2.gif" alt="logo" id="logo" ></a>
-  </div>
-    <p id='title'> Diversified Plastics Corporation </p>
-    
-     	<div id="google_translate_element"></div><script type="text/javascript">
-	function googleTranslateElementInit() {
-	  new google.translate.TranslateElement({pageLanguage: 'en', layout: google.translate.TranslateElement.InlineLayout.HORIZONTAL}, 'google_translate_element');
-	}
-	</script><script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
-
-    
-  
-
-
 <div id="slideshow">
 <img class="slideshow" src="images/Logo.jpg"/>
 <img class="slideshow" src="images/Equipment.jpg"/> 
 <img class="slideshow" src="images/trucks2.jpg"/>
-
-
 <img class="slideshow" src="images/Pic.of.Business.jpg"/>
-
 <img class="slideshow" src="images/Parts.jpg"/>
-
 <img class="slideshow" src="images/parts3.jpg"/>
-
 <img class="slideshow" src="images/Factory2.jpg"/>
-
 <img class="slideshow" src="images/Factory.jpg"/>
-
-
 <img class="slideshow" src="images/factory4.jpg"/>
-
 <img class="slideshow" src="images/parts5.jpg"/>
-
 <img class="slideshow" src="images/tour.jpg"/>
-
 <img class="slideshow" src="images/tour2.jpg"/>
-
 <img class="slideshow" src="images/tour3.jpg"/>
-
 <img class="slideshow" src="images/tour4.jpg"/>
  
  
 </div>
-
 	<footer id="f">
 		<p id="fp"> <center> <b> Copyright 2nd Hour Web Design </b> </center> </p>
 	</footer>
 </body>
-
 </html>
