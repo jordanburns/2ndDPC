@@ -412,6 +412,5 @@ table tr td figure{display:inline-block;
       top:100px;
       
 }
-.stock{position:relative;
-       top:125px;
+.stock{float:left;
 }
