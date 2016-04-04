@@ -225,9 +225,7 @@ position: relative;
 
 
 
-.body {border-image-width: 72px;
-        border-image-source: url(images/dpcmargindesign.gif);
-        height: 100%;
+.body {height: 100%;
        	font-family: Georgia,Times,'Times New Roman',serif; 
 }
 img.slideshow {
@@ -317,7 +315,10 @@ h2{color:#990000;
         padding-bottom:60px; 
 }
                 
-body {background-color: white;}
+body {background-color: white;
+	border-image-width: 72px;
+        border-image-source: url(images/dpcmargindesign.gif);
+}
 
 
 
