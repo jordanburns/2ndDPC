@@ -380,7 +380,7 @@ table tr td figure{display:inline-block;
 	color: white;
 }
 #auto {position: relative;
-        bottom: 60px;
+        top:200px;
         margin-left: 8%;
         margin-right: 8%;
         padding-bottom:60px; 
