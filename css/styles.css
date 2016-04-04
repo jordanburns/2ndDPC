@@ -377,8 +377,14 @@ table tr td figure{display:inline-block;
 	background-color: red;
 	height: 40px;
 	margin-left: -72px;
-	margin-right: -72px;
+	margin-right: -100px;
 }
 #f p{
 	color: white;
+}
+#auto {position: relative;
+        top: 150px;
+        margin-left: 8%;
+        margin-right: 8%;
+        padding-bottom:60px; 
 }
