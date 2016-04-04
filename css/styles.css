@@ -225,8 +225,10 @@ position: relative;
 
 
 
-.body {margin-left: 72px;
-        margin-right: 72px;
+.body {border-left: 72px;
+        border-right: 72px;
+        border-top: 3px;
+        border-bottom: 3px;
         height: 100%;
        	font-family: Georgia,Times,'Times New Roman',serif; 
 }
