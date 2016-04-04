@@ -392,5 +392,12 @@ table tr td figure{display:inline-block;
         margin-right: 8%;
         padding-bottom:60px; 
 }
+#auto2 { position: relative;
+        top: 450px;
+        left: 100px;
+        margin-left: 8%;
+        margin-right: 8%;
+        padding-bottom:60px;
+}
 
 
