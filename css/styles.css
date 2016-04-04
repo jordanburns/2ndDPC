@@ -370,7 +370,10 @@ table tr td figure{display:inline-block;
 }
 #f {
 	display: block;
-	margin-top: 450px;
-	margin-left: 500px;
-}
+	margin-top: 60%;
 
+}
+p.f {
+		margin-left: auto;
+		margin-right: auto;
+}
