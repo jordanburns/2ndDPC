@@ -396,6 +396,6 @@ h3{color:#0053A0;
         padding-bottom:60px; 
 }
 
-table tr td figure img{display:inline-block;
+table tr td figure img, table tr td figure figcaption{display:inline-block;
 		       vertical-align:top;
 }
