@@ -399,3 +399,6 @@ h3{color:#0053A0;
 table tr td figure img, table tr td figure figcaption{display:inline-block;
 		       vertical-align:top;
 }
+table{position:relative;
+      top:100px;
+}
