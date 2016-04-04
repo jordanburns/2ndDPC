@@ -229,6 +229,7 @@ position: relative;
         border-right: 72px;
         border-top: 3px;
         border-bottom: 3px;
+        border-image-source: url(dpcmargindesign.gif);
         height: 100%;
        	font-family: Georgia,Times,'Times New Roman',serif; 
 }
@@ -321,7 +322,7 @@ h2{color:#990000;
                 
 body {background-color: white;}
 
-html  {border-image: url("../images/dpcmargindesign.gif");}
+
 
 #bigbox {
 	background-color: #FFF;
@@ -381,7 +382,4 @@ table tr td figure{display:inline-block;
 }
 #f p{
 	color: white;
-	
-	
-
 }
