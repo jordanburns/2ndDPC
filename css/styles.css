@@ -13,348 +13,197 @@
         position: relative;
         margin:40px 0px 40px 15px;
 }
-#cssmenu,
-#cssmenu ul,
-#cssmenu ul li,
-#cssmenu ul li a,
-#cssmenu #menu-button {
-  margin: 0;
-  padding: 0;
-  border: 0;
-  list-style: none;
-  line-height: 1;
-  display: block;
-  position: relative;
-  -webkit-box-sizing: border-box;
-  -moz-box-sizing: border-box;
-  box-sizing: border-box;
+.cssmenu ul,
+.cssmenu li,
+.cssmenu span,
+.cssmenu a {
+margin: 0;
+padding: 0;
+position: relative;
 }
-#cssmenu:after,
-#cssmenu > ul:after {
-  content: ".";
+
+.cssmenu {
+  line-height: 1;
+  border-radius: 5px 5px 0 0;
+  -moz-border-radius: 5px 5px 0 0;
+  -webkit-border-radius: 5px 5px 0 0;
+  background: #ffffff;
+  background: -moz-linear-gradient(top, #ffffff 0%, #ffffff 100%);
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #ffffff), color-stop(100%, #ffffff));
+  background: -webkit-linear-gradient(top, #ffffff 0%, #ffffff 100%);
+  background: -o-linear-gradient(top, #ffffff 0%, #ffffff 100%);
+  background: -ms-linear-gradient(top, #ffffff 0%, #ffffff 100%);
+  background: linear-gradient(to bottom, #ffffff 0%, #ffffff 100%);
+  border-bottom: 2px solid #db000b;
+  width: 100%;
+  clear: left;
+  position:absolute;
+  padding-right:0px;
+  left:0;
+  padding-top: 20px;
+  padding: 10px;
+  
+   
+}
+.cssmenu:after,
+.cssmenu ul:after {
+  content: '';
   display: block;
   clear: both;
-  visibility: hidden;
-  line-height: 0;
-  height: 0;
 }
-#cssmenu #menu-button {
-  display: none;
+.cssmenu a {
+  background: #ffffff;
+  background: -moz-linear-gradient(top, #ffffff 0%, #ffffff 100%);
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #ffffff), color-stop(100%, #ffffff));
+  background: -webkit-linear-gradient(top, #ffffff 0%, #ffffff 100%);
+  background: -o-linear-gradient(top, #ffffff 0%, #ffffff 100%);
+  background: -ms-linear-gradient(top, #ffffff 0%, #ffffff 100%);
+  background: linear-gradient(to bottom, #ffffff 0%, #ffffff 100%);
+  color: #ffffff;
+  display: block;
+  font-family: Helvetica, Arial, Verdana, sans-serif;
+  /* padding is for width and height of navigation bar*/
+  padding: 19px 38px;
+  text-decoration: none;
+  
+ 
 }
-#cssmenu {
-  font-family: Montserrat, sans-serif;
-  background: #333333;
+.cssmenu ul {
+  list-style: none;
 }
-#cssmenu > ul > li {
+.cssmenu > ul > li {
+  display: inline-block;
   float: left;
+  margin: 0;
+  width:14.2%;
 }
-#cssmenu.align-center > ul {
-  font-size: 0;
+.cssmenu.align-center {
   text-align: center;
 }
-#cssmenu.align-center > ul > li {
-  display: inline-block;
+.cssmenu.align-center > ul > li {
   float: none;
 }
-#cssmenu.align-center ul ul {
+.cssmenu.align-center ul ul {
   text-align: left;
 }
-#cssmenu.align-right > ul > li {
-  float: right;
+.cssmenu.align-left > ul {
+  float: left;
 }
-#cssmenu > ul > li > a {
-  padding: 17px;
+.cssmenu.align-left ul ul {
+  text-align: left;
+}
+.cssmenu > ul > li > a {
+  color: #000000;
   font-size: 12px;
-  letter-spacing: 1px;
-  text-decoration: none;
-  color: #dddddd;
-  font-weight: 700;
-  text-transform: uppercase;
 }
-#cssmenu > ul > li:hover > a {
-  color: #ffffff;
-}
-#cssmenu > ul > li.has-sub > a {
-  padding-right: 30px;
-}
-#cssmenu > ul > li.has-sub > a:after {
-  position: absolute;
-  top: 22px;
-  right: 11px;
-  width: 8px;
-  height: 2px;
-  display: block;
-  background: #dddddd;
+.cssmenu > ul > li:hover:after {
   content: '';
-}
-#cssmenu > ul > li.has-sub > a:before {
-  position: absolute;
-  top: 19px;
-  right: 14px;
   display: block;
-  width: 2px;
-  height: 8px;
-  background: #dddddd;
-  content: '';
-  -webkit-transition: all .25s ease;
-  -moz-transition: all .25s ease;
-  -ms-transition: all .25s ease;
-  -o-transition: all .25s ease;
-  transition: all .25s ease;
-}
-#cssmenu > ul > li.has-sub:hover > a:before {
-  top: 23px;
+  width: 0;
   height: 0;
-}
-#cssmenu ul ul {
   position: absolute;
-  left: -9999px;
+  left: 50%;
+  bottom: 0;
+  border-left: 10px solid transparent;
+  border-right: 10px solid transparent;
+  border-bottom: 10px solid #db000b;
+  margin-left: -10px;
 }
-#cssmenu.align-right ul ul {
-  text-align: right;
+.cssmenu > ul > li:first-child > a {
+  border-radius: 5px 0 0 0;
+  -moz-border-radius: 5px 0 0 0;
+  -webkit-border-radius: 5px 0 0 0;
 }
-#cssmenu ul ul li {
-  height: 0;
-  -webkit-transition: all .25s ease;
-  -moz-transition: all .25s ease;
-  -ms-transition: all .25s ease;
-  -o-transition: all .25s ease;
-  transition: all .25s ease;
+.cssmenu.align-right > ul > li:first-child > a,
+.cssmenu.align-center > ul > li:first-child > a {
+  border-radius: 0;
+  -moz-border-radius: 0;
+  -webkit-border-radius: 0;
 }
-#cssmenu li:hover > ul {
-  left: auto;
+.cssmenu.align-right > ul > li:last-child > a {
+  border-radius: 0 5px 0 0;
+  -moz-border-radius: 0 5px 0 0;
+  -webkit-border-radius: 0 5px 0 0;
 }
-#cssmenu.align-right li:hover > ul {
+.cssmenu > ul > li.active > a,
+.cssmenu > ul > li:hover > a {
+  color: #000000;
+  box-shadow: inset 0 0 3px #d9d9d9;
+  -moz-box-shadow: inset 0 0 3px #d9d9d9;
+  -webkit-box-shadow: inset 0 0 3px #d9d9d9;
+  background: #f2f2f2;
+  background: -moz-linear-gradient(top, #ffffff 0%, #f2f2f2 100%);
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #ffffff), color-stop(100%, #f2f2f2));
+  background: -webkit-linear-gradient(top, #ffffff 0%, #f2f2f2 100%);
+  background: -o-linear-gradient(top, #ffffff 0%, #f2f2f2 100%);
+  background: -ms-linear-gradient(top, #ffffff 0%, #f2f2f2 100%);
+  background: linear-gradient(to bottom, #ffffff 0%, #f2f2f2 100%);
+}
+.cssmenu .has-sub {
+  z-index: 1;
+}
+.cssmenu .has-sub:hover > ul {
+  display: block;
+}
+.cssmenu .has-sub ul {
+  display: none;
+  position: absolute;
+  width: 100%;
+  left: 0;
+}
+.cssmenu.align-right .has-sub ul {
   left: auto;
   right: 0;
 }
-#cssmenu li:hover > ul > li {
-  height: 35px;
+.cssmenu .has-sub ul li {
+  *margin-bottom: -1px;
 }
-#cssmenu ul ul ul {
-  margin-left: 100%;
-  top: 0;
-}
-#cssmenu.align-right ul ul ul {
-  margin-left: 0;
-  margin-right: 100%;
-}
-#cssmenu ul ul li a {
-  border-bottom: 1px solid rgba(150, 150, 150, 0.15);
-  padding: 11px 15px;
-  width: 170px;
-  font-size: 12px;
-  text-decoration: none;
-  color: #dddddd;
-  font-weight: 400;
-  background: #333333;
-}
-#cssmenu ul ul li:last-child > a,
-#cssmenu ul ul li.last-item > a {
-  border-bottom: 0;
-}
-#cssmenu ul ul li:hover > a,
-#cssmenu ul ul li a:hover {
+.cssmenu .has-sub ul li a {
+  background: #db000b;
+  border-bottom: 1px dotted #ff0f1b;
+  font-size: 11px;
+  filter: none;
+  display: block;
+  line-height: 120%;
+   /* padding is for width and height of dropdowns in nav bar*/
+  padding: 10px 15px;
   color: #ffffff;
 }
-#cssmenu ul ul li.has-sub > a:after {
-  position: absolute;
-  top: 16px;
-  right: 11px;
-  width: 8px;
-  height: 2px;
+.cssmenu .has-sub ul li:hover a {
+  background: #a80008;
+}
+.cssmenu ul ul li:hover > a {
+  color: #ffffff;
+}
+.cssmenu .has-sub .has-sub:hover > ul {
   display: block;
-  background: #dddddd;
-  content: '';
 }
-#cssmenu.align-right ul ul li.has-sub > a:after {
-  right: auto;
-  left: 11px;
-}
-#cssmenu ul ul li.has-sub > a:before {
+.cssmenu .has-sub .has-sub ul {
+  display: none;
   position: absolute;
-  top: 13px;
-  right: 14px;
-  display: block;
-  width: 2px;
-  height: 8px;
-  background: #dddddd;
-  content: '';
-  -webkit-transition: all .25s ease;
-  -moz-transition: all .25s ease;
-  -ms-transition: all .25s ease;
-  -o-transition: all .25s ease;
-  transition: all .25s ease;
+  left: 100%;
+  top: 0;
 }
-#cssmenu.align-right ul ul li.has-sub > a:before {
-  right: auto;
-  left: 14px;
+.cssmenu.align-right .has-sub .has-sub ul,
+.cssmenu.align-right ul ul ul {
+  left: auto;
+  right: 100%;
 }
-#cssmenu ul ul > li.has-sub:hover > a:before {
-  top: 17px;
-  height: 0;
+.cssmenu .has-sub .has-sub ul li a {
+  background: #a80008;
+  border-bottom: 1px dotted #ff0f1b;
 }
-@media all and (max-width: 768px), only screen and (-webkit-min-device-pixel-ratio: 2) and (max-width: 1024px), only screen and (min--moz-device-pixel-ratio: 2) and (max-width: 1024px), only screen and (-o-min-device-pixel-ratio: 2/1) and (max-width: 1024px), only screen and (min-device-pixel-ratio: 2) and (max-width: 1024px), only screen and (min-resolution: 192dpi) and (max-width: 1024px), only screen and (min-resolution: 2dppx) and (max-width: 1024px) {
-  #cssmenu {
-    width: 100%;
-  }
-  #cssmenu ul {
-    width: 100%;
-    display: none;
-  }
-  #cssmenu.align-center > ul {
-    text-align: left;
-  }
-  #cssmenu ul li {
-    width: 100%;
-    border-top: 1px solid rgba(120, 120, 120, 0.2);
-  }
-  #cssmenu ul ul li,
-  #cssmenu li:hover > ul > li {
-    height: auto;
-  }
-  #cssmenu ul li a,
-  #cssmenu ul ul li a {
-    width: 100%;
-    border-bottom: 0;
-  }
-  #cssmenu > ul > li {
-    float: none;
-  }
-  #cssmenu ul ul li a {
-    padding-left: 25px;
-  }
-  #cssmenu ul ul ul li a {
-    padding-left: 35px;
-  }
-  #cssmenu ul ul li a {
-    color: #dddddd;
-    background: none;
-  }
-  #cssmenu ul ul li:hover > a,
-  #cssmenu ul ul li.active > a {
-    color: #ffffff;
-  }
-  #cssmenu ul ul,
-  #cssmenu ul ul ul,
-  #cssmenu.align-right ul ul {
-    position: relative;
-    left: 0;
-    width: 100%;
-    margin: 0;
-    text-align: left;
-  }
-  #cssmenu > ul > li.has-sub > a:after,
-  #cssmenu > ul > li.has-sub > a:before,
-  #cssmenu ul ul > li.has-sub > a:after,
-  #cssmenu ul ul > li.has-sub > a:before {
-    display: none;
-  }
-  #cssmenu #menu-button {
-    display: block;
-    padding: 17px;
-    color: #dddddd;
-    cursor: pointer;
-    font-size: 12px;
-    text-transform: uppercase;
-    font-weight: 700;
-  }
-  #cssmenu #menu-button:after {
-    position: absolute;
-    top: 22px;
-    right: 17px;
-    display: block;
-    height: 4px;
-    width: 20px;
-    border-top: 2px solid #dddddd;
-    border-bottom: 2px solid #dddddd;
-    content: '';
-  }
-  #cssmenu #menu-button:before {
-    position: absolute;
-    top: 16px;
-    right: 17px;
-    display: block;
-    height: 2px;
-    width: 20px;
-    background: #dddddd;
-    content: '';
-  }
-  #cssmenu #menu-button.menu-opened:after {
-    top: 23px;
-    border: 0;
-    height: 2px;
-    width: 15px;
-    background: #ffffff;
-    -webkit-transform: rotate(45deg);
-    -moz-transform: rotate(45deg);
-    -ms-transform: rotate(45deg);
-    -o-transform: rotate(45deg);
-    transform: rotate(45deg);
-  }
-  #cssmenu #menu-button.menu-opened:before {
-    top: 23px;
-    background: #ffffff;
-    width: 15px;
-    -webkit-transform: rotate(-45deg);
-    -moz-transform: rotate(-45deg);
-    -ms-transform: rotate(-45deg);
-    -o-transform: rotate(-45deg);
-    transform: rotate(-45deg);
-  }
-  #cssmenu .submenu-button {
-    position: absolute;
-    z-index: 99;
-    right: 0;
-    top: 0;
-    display: block;
-    border-left: 1px solid rgba(120, 120, 120, 0.2);
-    height: 46px;
-    width: 46px;
-    cursor: pointer;
-  }
-  #cssmenu .submenu-button.submenu-opened {
-    background: #262626;
-  }
-  #cssmenu ul ul .submenu-button {
-    height: 34px;
-    width: 34px;
-  }
-  #cssmenu .submenu-button:after {
-    position: absolute;
-    top: 22px;
-    right: 19px;
-    width: 8px;
-    height: 2px;
-    display: block;
-    background: #dddddd;
-    content: '';
-  }
-  #cssmenu ul ul .submenu-button:after {
-    top: 15px;
-    right: 13px;
-  }
-  #cssmenu .submenu-button.submenu-opened:after {
-    background: #ffffff;
-  }
-  #cssmenu .submenu-button:before {
-    position: absolute;
-    top: 19px;
-    right: 22px;
-    display: block;
-    width: 2px;
-    height: 8px;
-    background: #dddddd;
-    content: '';
-  }
-  #cssmenu ul ul .submenu-button:before {
-    top: 12px;
-    right: 16px;
-  }
-  #cssmenu .submenu-button.submenu-opened:before {
-    display: none;
-  }
+.cssmenu .has-sub .has-sub ul li a:db000b {
+  background: #8f0007;
 }
+.cssmenu ul ul li.last > a,
+.cssmenu ul ul li:last-child > a,
+.cssmenu ul ul ul li.last > a,
+.cssmenu ul ul ul li:last-child > a,
+.cssmenu .has-sub ul li:last-child > a,
+.cssmenu .has-sub ul li.last > a {border-bottom: 0;
+}
+
 #contactpara {position: absolute;
                 left: 8%;
                 top: 25%;
@@ -557,3 +406,4 @@ table tr td figure{display:inline-block;
         margin-left: 8%;
         margin-right: 8%;
         padding-bottom:60px;
+
