@@ -372,7 +372,7 @@ table tr td figure{display:inline-block;
 }
 #f {
 	display: block;
-	margin-top: 90%;
+	margin-bottom: 60px;
 	background-color: red;
 	height: 40px;
 	margin-left: -72px;
@@ -386,7 +386,7 @@ table tr td figure{display:inline-block;
         margin-left: 8%;
         margin-right: 8%;
         padding-bottom:60px; 
-}
+} 
 #autoh {position: relative;
         top: 500px;
         left: 100px;
