@@ -377,5 +377,8 @@ table tr td figure{display:inline-block;
 }
 #f p{
 	color: white;
+	margin-left: auto;
+	margin-right: auto;
+	
 
 }
