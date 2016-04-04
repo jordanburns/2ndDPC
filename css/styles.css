@@ -372,7 +372,7 @@ table tr td figure{display:inline-block;
 }
 #f {
 	display: block;
-	margin-bottom: 60px;
+	margin-bottom: 20%;
 	background-color: red;
 	height: 40px;
 	margin-left: -72px;
