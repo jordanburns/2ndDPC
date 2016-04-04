@@ -380,7 +380,7 @@ table tr td figure{display:inline-block;
 	color: white;
 }
 #auto {position: relative;
-        top:600px;
+        top:120px;
         right:140px;
         margin-left: 8%;
         margin-right: 8%;
@@ -411,4 +411,8 @@ table tr td figure{display:inline-block;
       text-align:center;
       top:100px;
       
+}
+.stock{position:relative;
+       float:right;
+       top:125px;
 }
