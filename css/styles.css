@@ -225,11 +225,8 @@ position: relative;
 
 
 
-.body {border-left: 72px;
-        border-right: 72px;
-        border-top: 3px;
-        border-bottom: 3px;
-        border-image-source: url(dpcmargindesign.gif);
+.body {border-image-width: 72px;
+        border-image-source: url(images/dpcmargindesign.gif);
         height: 100%;
        	font-family: Georgia,Times,'Times New Roman',serif; 
 }
