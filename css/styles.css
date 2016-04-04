@@ -375,7 +375,7 @@ table tr td figure{display:inline-block;
 	background-color: red;
 	height: 20px;
 }
-p.f {
-	margin-left: 45%;
+#f p{
+	color: white;
 
 }
