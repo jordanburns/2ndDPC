@@ -398,5 +398,6 @@ table tr td figure{display:inline-block;
         padding-bottom:60px; 
 }
 
-table tr td figure img{display:inline;
+table tr td figure img{display:inline-block;
+		       vertical-align:top;
 }
