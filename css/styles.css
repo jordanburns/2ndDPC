@@ -381,6 +381,7 @@ table tr td figure{display:inline-block;
 }
 #auto {position: relative;
         top:350px;
+        right:200px;
         margin-left: 8%;
         margin-right: 8%;
         padding-bottom:60px; 
