@@ -368,7 +368,15 @@ h3{color:#0053A0;
 table tr td figure{display:inline-block;
 }
 #f {
-	display: block;
+	
+    background: none repeat scroll 0 0 #272433;
+ position:static;
+ 
+    text-align: center;
+    width: 92%;
+    clear:both; 
+    
+
 	background-color: red;
 	height: 40px;
 	margin-left: -72px;
@@ -414,13 +422,8 @@ table tr td figure{display:inline-block;
       
 }
 .stock{float:left;
+       position:relative;
+       top:125px;
 }
 .stock2{float:left;
-}
-#row1{position:relative;
-      top:125px;
-}
-#row2{position:relative;
-      top:150px;
-      
 }
