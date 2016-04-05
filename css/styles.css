@@ -378,7 +378,7 @@ table tr td figure{display:inline-block;
 	color: white;
 }
 #foot{
-	margin-top: 1000px;
+	margin-top: 90%;
 }
 #auto {position: relative;
         top:120px;
@@ -414,6 +414,8 @@ table tr td figure{display:inline-block;
       
 }
 .stock{float:left;
+       position:relative;
+       top:125px;
 }
 .stock2{float:left;
 }
