@@ -275,8 +275,8 @@ h2{color:#990000;
 }
 
 #google_translate_element {position: absolute;
-                           top: 50px;
-                           right: 95px;
+                           top: 0px;
+                           right: 0px;
                            }
 #aheading {position:relative;
     top:75px;
@@ -382,7 +382,7 @@ table tr td figure{display:inline-block;
 }
 #foot{
 	position: fixed;
-	margin-top: 90%;
+	top: 90%;
 }
 #auto {position: relative;
         top:120px;
@@ -424,10 +424,8 @@ table tr td figure{display:inline-block;
 .stock2{float:left;
 }
 #row1{position:relative;
+      top:125px;
 }
 #row2{position:relative;
-      float:left;
-      display:inline-flex;
-}
-#excess{width:100px;
+      top:150px;
 }
