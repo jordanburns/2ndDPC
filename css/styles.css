@@ -369,7 +369,9 @@ table tr td figure{display:inline-block;
 }
 #f {
 	
-    	width: 100%;
+    background: none repeat scroll 0 0 #272433;
+ position:static;
+    clear:both; 
 	background-color: red;
 	height: 40px;
 	margin-left: -72px;
@@ -422,10 +424,8 @@ table tr td figure{display:inline-block;
 .stock2{float:left;
 }
 #row1{position:relative;
-      top:125px;
 }
 #row2{position:relative;
-      top:150px;
       float:left;
       display:inline-flex;
 }
