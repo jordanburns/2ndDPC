@@ -275,8 +275,8 @@ h2{color:#990000;
 }
 
 #google_translate_element {position: absolute;
-                           top: 0px;
-                           right: 0px;
+                           top: 50px;
+                           right: 95px;
                            }
 #aheading {position:relative;
     top:75px;
@@ -369,20 +369,17 @@ table tr td figure{display:inline-block;
 }
 #f {
 	
-    background: none repeat scroll 0 0 #272433;
- position:static;
-    clear:both; 
+    
 	background-color: red;
 	height: 40px;
-	margin-left: -72px;
-	margin-right: -100px;
+	
 }
 #fp{
 	color: white;
 }
 #foot{
 	position: fixed;
-	top: 90%;
+	margin-top: 90%;
 }
 #auto {position: relative;
         top:120px;
@@ -424,8 +421,10 @@ table tr td figure{display:inline-block;
 .stock2{float:left;
 }
 #row1{position:relative;
-      top:125px;
 }
 #row2{position:relative;
-      top:150px;
+      float:left;
+      display:inline-flex;
+}
+#excess{width:100px;
 }
