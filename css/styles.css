@@ -369,9 +369,7 @@ table tr td figure{display:inline-block;
 }
 #f {
 	
-    background: none repeat scroll 0 0 #272433;
- position:static;
-    clear:both; 
+    	width: 100%;
 	background-color: red;
 	height: 40px;
 	margin-left: -72px;
