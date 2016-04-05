@@ -382,7 +382,7 @@ table tr td figure{display:inline-block;
 }
 #foot{
 	position: fixed;
-	margin-top: 90%;
+	top: 90%;
 }
 #auto {position: relative;
         top:120px;
