@@ -368,6 +368,10 @@ h3{color:#0053A0;
 table tr td figure{display:inline-block;
 }
 #f {
+	
+    background: none repeat scroll 0 0 #272433;
+ position:static;
+    clear:both; 
 	background-color: red;
 	height: 40px;
 	margin-left: -72px;
@@ -378,7 +382,7 @@ table tr td figure{display:inline-block;
 }
 #foot{
 	position: fixed;
-	top: 90%;
+	margin-top: 90%;
 }
 #auto {position: relative;
         top:120px;
@@ -424,4 +428,8 @@ table tr td figure{display:inline-block;
 }
 #row2{position:relative;
       top:150px;
+      float:left;
+      display:inline-flex;
+}
+#excess{width:100px;
 }
