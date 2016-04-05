@@ -380,8 +380,8 @@ table tr td figure{display:inline-block;
 	color: white;
 }
 #foot{
-	position: absolute;
-	bottom: 5%;
+	position: fixed;
+	top: 95%;
 }
 #auto {position: relative;
         top:120px;
