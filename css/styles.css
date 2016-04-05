@@ -381,6 +381,7 @@ table tr td figure{display:inline-block;
 	color: white;
 }
 #foot{
+	position: fixed;
 }
 #auto {position: relative;
         top:120px;
