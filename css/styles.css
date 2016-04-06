@@ -1,496 +1,497 @@
 /* #0053A0 blue, #990000 red, #666666 gray*/
-#logo {
-    width: 75px;
-    float: left;
+#logo {width: 75px;
+        float:left;
+   
+        
 }
-
-#title {
-    font-family: "Palatino Linotype","Book Antiqua",Palatino,serif;
-    font-size: 25px;
-    font-weight: 700;
-    text-align: left;
-    display: inline-block;
-    position: relative;
-    margin: 40px 0 40px 15px;
+#title{ font-family:"Palatino Linotype", "Book Antiqua", Palatino, serif;
+        font-size:25px;
+        font-weight:bold;
+        text-align:left;
+        display:inline-block;
+        position: relative;
+        margin:40px 0px 40px 15px;
 }
-
-.cssmenu ul,.cssmenu li,.cssmenu span,.cssmenu a {
-    margin: 0;
-    padding: 0;
-    position: relative;
+.cssmenu ul,
+.cssmenu li,
+.cssmenu span,
+.cssmenu a {
+margin: 0;
+padding: 0;
+position: relative;
 }
 
 .cssmenu {
-    line-height: 1;
-    border-radius: 5px 5px 0 0;
-    -moz-border-radius: 5px 5px 0 0;
-    -webkit-border-radius: 5px 5px 0 0;
-    background: #fff;
-    background: -moz-linear-gradient(top,#fff 0%,#fff 100%);
-    background: -webkit-gradient(linear,left top,left bottom,color-stop(0%,#fff),color-stop(100%,#fff));
-    background: -webkit-linear-gradient(top,#fff 0%,#fff 100%);
-    background: -o-linear-gradient(top,#fff 0%,#fff 100%);
-    background: -ms-linear-gradient(top,#fff 0%,#fff 100%);
-    background: linear-gradient(to bottom,#fff 0%,#fff 100%);
-    border-bottom: 2px solid #db000b;
-    width: 100%;
-    clear: left;
-    position: absolute;
-    padding-right: 0;
-    left: 0;
-    padding-top: 20px;
-    padding: 10px;
+  line-height: 1;
+  border-radius: 5px 5px 0 0;
+  -moz-border-radius: 5px 5px 0 0;
+  -webkit-border-radius: 5px 5px 0 0;
+  background: #ffffff;
+  background: -moz-linear-gradient(top, #ffffff 0%, #ffffff 100%);
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #ffffff), color-stop(100%, #ffffff));
+  background: -webkit-linear-gradient(top, #ffffff 0%, #ffffff 100%);
+  background: -o-linear-gradient(top, #ffffff 0%, #ffffff 100%);
+  background: -ms-linear-gradient(top, #ffffff 0%, #ffffff 100%);
+  background: linear-gradient(to bottom, #ffffff 0%, #ffffff 100%);
+  border-bottom: 2px solid #db000b;
+  width: 100%;
+  clear: left;
+  position:absolute;
+  padding-right:0px;
+  left:0;
+  padding-top: 20px;
+  padding: 10px;
+  
+   
 }
-
-.cssmenu:after,.cssmenu ul:after {
-    content: '';
-    display: block;
-    clear: both;
+.cssmenu:after,
+.cssmenu ul:after {
+  content: '';
+  display: block;
+  clear: both;
 }
-
 .cssmenu a {
-    background: #fff;
-    background: -moz-linear-gradient(top,#fff 0%,#fff 100%);
-    background: -webkit-gradient(linear,left top,left bottom,color-stop(0%,#fff),color-stop(100%,#fff));
-    background: -webkit-linear-gradient(top,#fff 0%,#fff 100%);
-    background: -o-linear-gradient(top,#fff 0%,#fff 100%);
-    background: -ms-linear-gradient(top,#fff 0%,#fff 100%);
-    background: linear-gradient(to bottom,#fff 0%,#fff 100%);
-    color: #fff;
-    display: block;
-    font-family: Helvetica,Arial,Verdana,sans-serif;
-/* padding is for width and height of navigation bar*/
-    padding: 19px 38px;
-    text-decoration: none;
+  background: #ffffff;
+  background: -moz-linear-gradient(top, #ffffff 0%, #ffffff 100%);
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #ffffff), color-stop(100%, #ffffff));
+  background: -webkit-linear-gradient(top, #ffffff 0%, #ffffff 100%);
+  background: -o-linear-gradient(top, #ffffff 0%, #ffffff 100%);
+  background: -ms-linear-gradient(top, #ffffff 0%, #ffffff 100%);
+  background: linear-gradient(to bottom, #ffffff 0%, #ffffff 100%);
+  color: #ffffff;
+  display: block;
+  font-family: Helvetica, Arial, Verdana, sans-serif;
+  /* padding is for width and height of navigation bar*/
+  padding: 19px 38px;
+  text-decoration: none;
+  
+ 
 }
-
 .cssmenu ul {
-    list-style: none;
+  list-style: none;
 }
-
 .cssmenu > ul > li {
-    display: inline-block;
-    float: left;
-    margin: 0;
-    width: 14.2%;
+  display: inline-block;
+  float: left;
+  margin: 0;
+  width:14.2%;
 }
-
 .cssmenu.align-center {
-    text-align: center;
+  text-align: center;
 }
-
 .cssmenu.align-center > ul > li {
-    float: none;
+  float: none;
 }
-
 .cssmenu.align-center ul ul {
-    text-align: left;
+  text-align: left;
 }
-
 .cssmenu.align-left > ul {
-    float: left;
+  float: left;
 }
-
 .cssmenu.align-left ul ul {
-    text-align: left;
+  text-align: left;
 }
-
 .cssmenu > ul > li > a {
-    color: #000;
-    font-size: 12px;
+  color: #000000;
+  font-size: 12px;
 }
-
 .cssmenu > ul > li:hover:after {
-    content: '';
-    display: block;
-    width: 0;
-    height: 0;
-    position: absolute;
-    left: 50%;
-    bottom: 0;
-    border-left: 10px solid transparent;
-    border-right: 10px solid transparent;
-    border-bottom: 10px solid #db000b;
-    margin-left: -10px;
+  content: '';
+  display: block;
+  width: 0;
+  height: 0;
+  position: absolute;
+  left: 50%;
+  bottom: 0;
+  border-left: 10px solid transparent;
+  border-right: 10px solid transparent;
+  border-bottom: 10px solid #db000b;
+  margin-left: -10px;
 }
-
 .cssmenu > ul > li:first-child > a {
-    border-radius: 5px 0 0 0;
-    -moz-border-radius: 5px 0 0;
-    -webkit-border-radius: 5px 0 0 0;
+  border-radius: 5px 0 0 0;
+  -moz-border-radius: 5px 0 0 0;
+  -webkit-border-radius: 5px 0 0 0;
 }
-
-.cssmenu.align-right > ul > li:first-child > a,.cssmenu.align-center > ul > li:first-child > a {
-    border-radius: 0;
-    -moz-border-radius: 0;
-    -webkit-border-radius: 0;
+.cssmenu.align-right > ul > li:first-child > a,
+.cssmenu.align-center > ul > li:first-child > a {
+  border-radius: 0;
+  -moz-border-radius: 0;
+  -webkit-border-radius: 0;
 }
-
 .cssmenu.align-right > ul > li:last-child > a {
-    border-radius: 0 5px 0 0;
-    -moz-border-radius: 0 5px 0 0;
-    -webkit-border-radius: 0 5px 0 0;
+  border-radius: 0 5px 0 0;
+  -moz-border-radius: 0 5px 0 0;
+  -webkit-border-radius: 0 5px 0 0;
 }
-
-.cssmenu > ul > li.active > a,.cssmenu > ul > li:hover > a {
-    color: #000;
-    box-shadow: inset 0 0 3px #d9d9d9;
-    -moz-box-shadow: inset 0 0 3px #d9d9d9;
-    -webkit-box-shadow: inset 0 0 3px #d9d9d9;
-    background: #f2f2f2;
-    background: -moz-linear-gradient(top,#fff 0%,#f2f2f2 100%);
-    background: -webkit-gradient(linear,left top,left bottom,color-stop(0%,#fff),color-stop(100%,#f2f2f2));
-    background: -webkit-linear-gradient(top,#fff 0%,#f2f2f2 100%);
-    background: -o-linear-gradient(top,#fff 0%,#f2f2f2 100%);
-    background: -ms-linear-gradient(top,#fff 0%,#f2f2f2 100%);
-    background: linear-gradient(to bottom,#fff 0%,#f2f2f2 100%);
+.cssmenu > ul > li.active > a,
+.cssmenu > ul > li:hover > a {
+  color: #000000;
+  box-shadow: inset 0 0 3px #d9d9d9;
+  -moz-box-shadow: inset 0 0 3px #d9d9d9;
+  -webkit-box-shadow: inset 0 0 3px #d9d9d9;
+  background: #f2f2f2;
+  background: -moz-linear-gradient(top, #ffffff 0%, #f2f2f2 100%);
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #ffffff), color-stop(100%, #f2f2f2));
+  background: -webkit-linear-gradient(top, #ffffff 0%, #f2f2f2 100%);
+  background: -o-linear-gradient(top, #ffffff 0%, #f2f2f2 100%);
+  background: -ms-linear-gradient(top, #ffffff 0%, #f2f2f2 100%);
+  background: linear-gradient(to bottom, #ffffff 0%, #f2f2f2 100%);
 }
-
 .cssmenu .has-sub {
-    z-index: 1;
+  z-index: 1;
 }
-
 .cssmenu .has-sub:hover > ul {
-    display: block;
+  display: block;
 }
-
 .cssmenu .has-sub ul {
-    display: none;
-    position: absolute;
-    width: 100%;
-    left: 0;
+  display: none;
+  position: absolute;
+  width: 100%;
+  left: 0;
 }
-
 .cssmenu.align-right .has-sub ul {
-    left: auto;
-    right: 0;
+  left: auto;
+  right: 0;
 }
-
 .cssmenu .has-sub ul li {
-    *margin-bottom: -1px;
+  *margin-bottom: -1px;
 }
-
 .cssmenu .has-sub ul li a {
-    background: #db000b;
-    border-bottom: 1px dotted #ff0f1b;
-    font-size: 11px;
-    filter: none;
-    display: block;
-    line-height: 120%;
-/* padding is for width and height of dropdowns in nav bar*/
-    padding: 10px 15px;
-    color: #fff;
+  background: #db000b;
+  border-bottom: 1px dotted #ff0f1b;
+  font-size: 11px;
+  filter: none;
+  display: block;
+  line-height: 120%;
+   /* padding is for width and height of dropdowns in nav bar*/
+  padding: 10px 15px;
+  color: #ffffff;
 }
-
 .cssmenu .has-sub ul li:hover a {
-    background: #a80008;
+  background: #a80008;
 }
-
 .cssmenu ul ul li:hover > a {
-    color: #fff;
+  color: #ffffff;
 }
-
 .cssmenu .has-sub .has-sub:hover > ul {
-    display: block;
+  display: block;
 }
-
 .cssmenu .has-sub .has-sub ul {
-    display: none;
-    position: absolute;
-    left: 100%;
-    top: 0;
+  display: none;
+  position: absolute;
+  left: 100%;
+  top: 0;
 }
-
-.cssmenu.align-right .has-sub .has-sub ul,.cssmenu.align-right ul ul ul {
-    left: auto;
-    right: 100%;
+.cssmenu.align-right .has-sub .has-sub ul,
+.cssmenu.align-right ul ul ul {
+  left: auto;
+  right: 100%;
 }
-
 .cssmenu .has-sub .has-sub ul li a {
-    background: #a80008;
-    border-bottom: 1px dotted #ff0f1b;
+  background: #a80008;
+  border-bottom: 1px dotted #ff0f1b;
 }
-
 .cssmenu .has-sub .has-sub ul li a:db000b {
-    background: #8f0007;
+  background: #8f0007;
+}
+.cssmenu ul ul li.last > a,
+.cssmenu ul ul li:last-child > a,
+.cssmenu ul ul ul li.last > a,
+.cssmenu ul ul ul li:last-child > a,
+.cssmenu .has-sub ul li:last-child > a,
+.cssmenu .has-sub ul li.last > a {border-bottom: 0;
 }
 
-.cssmenu ul ul li.last > a,.cssmenu ul ul li:last-child > a,.cssmenu ul ul ul li.last > a,.cssmenu ul ul ul li:last-child > a,.cssmenu .has-sub ul li:last-child > a,.cssmenu .has-sub ul li.last > a {
-    border-bottom: 0;
+#contactpara {position: absolute;
+                left: 8%;
+                top: 25%;
+}
+#myPhoto{position:absolute;
+         top:250px;
+         left:25%;
+         right:25%;
+         width:50%;
+         
+         
+}
+#slideshow{background-color:#gray;
+           width:100%;
 }
 
-#contactpara {
-    position: absolute;
-    left: 8%;
-    top: 25%;
-}
 
-#myPhoto {
-    position: absolute;
-    top: 250px;
-    left: 25%;
-    right: 25%;
-    width: 50%;
-}
 
-#slideshow {
-    background-color: gray;
-    width: 100%;
-}
 
-.body {
-    height: 100%;
-    font-family: Georgia,Times,'Times New Roman',serif;
+.body {height: 100%;
+       	font-family: Georgia,Times,'Times New Roman',serif; 
 }
-
 img.slideshow {
-    position: absolute;
-    transition: opacity .5s ease-in;
-    top: 250px;
-    width: 900px;
-    height: 290px;
-    left: 80px;
+  position: absolute;
+  transition: opacity .5s ease-in;
+  top: 250px;
+  width:900px;
+  height:290px;
+  left:80px;
+
 }
 
 img.slideshow + img.slideshow {
-    opacity: 0;
+  opacity: 0;
 }
 
-#map {
-    top: 100px;
-    left: 50px;
-    position: relative;
-    width: 40%;
-    float: left;
-    height: 2500px;
+#map{top:100px;
+     left:50px;
+     position:relative;
+     width:40%;
+     float:left;
+     height:2500px;
 }
 
 #content {
-    position: relative;
-    top: 100px;
-    margin-left: 8%;
-    margin-right: 8%;
-    padding-bottom: 60px;
-    max-height: 1000px;
+        position: relative;
+        top: 100px;
+        margin-left: 8%;
+        margin-right: 8%;
+        padding-bottom:150px;  
+       max-height: 1000px;
 }
 
-#form {
-    position: relative;
-    left: -100px;
-    float: right;
-    top: 25px;
+#form{position:relative;
+      left:-100px;
+      float:right;
+      top:25px;
+}
+h2{color:#990000;
+   position:relative;
+   top:75px;
+   text-align:center;
+
+}
+.mission{color:#0053A0;
+         font-family:  "Copperplate", "Copperplate Gothic Light","Balthazar-Regular" sans-serif;
+         font-weight:bold;
+         text-align:center;
+
 }
 
-h2 {
-    color: #900;
-    position: relative;
-    top: 75px;
-    text-align: center;
+#google_translate_element {position: absolute;
+                           top: 50px;
+                           right: 95px;
+                           }
+#aheading {position:relative;
+    top:75px;
+    text-align:center;
 }
 
-.mission {
-    color: #0053A0;
-    font-family: "Copperplate","Copperplate Gothic Light","Balthazar-Regular" sans-serif;
-    font-weight: 700;
-    text-align: center;
-}
-
-#google_translate_element {
-    position: absolute;
-    top: 50px;
-    right: 95px;
-}
-
-#aheading {
-    position: relative;
-    top: 75px;
-    text-align: center;
-}    
-
-#automotive {
-    position: relative;
-    top: 100px;
-    margin-left: 8%;
-    margin-right: 8%;
-    padding-bottom: 60px;
-}
-
+           }
+#automotive {  position: relative;
+        top: 100px;
+        margin-left: 8%;
+        margin-right: 8%;
+        padding-bottom:60px;  }
 #ccompcontent {
-    margin: 70px;
-    padding-top: 30px;
-    padding-bottom: 0;
+        margin: 70px;
+        padding-top: 30px;
+        padding-bottom: 0;
 }
-
 #ccompimage {
-    clear: right;
+        clear: right;
 }
-
-#bnft {
-    position: relative;
-    top: 100px;
-    width: 270px;
-    margin-left: 30px;
+#bnft{position:relative;
+     top:100px;
+     width:270px;
+     margin-left:30px;
 }
-
-.automotive {
-    position: absolute;
+.automotive { position: absolute;
+               
+               
 }
-
-#automotive {
-    position: relative;
-    top: 100px;
-    margin-left: 8%;
-    margin-right: 8%;
-    padding-bottom: 60px;
+#automotive {  position: relative;
+        top: 100px;
+        margin-left: 8%;
+        margin-right: 8%;
+        padding-bottom:60px; 
 }
-
-body {
-    background-color: #fff;
-    height: 100%;
-    margin-left: 72px;
-    margin-right: 72px;
-    margin-top: 5px;
-    margin-bottom: 5px;
+                
+body {background-color: white;
+height: 100%;
+	margin-left: 72px;
+	margin-right: 72px;
+	margin-top: 5px;
+	margin-bottom: 5px;
 }
 
 #bigbox {
-    background-color: #FFF;
-    height: auto;
-    width: 1000px;
-    margin-top: 0;
-    margin-right: auto;
-    margin-bottom: 0;
-    margin-left: auto;
+	background-color: #FFF;
+	height: auto;
+	width: 1000px;
+	
+	margin-top: 0px;
+	margin-right: auto;
+	margin-bottom: 0px;
+	margin-left: auto;
+	
 }
-
 #main {
-    background-color: #FFF;
-    margin-right: 10px;
-    margin-left: 10px;
-    background-position: center center;
+	background-color: #FFFFFF;
+	margin-right: 10px;
+	margin-left: 10px;
+	background-position: center center;
+	
 }
-
-#collage {
-    position: relative;
-    left: 700px;
-    margin-left: 30px;
-    width: 400px;
-    top: -530px;
+#collage{position:relative;
+	 left:700px;
+	 margin-left:30px;
+	 width:400px;
+	 top:-530px;
+	 
 }
-
-#pck {
-    width: 400px;
-    height: 250px;
+#pck{width:400px;
+     height:250px;
+     
+}     
+#pqt{width:350px;
+     position:relative;
+     left:325px;
+     top:-200px;
+     
 }
+h3{color:#0053A0;
 
-#pqt {
-    width: 350px;
-    position: relative;
-    left: 325px;
-    top: -200px;
 }
-
-h3 {
-    color: #0053A0;
+#paquete li{padding:1em 0;
+ 	    font-weight:bold;
+ 	    font-size:18px;
 }
-
-#paquete li {
-    padding: 1em 0;
-    font-weight: 700;
-    font-size: 18px;
+#stock{color:#CC0000;
+       text-decoration:none;
 }
-
-#stock {
-    color: #C00;
-    text-decoration: none;
+table tr td figure{display:inline-block;
 }
-
-table tr td figure {
-    display: inline-block;
-}
-
 #f {
-    background-color: #900;
-    height: 40px;
-    margin-left: -72px;
-    margin-right: -100px;
+	
+    	
+	background-color:  #990000;
+	height: 40px;
+	margin-left: -72px;
+	margin-right: -100px;
+
+}
+#fp{
+	color: white;
+	text-align: center;
+}
+#foot{
+	position: fixed;
+	top: 95%;
+}
+#auto {position: relative;
+        top:120px;
+        right:140px;
+        margin-left: 8%;
+        margin-right: 8%;
+        padding-bottom:60px; 
+} 
+#autoh {position: relative;
+        top: 125px;
+        left: 100px;
+        margin-left: 8%;
+        margin-right: 8%;
+        padding-bottom:60px; 
+}
+#auto2 { position: relative;
+        top:120px;
+        left: 100px;
+        margin-left: 8%;
+        margin-right: 8%;
+        padding-bottom:60px;
+}
+#autoimage {position: relative;
+        bottom:152px;
+        left: 275px;
+        margin-left: 8%;
+        margin-right: 8%;
+        padding-bottom:60px;
+}
+#scep{position:relative;
+      text-align:center;
+      top:100px;
+      
+}
+.stock{float:left;
+       position:relative;
+       top:125px;
+}
+.stock2{float:left;
+}
+#row1{position:relative;
+}
+#row2{position:relative;
+      float:left;
+      display:inline-flex;
+}
+#excess{width:100px;
 }
 
-#fp {
-    color: #fff;
-}
+html {background-color: #cccccc;}
 
-#foot {
-    position: fixed;
-    top: 95%;
+#go {
+	padding: 200px;
+	font-size: 200px;
 }
-
-#auto {
-    position: relative;
-    top: 120px;
-    right: 140px;
-    margin-left: 8%;
-    margin-right: 8%;
-    padding-bottom: 60px;
+/*remove list style (circles)*/
+.goo-collapsible{  
+    list-style: none;
+    font-family: 'HelveticaNeue', Arial, Helvetica, sans-serif;
+    font-size:14px}
+/*header line style and border*/
+.goo-collapsible li.header{
+    color: #666;
+    padding:4px 12px;
+    border: 1px solid #bbb;}
+/*set border for every line of menu nad remove top border becouse we dont want double border with header border. */
+.goo-collapsible li { 
+    border: 1px solid #bbb;
+    border-top:0;
+    margin: 0;
+    background:#F0F0F0;}
+/*remove decoration from text links and treat it as a block.*/
+.goo-collapsible li a {
+    text-decoration:none;
+    color:#666;
+    display:block;
+    padding:8px 12px;}
+/*we dont want text to be underline as regular link*/
+.goo-collapsible li a:hover {
+    background: #F8F8F8;
+    text-decoration:none;}
+/*remove list style (circles) for submenu*/   
+.goo-collapsible li ul {
+    list-style: none;
+    background: #d3d3d3;
+    display: none;
+    margin:0;
 }
-
-#autoh {
-    position: relative;
-    top: 125px;
-    left: 100px;
-    margin-left: 8%;
-    margin-right: 8%;
-    padding-bottom: 60px;
-}
-
-#auto2 {
-    position: relative;
-    top: 120px;
-    left: 100px;
-    margin-left: 8%;
-    margin-right: 8%;
-    padding-bottom: 60px;
-}
-
-#autoimage {
-    position: relative;
-    bottom: 152px;
-    left: 275px;
-    margin-left: 8%;
-    margin-right: 8%;
-    padding-bottom: 60px;
-}
-
-#scep {
-    position: relative;
-    text-align: center;
-    top: 100px;
-}
-
-.stock {
-    float: left;
-    position: relative;
-    top: 125px;
-}
-
-.stock2 {
-    float: left;
-}
-
-#row1 {
-    position: relative;
-}
-
-#row2 {
-    position: relative;
-    float: left;
-    display: inline-flex;
-}
-
-#excess {
-    width: 100px;
-}
-
-html {
-    background-color: #ccc;
-}
+/*remove border and set only bottom border for submenu*/   
+.goo-collapsible li ul li {
+    margin:0;
+    border:0;
+    border-bottom:1px solid #bbb;}
+/*remove bottom border from last element in submenu*/   
+.goo-collapsible li ul li:last-child {
+    border-bottom:0;}
+/*set padding for submenu to be inline with maimenu*/   
+.goo-collapsible li ul li a {
+    padding: 5px 10px;
+    display: block;
+    padding-left: 33px;
+    background: #d3d3d3; }
+/*remove text decoration for links*/
+.goo-collapsible li ul li a:hover {
+text-decoration: none;
+background: #d9d9d9; }
+/*for menu witch have a submenu display some icom*/
+.goo-collapsible .dropdown > a {
+    background: url(/images/arrowdown.png) no-repeat right center; }
+/*set some hover color on drop down menu*/
+.goo-collapsible .dropdown > a:hover { background: #F8F8F8 url(/images/arrowdown.png) no-repeat right center; }
