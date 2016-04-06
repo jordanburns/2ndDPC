@@ -192,7 +192,7 @@ position: relative;
   background: #a80008;
   border-bottom: 1px dotted #ff0f1b;
 }
-.cssmenu .has-sub .has-sub ul li a:db000b {
+.cssmenu .has-sub .has-sub ul li a: #db000b {
   background: #8f0007;
 }
 .cssmenu ul ul li.last > a,
