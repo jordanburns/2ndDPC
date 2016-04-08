@@ -369,14 +369,13 @@ h3{color:#0053A0;
 table tr td figure{display:inline-block;
 }
 #f{
-  line-height: 0.7em;
-  height:2.8em;
-  width:100%;
-  text-align: center;
-  color: #FFFFFF;
-  background-color: #0053A0;
-  font-style: bold;
-
+	  height:40px;
+	  width:100%;
+	  text-align: center;
+	 color: #FFFFFF;
+	 background-color: #0053A0;
+	 font-style: bold;
+	padding-top: 5px;
 }
 #auto {position: relative;
         top:120px;
