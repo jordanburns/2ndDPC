@@ -467,3 +467,6 @@ div.panel {
 div.panel.show {
     display: block !important;
 }
+div#accordion{position:relative;
+	      top:150px;
+}
