@@ -383,14 +383,6 @@ table tr td figure{display:inline-block;
 	 font-style: bold;
 
 }
-#fp{
-	color: white;
-	text-align: center;
-}
-#foot{
-	position: fixed;
-	top: 95%;
-}
 #auto {position: relative;
         top:120px;
         right:140px;
