@@ -1,4 +1,4 @@
-/* #0053A0 blue, #990000 red, #666666 gray*/
+/* #0053A0 blue,  #990000 red, #666666 gray*/
 #logo {width: 75px;
         float:left;
    
@@ -368,23 +368,14 @@ h3{color:#0053A0;
 }
 table tr td figure{display:inline-block;
 }
-#f {
-
-  
-  height:40px;
+#f{
+  line-height: 0.7em;
+  height:2.8em;
+  width:100%;
+  text-align: center;
   color: #FFFFFF;
   background-color: #990000;
   font-style: bold;
-margin-left: -72px;
-
-}
-#fp{
-	color: white;
-	text-align: center;
-}
-#foot{
-	position: fixed;
-	top: 95%;
 }
 #auto {position: relative;
         top:120px;
