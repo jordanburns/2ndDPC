@@ -33,7 +33,7 @@ position: relative;
   background: -o-linear-gradient(top, #ffffff 0%, #ffffff 100%);
   background: -ms-linear-gradient(top, #ffffff 0%, #ffffff 100%);
   background: linear-gradient(to bottom, #ffffff 0%, #ffffff 100%);
-  border-bottom: 2px solid #0053A0;
+  border-bottom: 2px solid #db000b;
   width: 100%;
   clear: left;
   position:absolute;
@@ -105,7 +105,7 @@ position: relative;
   bottom: 0;
   border-left: 10px solid transparent;
   border-right: 10px solid transparent;
-  border-bottom: 10px solid #0053A0;
+  border-bottom: 10px solid #db000b;
   margin-left: -10px;
 }
 .cssmenu > ul > li:first-child > a {
@@ -158,7 +158,7 @@ position: relative;
   *margin-bottom: -1px;
 }
 .cssmenu .has-sub ul li a {
-  background: #0053A0;
+  background: #db000b;
   border-bottom: 1px dotted #ff0f1b;
   font-size: 11px;
   filter: none;
@@ -282,7 +282,13 @@ h2{color:#990000;
     top:75px;
     text-align:center;
 }
-
+#f{
+	height:60px;
+	  width:100%;
+	  text-align: center;
+	 color: #FFFFFF;
+	 background-color: #0053A0;
+	 font-style: bold;
            }
 #automotive {  position: relative;
         top: 100px;
@@ -369,15 +375,12 @@ h3{color:#0053A0;
 table tr td figure{display:inline-block;
 }
 #f {
-
-  
-  height:20px;
- 
-  
-  color: #FFFFFF;
-  background-color: #990000;
-  font-style: bold;
-
+	  height:60px;
+	  width:100%;
+	  text-align: center;
+	 color: #FFFFFF;
+	 background-color: #0053A0;
+	 font-style: bold;
 
 }
 #fp{
@@ -442,4 +445,174 @@ html {background-color: #cccccc;}
 	padding: 200px;
 	font-size: 200px;
 }
+$white: rgba(254,255,250,1)
+$grey: rgba(220,231,235,1)
+$red: rgba(255,104,115,1)
+$black: rgba(48,69,92,0.8)
+$sans: 'Titillium Web', sans-serif
+  
+.transition
+  transition: all 0.25s ease-in-out
 
+.flipIn
+  animation: flipdown 0.5s ease both
+    
+.no-select
+  -webkit-tap-highlight-color: rgba(0,0,0,0)
+  -webkit-touch-callout: none
+  -webkit-user-select: none
+  -khtml-user-select: none
+  -moz-user-select: none
+  -ms-user-select: none
+  user-select: none
+
+html
+  width: 100%
+  height: 100%
+  perspective: 900
+  overflow-y: scroll
+  background-color: $grey
+  font-family: $sans
+  color: $black
+  
+body
+  min-height: 0
+  display: inline-block
+  position: relative
+  left: 50%
+  margin: 90px 0
+  transform: translate( -50% , 0 )
+  box-shadow: 0 10px 0 0 $red inset
+  background-color: $white
+  max-width: 450px
+  padding: 30px
+  
+  @media ( max-width:550px )
+    box-sizing: border-box
+    transform: translate( 0 , 0 )
+    max-width: 100%
+    min-height: 100%
+    margin: 0
+    left: 0
+
+h1 , h2
+  color: $red
+
+h1
+  text-transform: uppercase
+  font-size: 36px
+  line-height: 42px
+  letter-spacing: 3px
+  font-weight: 100
+  @extend .flipIn
+  
+h2
+  font-size: 26px
+  line-height: 34px
+  font-weight: 300
+  letter-spacing: 1px
+  display: block
+  background-color: $white
+  margin: 0
+  cursor: pointer
+  @extend .no-select
+
+p
+  color: $black
+  font-size: 17px
+  line-height: 26px
+  letter-spacing: 1px
+  position: relative
+  overflow: hidden
+  max-height: 800px
+  @extend .transition
+  opacity: 1
+  transform: translate( 0 , 0 )  
+  margin-top: 14px
+  z-index: 2
+  
+ul
+  list-style: none
+  perspective: 900
+  padding: 0
+  margin: 0
+  
+  li
+    position: relative
+    padding: 0
+    margin: 0
+    padding-bottom: 4px
+    padding-top: 18px
+    border-top: 1px dotted $grey
+    @extend .flipIn
+      
+    &:nth-of-type(1)
+      animation-delay: 0.5s
+    
+    &:nth-of-type(2)
+      animation-delay: 0.75s
+        
+    &:nth-of-type(3)
+      animation-delay: 1.0s
+    
+    &:last-of-type
+      padding-bottom: 0
+      
+    i
+      position: absolute
+      transform: translate( -6px , 0 )
+      margin-top: 16px
+      right: 0
+      
+      &:before , &:after
+        content: ""
+        @extend .transition
+        position: absolute
+        background-color: $red
+        width: 3px
+        height: 9px
+        
+      &:before
+        transform: translate( -2px , 0 ) rotate( 45deg )
+          
+      &:after
+        transform: translate( 2px , 0 ) rotate( -45deg )
+    
+    input[type=checkbox]
+      position: absolute
+      cursor: pointer
+      width: 100%
+      height: 100%
+      z-index: 1
+      opacity: 0
+      
+      &:checked
+        &~p
+          margin-top: 0
+          max-height: 0
+          opacity: 0
+          transform: translate( 0 , 50% )
+            
+        &~i
+          &:before
+            transform: translate( 2px , 0 ) rotate( 45deg )
+          
+          &:after
+            transform: translate( -2px , 0 ) rotate( -45deg )
+
+@keyframes flipdown
+  0%
+    opacity: 0
+    transform-origin: top center
+    transform: rotateX(-90deg)
+  5%
+    opacity: 1
+  80%
+    transform: rotateX(8deg)
+  83%
+    transform: rotateX(6deg)
+  92%
+    transform: rotateX(-3deg)
+  100%
+    transform-origin: top center
+    transform: rotateX(0deg) 
