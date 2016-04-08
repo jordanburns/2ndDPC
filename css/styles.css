@@ -369,12 +369,15 @@ h3{color:#0053A0;
 table tr td figure{display:inline-block;
 }
 #f {
-	
-    	
-	background-color:  #990000;
-	height: 40px;
-	margin-left: -72px;
-	margin-right: -100px;
+.foot{
+  line-height: 0.7em;
+  height:2.8em;
+  width:100%;
+  text-align: center;
+  color: #FFFFFF;
+  background-color: #0053a0;
+  font-style: bold;
+}
 
 }
 #fp{
