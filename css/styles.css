@@ -436,6 +436,8 @@ table tr td figure{display:inline-block;
 	padding: 200px;
 	font-size: 200px;
 }
+html{color:#cccccc;
+}
 /* Style the buttons that are used to open and close the accordion panel */
 button.accordion {
     background-color: #eee;
