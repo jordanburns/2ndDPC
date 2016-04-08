@@ -59,6 +59,19 @@
 	
 	
 	<ul class="goo-collapsible">
+		<script src="jquery.js"></script>
+			   <script>$(".goo-collapsible > li > a").on("click", function(e){
+			    if(!$(this).hasClass("active")) {
+			        $(".goo-collapsible li ul").slideUp(350);
+			        $(".goo-collapsible li a").removeClass("active");
+			        $(this).next("ul").slideDown(350);
+			        $(this).addClass("active");
+			    }else if($(this).hasClass("active")) {
+			        $(this).removeClass("active");
+			        $(this).next("ul").slideUp(350);
+			    }
+			});
+		</script>
     <li class="header">Stock Packaging</li>
     <li class="dropdown"><a><p>Stock Corners and Edge Protectors</p></a>
         <ul>
