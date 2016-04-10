@@ -473,6 +473,15 @@ div#accordion{position:relative;
 	      top:100px;
 }
 .top{padding-top:15px;
+     left:100px;
 }
 .bottom{padding-bottom:15px;
+}
+.middle1{float:right;
+	 padding-left:25px;
+	 padding-top:10px;
+}
+.middle2{float:right;
+	 padding-left:25px;
+	 padding-top:10px;
 }
