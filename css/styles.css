@@ -477,3 +477,5 @@ div#accordion{position:relative;
 }
 .bottom{padding-bottom:15px;
 }
+figcaption{max-width:300px;
+}
