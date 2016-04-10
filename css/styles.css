@@ -469,9 +469,10 @@ div.panel.show {
 div#accordion{position:relative;
 	      top:125px;
 }
-div#accordion li{background-color:#d3d3d3;
+button.accordian{background-color:#d3d3d3;
 		 color:#0053A0;
 		 text-decoration:underline;
 		 border-width:2px;
 		 border-color:#0053A0;
+		 text-align:center;
 }
