@@ -472,3 +472,7 @@ div.panel.show {
 div#accordion{position:relative;
 	      top:125px;
 }
+.top{margin-top:10px;
+}
+.bottom{margin-bottom:10px;
+}
