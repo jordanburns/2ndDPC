@@ -450,7 +450,7 @@ button.accordion {
     text-decoration:underline;
     height:75px;
     border-width:1px;
-    border-color:#d3d3d3;
+    border-color:#696969;
 }
 
 /* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
