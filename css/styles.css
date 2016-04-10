@@ -470,7 +470,7 @@ div.panel.show {
     display: block !important;
 }
 div#accordion{position:relative;
-	      top:125px;
+	      top:100px;
 }
 .top{padding-top:15px;
 }
