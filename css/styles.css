@@ -467,5 +467,11 @@ div.panel.show {
     display: block !important;
 }
 div#accordion{position:relative;
-	      top:150px;
+	      top:125px;
+}
+div#accordion li{background-color:#d3d3d3;
+		 color:#0053A0;
+		 text-decoration:underline;
+		 border-width:2px;
+		 border-color:#0053A0;
 }
