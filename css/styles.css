@@ -365,10 +365,22 @@ h3{color:#0053A0;
 #stock{color:#CC0000;
        text-decoration:none;
 }
+table tr td figure{display:inline-block;
+}
 #f {
 	  height:60px;
 	  width:100%;
 	  text-align: center;
+	 color: #FFFFFF;
+	 background-color: #0053A0;
+	 font-style: bold;
+
+}
+#fc {
+	  height:60px;
+	  width:100%;
+	  text-align: center;
+	  margin-right: 50px;
 	 color: #FFFFFF;
 	 background-color: #0053A0;
 	 font-style: bold;
@@ -420,6 +432,10 @@ h3{color:#0053A0;
       float:left;
       display:inline-flex;
 }
+#excess{width:100px;
+}
+
+
 #go {
 	padding: 200px;
 	font-size: 200px;
