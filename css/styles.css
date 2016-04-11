@@ -222,9 +222,8 @@ position: relative;
 
 
 
-.body {height: 100%;
-       	font-family: Georgia,Times,'Times New Roman',serif; 
-}
+.body {font-family: Georgia,Times,'Times New Roman',serif; }
+
 img.slideshow {
   position: absolute;
   transition: opacity .5s ease-in;
@@ -321,10 +320,7 @@ h2{color:#990000;
                 
 body {background-color: white;
 height: 100%;
-	margin-left: 72px;
-	margin-right: 72px;
-	margin-top: 5px;
-	margin-bottom: 5px;
+	margin:10px;
 }
 
 #bigbox {
@@ -405,7 +401,7 @@ table tr td figure{display:inline-block;
         padding-bottom:60px;
 }
 #autoimage {position: relative;
-        bottom:200px;
+        bottom:152px;
         left: 275px;
         margin-left: 8%;
         margin-right: 8%;
@@ -456,7 +452,6 @@ button.accordion {
 /* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
 button.accordion.active, button.accordion:hover {
     background-color: #990000;
-    outline:none;
 }
 
 /* Style the accordion panel. Note: hidden by default */
