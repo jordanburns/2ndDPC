@@ -222,8 +222,9 @@ position: relative;
 
 
 
-.body {font-family: Georgia,Times,'Times New Roman',serif; }
-
+.body {height: 100%;
+       	font-family: Georgia,Times,'Times New Roman',serif; 
+}
 img.slideshow {
   position: absolute;
   transition: opacity .5s ease-in;
@@ -281,14 +282,7 @@ h2{color:#990000;
     top:75px;
     text-align:center;
 }
-#f{
-	height:60px;
-	  width:100%;
-	  text-align: center;
-	 color: #FFFFFF;
-	 background-color: #0053A0;
-	 font-style: bold;
-           }
+
 #automotive {  position: relative;
         top: 100px;
         margin-left: 8%;
@@ -320,7 +314,10 @@ h2{color:#990000;
                 
 body {background-color: white;
 height: 100%;
-	margin:70px;
+	margin-left: 72px;
+	margin-right: 72px;
+	margin-top: 5px;
+	margin-bottom: 5px;
 }
 
 #bigbox {
@@ -401,12 +398,20 @@ table tr td figure{display:inline-block;
         padding-bottom:60px;
 }
 #autoimage {position: relative;
-        bottom:152px;
+        bottom:200px;
         left: 275px;
         margin-left: 8%;
         margin-right: 8%;
         padding-bottom:60px;
 }
+#f{
+	height:60px;
+	  width:100%;
+	  text-align: center;
+	 color: #FFFFFF;
+	 background-color: #0053A0;
+	 font-style: bold;
+           }
 #scep{position:relative;
       text-align:center;
       top:100px;
@@ -452,6 +457,7 @@ button.accordion {
 /* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
 button.accordion.active, button.accordion:hover {
     background-color: #990000;
+    outline:none;
 }
 
 /* Style the accordion panel. Note: hidden by default */
