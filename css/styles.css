@@ -466,9 +466,8 @@ div#accordion{position:relative;
 figcaption{max-width:250px;
 }
 .ok {
-	height: 900px;
+	height: 1000px;
 }
-#sg400{float:right;
-	display:inline;
-	padding-top:10px;
-	padding-left:20px;
+#sg400{position:relative;
+       
+}
