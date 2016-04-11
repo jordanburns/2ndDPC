@@ -474,6 +474,6 @@ div#accordion{position:relative;
 }
 figcaption{max-width:250px;
 }
-#ok {
+.ok {
 	height: 1000px;
 }
