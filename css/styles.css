@@ -468,6 +468,8 @@ figcaption{max-width:250px;
 .ok {
 	height: 1000px;
 }
-#sg400{position:relative;
+#sg400{position: relative;
+       top: -225px;
+       left: 150px;
        
 }
