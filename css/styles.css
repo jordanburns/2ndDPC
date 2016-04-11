@@ -396,11 +396,11 @@ h3{color:#0053A0;
         padding-bottom:60px;
 }
 #autoimage {position: relative;
-        top:0 px;
+        top:300px;
         left: 275px;
         margin-left: 8%;
         margin-right: 8%;
-        padding-bottom:60px;
+        padding-bottom:200px;
 }
 
 #scep{position:relative;
@@ -485,4 +485,10 @@ figure#ks-400 {
     position: relative;
     top: -675px;
     left: 520px;
+}
+figure#mb100 {
+    position: relative;
+    top: -900px;
+    left: 700px;
+    max-width: 150px;
 }
