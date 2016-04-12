@@ -26,7 +26,7 @@ position: relative;
   border-radius: 5px 5px 0 0;
   -moz-border-radius: 5px 5px 0 0;
   -webkit-border-radius: 5px 5px 0 0;
-  background: #ffffff;
+  background: #e4e4e4;
   background: -moz-linear-gradient(top, #ffffff 0%, #ffffff 100%);
   background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #ffffff), color-stop(100%, #ffffff));
   background: -webkit-linear-gradient(top, #ffffff 0%, #ffffff 100%);
