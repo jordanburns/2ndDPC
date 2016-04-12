@@ -480,3 +480,39 @@ div#accordion{position:relative;
  	font-size: 20px;
  }
  
+div#dp-400 {
+    position: relative;
+    left: 250px;
+}
+#sg400 {
+    position: relative;
+    top: -225px;
+    right: 250px;
+    float: right;
+}
+div#ws309 {
+    position: relative;
+    left: 250px;
+    padding-top: 20px;
+}
+div#ks-400 {
+    position: relative;
+    float: right;
+    right: 240px;
+    padding-top: 20px;
+    top: -240px;
+}
+div#mb100 {
+    max-width: 150px;
+    position: relative;
+    left: 250px;
+    padding-top: 20px;
+}
+div#wi100 {
+    max-width: 150px;
+    float: right;
+    top: -285px;
+    right: 250px;
+    position: relative;
+    padding-top: 20px;
+}
