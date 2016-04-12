@@ -227,6 +227,7 @@ position: relative;
 }
 img.slideshow {
   position: absolute;
+  text-align: center;
   transition: opacity .5s ease-in;
   top: 250px;
   width:900px;
@@ -490,7 +491,7 @@ figure#wi100 {
 }
 #qpic {
 	padding-top: 20%;
-	max-height: 1400px;
-	max-width:1000px;
+	max-height: 800px;
+	max-width:500px;
 }  
  
