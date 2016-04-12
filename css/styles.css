@@ -453,8 +453,6 @@ div#accordion{position:relative;
 }
 .bottom{padding-bottom:15px;
 }
-figcaption{max-width:250px;
-}
 .ok {
 	height: 1000px;
 }
@@ -466,32 +464,10 @@ figcaption{max-width:250px;
 #inin {
 	padding-top: 40%;
 }
-figure#ws309 {
-    position: relative;
-    top: -115px;
-    left: 320px;
-}
-figure#ks-400 {
-    position: relative;
-    top: -180px;
-    left: 520px;
-}
-figure#mb100 {
-    position: relative;
-    top: -246px;
-    left: 700px;
-    max-width: 150px;
-}
-figure#wi100 {
-    top: -1167px;
-    position: relative;
-    left: 875px;
-    max-width: 150px;
-}
 .qpic {
-	padding-top: 11%;
-	max-height: 1500px;
-	max-width: 1100px;
+	padding-top: 13%;
+	max-height: 1400px;
+	max-width: 1000px;
 }  
  
  
