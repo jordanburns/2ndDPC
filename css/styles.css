@@ -330,6 +330,10 @@ height: 100%;
 	
 }
 #collage{position:relative;
+	 left:700px;
+	 margin-left:30px;
+	 width:400px;
+	 top:-530px;
 	 
 }
 #pck{width:400px;
