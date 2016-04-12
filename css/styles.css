@@ -330,8 +330,6 @@ height: 100%;
 	
 }
 #collage{position:relative;
-	 left:325px;
-	 top:-200px;
 	 
 }
 #pck{width:400px;
@@ -340,7 +338,8 @@ height: 100%;
 }     
 #pqt{
      position:relative;
-
+     left:325px;
+     top:-200px;
      
 }
 h3{color:#0053A0;
