@@ -215,8 +215,10 @@ position: relative;
          
          
 }
-#slideshow{background-color:#gray;
+#slideshow{color:#d7d7d7;
            width:100%;
+           top: 10%;
+           bottom: 10%;
 }
 
 
@@ -468,7 +470,6 @@ div#accordion{position:relative;
 	padding-top: 13%;
 	max-height: 1400px;
 	max-width: 1000px;
-	padding-left: 100px;
 }  
  
  
