@@ -489,5 +489,7 @@ figure#wi100 {
     max-width: 150px;
 }
 #qpic {
-	padding-top: 500px;
+	padding-top: 20%;
+	max-height: 800px;
+	max-width:500px;
 } 
