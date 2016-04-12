@@ -540,3 +540,16 @@ div#cm-500 {
     top: -350px;
     padding-top: 0px;
 }
+div#hd-100 {
+    position: relative;
+    left: 250px;
+    max-width: 150px;
+}
+div#fi-100 {
+    float: right;
+    position: relative;
+    max-width: 150px;
+    right: 230px;
+    padding-top: 20px;
+    top: -283px;
+}
