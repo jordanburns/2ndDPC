@@ -515,3 +515,28 @@ div#wi100 {
     position: relative;
     padding-top: 20px;
 }
+div#el-500 {
+    position: relative;
+    left: 250px;
+    max-width: 150px;
+}
+div#pr-500 {
+    float: right;
+    position: relative;
+    right: 250px;
+    top: -295px;
+    max-width: 150px;
+}
+div#md-500 {
+    max-width: 150px;
+    position: relative;
+    padding-top: 40px;
+    left: 250px;
+}
+div#cm-500 {
+    float: right;
+    right: 75px;
+    position: relative;
+    top: -350px;
+    padding-top: 0px;
+}
