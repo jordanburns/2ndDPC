@@ -227,12 +227,11 @@ position: relative;
 }
 img.slideshow {
   position: absolute;
-  text-align: center;
   transition: opacity .5s ease-in;
   top: 250px;
   width:900px;
   height:290px;
-  left:80px;
+  left:180px;
 
 }
 
