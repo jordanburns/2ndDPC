@@ -227,6 +227,7 @@ position: relative;
 }
 img.slideshow {
   position: absolute;
+  padding-left: 10%;
   transition: opacity .5s ease-in;
   top: 250px;
   width:900px;
@@ -465,42 +466,32 @@ figcaption{max-width:250px;
 }
 #inin {
 	padding-top: 40%;
-
+}
+figure#ws309 {
+    position: relative;
+    top: -115px;
+    left: 320px;
+}
+figure#ks-400 {
+    position: relative;
+    top: -180px;
+    left: 520px;
+}
+figure#mb100 {
+    position: relative;
+    top: -246px;
+    left: 700px;
+    max-width: 150px;
+}
+figure#wi100 {
+    top: -1167px;
+    position: relative;
+    left: 875px;
+    max-width: 150px;
 }
 #qpic {
-	padding-top: 500px;
-} 
-div#dp-400 {
-    position: relative;
-    left: 250px;
-}
-#sg400 {
-    position: relative;
-    top: -224px;
-    float: right;
-    right: 250px;
-}
-div#ws309 {
-    position: relative;
-    left: 250px;
-    top: 20px;
-}
-div#ks-400 {
-    position: relative;
-    float: right;
-    top: -204px;
-    right: 240px;
-}
-div#mb100 {
-    position: relative;
-    left: 250px;
-    top: 30px;
-    max-width: 150px;
-}
-div#wi100 {
-    position: relative;
-    float: right;
-    max-width: 150px;
-    right: 240px;
-    top: -227px;
-}
+	padding-top: 20%;
+	max-height: 800px;
+	max-width:500px;
+}  
+ 
