@@ -572,3 +572,6 @@ div#p {
     bottom: 400px;
     right: 215px;
 }
+.img-circle {
+    border-radius: 50%;
+}
