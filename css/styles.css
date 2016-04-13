@@ -227,6 +227,7 @@ position: relative;
        	font-family: Georgia,Times,'Times New Roman',serif; 
 }
 img.slideshow {
+  background-color: #d7d7d7;
   position: absolute;
   transition: opacity .5s ease-in;
   top: 250px;
