@@ -537,10 +537,11 @@ div#md-500 {
 }
 div#cm-500 {
     float: right;
-    right: 75px;
+    right: 250px;
     position: relative;
     top: -350px;
     padding-top: 0px;
+    max-width:150px;
 }
 div#hd-100 {
     position: relative;
