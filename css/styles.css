@@ -226,7 +226,14 @@ position: relative;
 .body {height: 100%;
        	font-family: Georgia,Times,'Times New Roman',serif; 
 }
-
+img.slideshow {
+  background-color: #d7d7d7;
+  position: absolute;
+  transition: opacity .5s ease-in;
+  top: 250px;
+  width:900px;
+  height:290px;
+  left:200px;
 
 }
 
@@ -255,6 +262,7 @@ img.slideshow + img.slideshow {
       left:-100px;
       float:right;
       top:25px;
+      max-height: 600px;
 }
 h2{color:#990000;
    position:relative;
