@@ -520,6 +520,7 @@ div#el-500 {
     position: relative;
     left: 250px;
     max-width: 150px;
+    padding-top:10px;
 }
 div#pr-500 {
     float: right;
