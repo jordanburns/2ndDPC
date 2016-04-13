@@ -546,6 +546,7 @@ div#hd-100 {
     position: relative;
     left: 250px;
     max-width: 150px;
+    padding-top:10px;
 }
 div#fi-100 {
     float: right;
