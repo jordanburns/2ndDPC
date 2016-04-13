@@ -342,6 +342,8 @@ height: 100%;
 }     
 #pqt{
      position:relative;
+     left:325px;
+     top:-200px;
      
 }
 h3{color:#0053A0;
@@ -389,7 +391,7 @@ h3{color:#0053A0;
         left: 275px;
         margin-left: 8%;
         margin-right: 8%;
-        padding-bottom:200px;
+        padding-bottom: 500px;
 }
 
 #scep{position:relative;
