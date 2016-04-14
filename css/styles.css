@@ -586,7 +586,9 @@ div#p {
 }
 div#contact {
     position: relative;
-    top: 600px;
+    top: -300px;
+    color: #F0F0F0;
+    background-color: #666666;
 }
 img.icon {
     width: 25px;
