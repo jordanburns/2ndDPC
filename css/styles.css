@@ -584,3 +584,11 @@ div#p {
 	  width: 100%;
 	  position: absolute;
 }
+div#contact {
+    position: relative;
+    top: 600px;
+}
+img.icon {
+    width: 25px;
+    height: 25px;
+}
