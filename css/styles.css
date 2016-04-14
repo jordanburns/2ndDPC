@@ -582,4 +582,5 @@ div#p {
 #graybox {margin-top: 50%;
 	  height: 100px;
 	  width: 100%;
+	  position: absolute;
 }
