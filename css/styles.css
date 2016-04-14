@@ -43,7 +43,7 @@ position: relative;
   padding: 10px;
   
    
-}
+} 
 .cssmenu:after,
 .cssmenu ul:after {
   content: '';
@@ -370,13 +370,12 @@ h3{color:#0053A0;
         margin-right: 8%;
         padding-bottom:60px; 
 } 
-#autoh {
-    position: relative;
-    top: 90px;
-    left: -120px;
-    margin-left: 8%;
-    margin-right: 8%;
-    padding-bottom: 60px;
+#autoh {position: relative;
+        top: 125px;
+        left: 100px;
+        margin-left: 8%;
+        margin-right: 8%;
+        padding-bottom:60px; 
 }
 #auto2 {
     position: relative;
@@ -385,12 +384,12 @@ h3{color:#0053A0;
     margin-right: 8%;
     padding-bottom: 60px;
 }
-#autoimage {
-    position: relative;
-    top: -275px;
-    left: 275px;
-    margin-left: 8%;
-    margin-right: 8%;
+#autoimage {position: relative;
+        top:200px;
+        left: 275px;
+        margin-left: 8%;
+        margin-right: 8%;
+        
 }
 
 #scep{position:relative;
@@ -457,14 +456,15 @@ div#accordion{position:relative;
 	height: 1000px;
 }
 #inin {
-	top: 40%;
+	padding-top: 40%;
+	padding-bottom: 40%;
 }
 .qpic {
 	padding-top: 13%;
 	max-height: 1400px;
 	max-width: 1000px;
 	padding-left: 1%;
-}  
+}   
 
  #swag {
  	color: #990000;
@@ -576,6 +576,3 @@ div#p {
 .img-circle {
     border-radius: 50%;
 }
-
-
-#graybox {top: 25%;}
