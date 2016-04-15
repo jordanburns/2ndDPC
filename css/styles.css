@@ -468,14 +468,19 @@ div#accordion{position:relative;
 	padding-left: 1%;
 }   
 
- #swag {
- 	color: #990000;
- 	font-size: 20px;
- 	padding-left:35%;
- }
+ h3#lol {
+    position: relative;
+    top: -500px;
+    left: 900px;
+}
  #yolo {
- 	padding-left: 15%;
- }
+    padding-left: 15%;
+    position: relative;
+    top: -450px;
+    max-width: 300px;
+    left: 700px;
+    color: #990000;
+}
  
 div#dp-400 {
     position: relative;
@@ -583,7 +588,6 @@ div#p {
 	  height: 100px;
 	  width: 100%;
 	  position: absolute;
-	  float: clear;
 }
 div#contact {
     position: relative;
