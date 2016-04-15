@@ -584,11 +584,13 @@ div#p {
     border-radius: 50%;
 }
 
-#graybox {margin-top: 50%;
+#graybox {margin-top: 30%;
+	  padding-top: 0%;
 	  height: 100px;
 	  width: 100%;
 	  position: absolute;
 	  clear: left;
+	  background-color: #d7d7d7;
 }
 div#contact {
     position: relative;
