@@ -613,3 +613,15 @@ p#rrr {
     top: -500px;
     left: 850px;
 }
+p#rrr {
+    max-width: 300px;
+    position: relative;
+    top: -500px;
+    left: 850px;
+    color: #2E2E2E;
+}
+img#recycle {
+    position: relative;
+    top: -500px;
+    left: 920px;
+}
