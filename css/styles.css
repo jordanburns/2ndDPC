@@ -472,13 +472,13 @@ div#accordion{position:relative;
     top: -500px;
     left: 900px;
 }
- #yolo {
+#yolo {
     padding-left: 15%;
     position: relative;
     top: -450px;
     max-width: 300px;
     left: 700px;
-    color: #990000;
+    color: #2E2E2E;
 }
  
 div#dp-400 {
