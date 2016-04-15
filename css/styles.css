@@ -588,6 +588,7 @@ div#p {
 	  height: 100px;
 	  width: 100%;
 	  position: absolute;
+	  clear: left;
 }
 div#contact {
     position: relative;
