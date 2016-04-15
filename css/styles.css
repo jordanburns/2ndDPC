@@ -356,12 +356,12 @@ h3{color:#0053A0;
 }
 #f {
 	  height:60px;
-	  width:100%;
+	  width:120%;
 	  text-align: center;
 	 color: #FFFFFF;
 	 background-color: #0053A0;
 	 font-style: bold;
-	 margin-right: -72px;
+	 margin-left: -72px;
 
 }
 #auto {
