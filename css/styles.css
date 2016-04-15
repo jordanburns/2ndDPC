@@ -599,3 +599,6 @@ img.icon {
 	padding-top:8%;
 	position:static;
 }
+#eps {
+	position: relative;
+}
