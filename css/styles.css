@@ -597,4 +597,5 @@ img.icon {
 }
 #epp {
 	padding-top:8%;
+	position:static;
 }
