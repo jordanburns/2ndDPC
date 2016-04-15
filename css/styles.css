@@ -462,12 +462,11 @@ div#accordion{position:relative;
 	padding-bottom: 400px;
 }
 .qpic {
-	padding-top: 13%;
-	max-height: 1400px;
-	max-width: 1000px;
-	padding-left: 1%;
-}   
-
+    padding-top: 13%;
+    max-height: 1300px;
+    max-width: 800px;
+    padding-left: 1%;
+}
  h3#lol {
     position: relative;
     top: -500px;
