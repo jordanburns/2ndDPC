@@ -356,7 +356,7 @@ h3{color:#0053A0;
 }
 #f {
 	  height:60px;
-	  width:115%;
+	  width:120%;
 	  text-align: center;
 	 color: #FFFFFF;
 	 background-color: #0053A0;
@@ -606,4 +606,10 @@ img.icon {
 #epp {
 	padding-top:8%;
 	position:static;
+}
+p#rrr {
+    max-width: 300px;
+    position: relative;
+    top: -500px;
+    left: 850px;
 }
