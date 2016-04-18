@@ -621,5 +621,11 @@ img#recycle {
 	margin-top: 30%;
     	margin-left: 40%;
     	font-family: "Comic Sans MS", cursive, sans-serif;
-    	padding:10px;
+}
+footer {
+    text-align: center;
+    background-color: #003366;
+    color: #E8E8E8;
+    padding-top: 3px;
+    padding-bottom: 3px;
 }
