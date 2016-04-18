@@ -315,6 +315,8 @@ h2{color:#990000;
                 
 body {background-color: #ffffff;
 height: 100%;
+	margin-left: 72px;
+	margin-right: 72px;
 	margin-top: 5px;
 	margin-bottom: 5px;
 }
@@ -616,5 +618,6 @@ img#recycle {
 .uc {
 	font-size: 30px;
 	border-width: 10px;
-	margin-top:40%;
+	margin-top: 30%;
+    	margin-left: 40%;
 }
