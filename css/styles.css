@@ -615,3 +615,8 @@ img#recycle {
     top: -500px;
     left: 920px;
 }
+.uc {
+	font-size: 30px;
+	border-width: 10px;
+	margin-top:40%;
+}
