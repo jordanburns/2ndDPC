@@ -598,3 +598,11 @@ li.autolist {
     margin-top: 15px;
     margin-bottom: 15px;
 }
+img#equipment {
+    float: right;
+    right: 50px;
+    position: relative;
+    bottom: 300px;
+    height: 400px;
+    width: 400px;
+}
