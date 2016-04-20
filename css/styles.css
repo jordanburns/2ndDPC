@@ -646,3 +646,6 @@ footer.left{clear:left;
 }
 footer.leftcon{clear:left; margin-top: 70%;
 }
+#indexfooter {
+	margin-top:100%;
+}
