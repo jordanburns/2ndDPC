@@ -13,197 +13,140 @@
         position: relative;
         margin:40px 0px 40px 15px;
 }
-.cssmenu ul,
-.cssmenu li,
-.cssmenu span,
-.cssmenu a {
-margin: 0;
-padding: 0;
-position: relative;
+header {
+	background: #fff;
+	width: 100%;
+	height: 76px;
+	position: fixed;
+	top: 0;
+	left: 0;
+	border-bottom: 4px solid #4C9CF1;
+	z-index: 100;
 }
 
-.cssmenu {
-  line-height: 1;
-  border-radius: 5px 5px 0 0;
-  -moz-border-radius: 5px 5px 0 0;
-  -webkit-border-radius: 5px 5px 0 0;
-  background: #e4e4e4;
-  background: -moz-linear-gradient(top, #ffffff 0%, #ffffff 100%);
-  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #ffffff), color-stop(100%, #ffffff));
-  background: -webkit-linear-gradient(top, #ffffff 0%, #ffffff 100%);
-  background: -o-linear-gradient(top, #ffffff 0%, #ffffff 100%);
-  background: -ms-linear-gradient(top, #ffffff 0%, #ffffff 100%);
-  background: linear-gradient(to bottom, #ffffff 0%, #ffffff 100%);
-  border-bottom: 2px solid #db000b;
-  width: 100%;
-  clear: left;
-  position:absolute;
-  padding-right:0px;
-  left:0;
-  padding-top: 20px;
-  padding: 10px;
-  
-   
-} 
-.cssmenu:after,
-.cssmenu ul:after {
-  content: '';
-  display: block;
-  clear: both;
+#logo {
+	margin: 0;
+	float: left;
+	width: 50px;
+	height: 75px;
+	background: url(https://jordanburns.github.io/2ndDPC/images/logo2.gif) center no-repeat;
+	display: block;
 }
-.cssmenu a {
-  background: #ffffff;
-  background: -moz-linear-gradient(top, #ffffff 0%, #ffffff 100%);
-  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #ffffff), color-stop(100%, #ffffff));
-  background: -webkit-linear-gradient(top, #ffffff 0%, #ffffff 100%);
-  background: -o-linear-gradient(top, #ffffff 0%, #ffffff 100%);
-  background: -ms-linear-gradient(top, #ffffff 0%, #ffffff 100%);
-  background: linear-gradient(to bottom, #ffffff 0%, #ffffff 100%);
-  color: #ffffff;
-  display: block;
-  font-family: Helvetica, Arial, Verdana, sans-serif;
-  /* padding is for width and height of navigation bar*/
-  padding: 19px 38px;
-  text-decoration: none;
-  
- 
+
+body {
+	font-size: 1.05em;
+	line-height: 1.25em;
+	font-family: Helvetica Neue,Helvetica,Arial;
+	color: #0053A0;
 }
-.cssmenu ul {
-  list-style: none;
+
+a {
+	color: #0053A0;
+	text-decoration: none;
+	font-weight: 700;
 }
-.cssmenu > ul > li {
-  display: inline-block;
-  float: left;
-  margin: 0;
-  width:14.2%;
+
+a:hover {
+	color: #444;
 }
-.cssmenu.align-center {
-  text-align: center;
+
+nav {
+	text-align: center;
+	padding: 20px;
+	float: right;
 }
-.cssmenu.align-center > ul > li {
-  float: none;
-}
-.cssmenu.align-center ul ul {
-  text-align: left;
-}
-.cssmenu.align-left > ul {
-  float: left;
-}
-.cssmenu.align-left ul ul {
-  text-align: left;
-}
-.cssmenu > ul > li > a {
-  color: #000000;
-  font-size: 12px;
-}
-.cssmenu > ul > li:hover:after {
-  content: '';
-  display: block;
-  width: 0;
-  height: 0;
-  position: absolute;
-  left: 50%;
-  bottom: 0;
-  border-left: 10px solid transparent;
-  border-right: 10px solid transparent;
-  border-bottom: 10px solid #db000b;
-  margin-left: -10px;
-}
-.cssmenu > ul > li:first-child > a {
-  border-radius: 5px 0 0 0;
-  -moz-border-radius: 5px 0 0 0;
-  -webkit-border-radius: 5px 0 0 0;
-}
-.cssmenu.align-right > ul > li:first-child > a,
-.cssmenu.align-center > ul > li:first-child > a {
-  border-radius: 0;
-  -moz-border-radius: 0;
-  -webkit-border-radius: 0;
-}
-.cssmenu.align-right > ul > li:last-child > a {
-  border-radius: 0 5px 0 0;
-  -moz-border-radius: 0 5px 0 0;
-  -webkit-border-radius: 0 5px 0 0;
-}
-.cssmenu > ul > li.active > a,
-.cssmenu > ul > li:hover > a {
-  color: #000000;
-  box-shadow: inset 0 0 3px #d9d9d9;
-  -moz-box-shadow: inset 0 0 3px #d9d9d9;
-  -webkit-box-shadow: inset 0 0 3px #d9d9d9;
-  background: #f2f2f2;
-  background: -moz-linear-gradient(top, #ffffff 0%, #f2f2f2 100%);
-  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #ffffff), color-stop(100%, #f2f2f2));
-  background: -webkit-linear-gradient(top, #ffffff 0%, #f2f2f2 100%);
-  background: -o-linear-gradient(top, #ffffff 0%, #f2f2f2 100%);
-  background: -ms-linear-gradient(top, #ffffff 0%, #f2f2f2 100%);
-  background: linear-gradient(to bottom, #ffffff 0%, #f2f2f2 100%);
-}
-.cssmenu .has-sub {
-  z-index: 1;
-}
+
 .cssmenu .has-sub:hover > ul {
-  display: block;
-}
-.cssmenu .has-sub ul {
-  display: none;
-  position: absolute;
-  width: 100%;
-  left: 0;
-}
-.cssmenu.align-right .has-sub ul {
-  left: auto;
-  right: 0;
-}
-.cssmenu .has-sub ul li {
-  *margin-bottom: -1px;
-}
-.cssmenu .has-sub ul li a {
-  background: #db000b;
-  border-bottom: 1px dotted #ff0f1b;
-  font-size: 11px;
-  filter: none;
-  display: block;
-  line-height: 120%;
-   /* padding is for width and height of dropdowns in nav bar*/
-  padding: 10px 15px;
-  color: #ffffff;
-}
-.cssmenu .has-sub ul li:hover a {
-  background: #a80008;
-}
-.cssmenu ul ul li:hover > a {
-  color: #ffffff;
-}
-.cssmenu .has-sub .has-sub:hover > ul {
-  display: block;
-}
-.cssmenu .has-sub .has-sub ul {
-  display: none;
-  position: absolute;
-  left: 100%;
-  top: 0;
-}
-.cssmenu.align-right .has-sub .has-sub ul,
-.cssmenu.align-right ul ul ul {
-  left: auto;
-  right: 100%;
-}
-.cssmenu .has-sub .has-sub ul li a {
-  background: #a80008;
-  border-bottom: 1px dotted #ff0f1b;
-}
-.cssmenu .has-sub .has-sub ul li a:db000b {
-  background: #8f0007;
-}
-.cssmenu ul ul li.last > a,
-.cssmenu ul ul li:last-child > a,
-.cssmenu ul ul ul li.last > a,
-.cssmenu ul ul ul li:last-child > a,
-.cssmenu .has-sub ul li:last-child > a,
-.cssmenu .has-sub ul li.last > a {border-bottom: 0;
+	display: block;
 }
 
+.cssmenu .has-sub ul {
+	display: none;
+	position: absolute;
+}
+
+.cssmenu .has-sub ul li {
+	display: block;
+	width: 100px;
+	padding: 0;
+	clear: left;
+}
+
+.cssmenu .has-sub ul li a {
+	background: #db000b;
+	border-bottom: 1px #ff0f1b;
+	font-size: 11px;
+	filter: ;
+	display: block;
+	line-height: 120%;
+	padding: 10px 15px;
+	color: #fff;
+	right: 300px;
+}
+
+.cssmenu .has-sub ul li:hover a {
+	background: #a80008;
+}
+
+#menu-icon {
+	width: 40px;
+	height: 40px;
+	background: url(../img/menu-icon.png) center #0053a0;
+}
+
+a:hover#menu-icon {
+	background-color: #444;
+	border-radius: 4px 4px 0 0;
+}
+
+li {
+	display: block;
+	float: left;
+	padding: 10px;
+}
+
+/*MEDIA QUERY*/
+@media only screen and (max-width : 800px) {
+
+	header {
+
+		position: absolute;
+
+	}
+
+	#menu-icon {
+
+		display:inline-block;
+
+	}
+
+	nav ul, nav:active ul { 
+
+		display: none;
+		position: absolute;
+		padding: 20px;
+		background: #fff;
+		border: 5px solid #444;
+		right: 20px;
+		top: 60px;
+		border-radius: 4px 0 4px 4px;
+
+	}
+
+	nav li {
+
+		text-align: center;
+		width: 100%;
+		padding: 10px 0;
+		margin: 0;
+
+	}
+
+	nav:hover ul {
+
+		display: block;
+
+	}
 #contactpara {position: absolute;
                 left: 8%;
                 top: 25%;
