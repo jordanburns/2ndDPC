@@ -642,3 +642,6 @@ footer {
 }
 footer.right{float:right;
 }
+.ok {
+	height: 1000px;
+}
