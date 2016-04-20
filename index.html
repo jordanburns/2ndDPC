@@ -5,6 +5,19 @@
     <title>Diversified Plastics Company</title>
     <link href="css/styles.css" media="screen" rel="stylesheet" type="text/css">
    
+    <script>
+    var current = 0,
+    slides = document.getElementsByClassName("slideshow");
+    setInterval(function() {
+    for (var i = 0; i < slides.length; i++) {
+    slides[i].style.opacity = 0;
+    }
+    current = (current != slides.length - 1) ? current + 1 : 0;
+    slides[current].style.opacity = 1;
+    }, 3000);
+    </script>
+
+   
 </head>
 <body class="body">
     <div>
@@ -60,6 +73,19 @@
             </li>
         </ul>
     </div>
+    
+     <div id="slideshow"><img class="slideshow" src="images/Logo.jpg">
+    <img class="slideshow" src="images/Equipment.jpg"> <img class="slideshow"
+    src="images/trucks2.jpg"> <img class="slideshow" src=
+    "images/Pic.of.Business.jpg"> <img class="slideshow" src=
+    "images/Parts.jpg"> <img class="slideshow" src="images/parts3.jpg">
+    <img class="slideshow" src="images/Factory2.jpg"> <img class="slideshow"
+    src="images/Factory.jpg"> <img class="slideshow" src="images/factory4.jpg">
+    <img class="slideshow" src="images/parts5.jpg"> <img class="slideshow" src=
+    "images/tour.jpg"> <img class="slideshow" src="images/tour2.jpg">
+    <img class="slideshow" src="images/tour3.jpg"> <img class="slideshow" src=
+    "images/tour4.jpg"></div>
+
     
   <div id="graybox"><div id="grayboxtext"> <p>Diversified Plastics Corporation is a custom molder of all types of plastics, from expandable foam co-polymers to injection grade plastics. DPC was founded in 1969 and has been in continuous operation ever since.</p>
 
