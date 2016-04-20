@@ -470,7 +470,15 @@ div#accordion{position:relative;
     left: 700px;
     color: #2E2E2E;
 }
- 
+.earth {
+    padding-left: 15%;
+    position: relative;
+    top: -450px;
+    max-width: 300px;
+    left: 700px;
+    color: #2E2E2E;
+
+}
 div#dp-400 {
     position: relative;
     left: 250px;
