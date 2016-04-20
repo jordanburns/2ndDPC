@@ -93,7 +93,7 @@ a:hover#menu-icon {
 	border-radius: 4px 4px 0 0;
 }
 
-li {
+.cssmenu li {
 	display: block;
 	float: left;
 	padding: 10px;
