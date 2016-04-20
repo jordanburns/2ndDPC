@@ -656,3 +656,7 @@ footer.leftcon{clear:left; margin-top: 60%;
     left: 100px;
     font-style: italic;
 }
+li.autolist {
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
