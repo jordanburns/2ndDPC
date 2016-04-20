@@ -585,6 +585,7 @@ div#p {
 	  position: absolute;
 	  clear: left;
 	  background-color: #d7d7d7;
+	  padding-bottom: 80px;
 }
 div#contact {
     position: relative;
@@ -635,4 +636,7 @@ footer {
 
 #grayboxtext {margin-left: 36px;
 	      margin-right: 36px;
+}
+.ok {
+	height: 1000px;
 }
