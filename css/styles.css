@@ -471,13 +471,16 @@ div#accordion{position:relative;
     color: #2E2E2E;
 }
 .earth {
-    padding-left: 15%;
+    padding-left: 25%;
     position: relative;
     top: -450px;
     max-width: 300px;
     left: 700px;
     color: #2E2E2E;
-
+}
+.earth::first-letter {
+	font-size: 30px;
+	color: #990000;
 }
 div#dp-400 {
     position: relative;
