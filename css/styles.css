@@ -630,3 +630,29 @@ footer.leftcon{clear:left; margin-top: 60%;
 #indexfooter {
 	margin-top:100%;
 }
+#autoimage {
+    position: relative;
+    top: 100px;
+    left: 75px;
+}
+#autoh {
+    float: right;
+    max-width: 350px;
+    position: relative;
+    bottom: 421px;
+    right: 50px;
+}
+#auto2 {
+    float: right;
+    max-width: 350px;
+    position: relative;
+    left: 300px;
+    bottom: 350px;
+}
+#auto {
+    clear: right;
+    position: relative;
+    bottom: 100px;
+    left: 100px;
+    font-style: italic;
+}
