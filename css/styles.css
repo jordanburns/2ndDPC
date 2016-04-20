@@ -632,7 +632,7 @@ footer {
     color: #E8E8E8;
     padding-top: 3px;
     padding-bottom: 3px;
-    margin-top: 70%;
+    
 }
 
 #grayboxtext {margin-left: 36px;
@@ -643,4 +643,6 @@ footer.right{clear:right;
 }
 
 footer.left{clear:left;
+}
+footer.leftcon{clear:left; margin-top: 70%;
 }
