@@ -52,6 +52,7 @@ nav {
 
 .cssmenu .has-sub:hover > ul {
 	display: block;
+	z-index: 15;
 }
 
 .cssmenu .has-sub ul {
@@ -123,6 +124,7 @@ li {
 		right: 20px;
 		top: 60px;
 		border-radius: 4px 0 4px 4px;
+		z-index:11;
 
 	}
 
