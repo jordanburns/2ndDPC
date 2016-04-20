@@ -640,8 +640,10 @@ footer {
 .ok {
 	height: 1000px;
 }
-footer.right{float:right;
+footer.right{clear:right;
 }
 .ok {
 	height: 1000px;
+}
+footer.left{clear:left;
 }
