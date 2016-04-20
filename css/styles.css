@@ -76,7 +76,6 @@ nav {
 	background: #db000b;
 	border-bottom: 1px #ff0f1b;
 	font-size: 11px;
-	filter: ;
 	display: block;
 	line-height: 120%;
 	padding: 10px 15px;
@@ -213,7 +212,6 @@ h2{color:#990000;
 
 }
 .mission{color:#0053A0;
-         font-family:  "Copperplate", "Copperplate Gothic Light","Balthazar-Regular" sans-serif;
          font-weight:bold;
          text-align:center;
 
