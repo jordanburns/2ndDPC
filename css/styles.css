@@ -618,3 +618,7 @@ div#about2 {
     padding-bottom: 8px;
     margin-bottom: 45px;
 }
+h2#info {
+    font-size: 26px;
+    text-align: left;
+}
