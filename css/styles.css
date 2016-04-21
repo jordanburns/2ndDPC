@@ -62,7 +62,7 @@ nav {
 
 .cssmenu .has-sub ul li {
 	display: block;
-	width: 120px;
+	width: 100px;
 	padding: 0;
 	clear: left;
 }
@@ -236,10 +236,12 @@ h2{color:#990000;
 #ccompimage {
         clear: right;
 }
-#bnft{position:relative;
-     top:100px;
-     width:350px;
-     margin-left:30px;
+#bnft {
+    position: relative;
+    top: 100px;
+    width: 350px;
+    margin-left: 30px;
+    padding-left: 25px;
 }
 .automotive { position: absolute;
                
@@ -268,8 +270,8 @@ body {background-color: #ffffff;
 }
 #collage {
     position: relative;
-    left: 550px;
-    width: 400px;
+    left: 650px;
+    width: 350px;
     top: -450px;
 }
 #pqt {
@@ -277,6 +279,7 @@ body {background-color: #ffffff;
     left: 25px;
     top: 250px;
     width: 500px;
+    padding-left: 25px;
 }
 h3{color:#0053A0;
 
@@ -285,8 +288,9 @@ h3{color:#0053A0;
  	    font-weight:bold;
  	    font-size:18px;
 }
-#pck{width:600px;
-     height:350px;
+#pck {
+    width: 500px;
+    height: 350px;
 }
 #stock{color:#CC0000;
        text-decoration:none;
@@ -489,9 +493,8 @@ div#p {
     font-style: italic;
     font-size: 16px;
     position: relative;
-    float: right;
     bottom: 400px;
-    right: 215px;
+    left: 675px;
 }
 .img-circle {
     border-radius: 50%;
