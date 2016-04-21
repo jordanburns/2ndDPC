@@ -625,4 +625,9 @@ h2#info {
     position: relative;
     top: 10px;
 }
-
+div#home {
+    position: relative;
+    top: 900px;
+    margin-left: 36px;
+    margin-right: 36px;
+}
