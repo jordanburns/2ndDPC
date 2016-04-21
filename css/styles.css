@@ -294,17 +294,7 @@ h3{color:#0053A0;
 a.link{color:#CC0000;
        text-decoration:none;
 }
-#auto {
-    
-}
-#autoh {
-    
-}
-#auto2 {
-   
-}
-#autoimage {
-}
+
 
 #scep{position:relative;
       text-align:center;
@@ -583,21 +573,22 @@ footer.leftcon{clear:left; margin-top: 60%;
     max-width: 350px;
     position: relative;
     bottom: 421px;
-    right: 50px;
+    right: 150px;
 }
 #auto2 {
     float: right;
-    max-width: 350px;
+    max-width: 450px;
     position: relative;
     left: 300px;
     bottom: 350px;
+    font-size: 16px;
 }
 #auto {
-    clear: right;
-    position: relative;
-    bottom: 100px;
-    left: 100px;
     font-style: italic;
+    float: right;
+    position: relative;
+    left: 600px;
+    bottom: 50px;
 }
 li.autolist {
     margin-top: 15px;
