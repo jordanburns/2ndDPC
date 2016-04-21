@@ -610,3 +610,11 @@ div#mats {
     margin-left: 50px;
     margin-right: 50px;
 }
+div#about2 {
+    text-align: center;
+    background: #d7d7d7;
+    width: 100%;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    margin-bottom: 45px;
+}
