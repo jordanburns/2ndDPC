@@ -542,11 +542,11 @@ img#recycle {
     left: 920px;
 }
 .uc {
-	font-size: 30px;
-	border-width: 10px;
-	margin-top: 30%;
-    	margin-left: 40%;
-    	font-family: 'Lobster Two', Helvetica, sans-serif;
+    position: relative;
+    width: 300px;
+    text-align: center;
+    top: 100px;
+    left: 475px;
 }
 footer {
     text-align: center;
