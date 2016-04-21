@@ -535,10 +535,9 @@ img#recycle {
 }
 .uc {
     position: relative;
-    width: 300px;
+    width: 100%;
     text-align: center;
     top: 100px;
-    left: 475px;
 }
 footer {
     text-align: center;
