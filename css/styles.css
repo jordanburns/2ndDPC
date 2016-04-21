@@ -645,3 +645,5 @@ div#positive {
     float: right;
     width: 700px;
 }
+div#acrostic li{list-style-type:none;
+}
