@@ -497,7 +497,7 @@ div#p {
     clear: left;
     background-color: #d7d7d7;
     padding-bottom: 80px;
-    top: 700px;
+    top: 800px;
 }
 div#contact {
     position: relative;
@@ -630,4 +630,18 @@ div#home {
     top: 900px;
     margin-left: 36px;
     margin-right: 36px;
+    clear: right;
+}
+div#acrostic {
+    position: relative;
+    top: 600px;
+    font-size: 30px;
+    background-color: white;
+    left: 100px;
+}
+div#positive {
+    position: relative;
+    top: 475px;
+    float: right;
+    width: 700px;
 }
