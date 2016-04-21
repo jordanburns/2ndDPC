@@ -380,13 +380,14 @@ div#accordion{position:relative;
     left: 900px;
 }
 #yolo {
-    padding-left: 15%;
+    padding-left: 150px;
     position: relative;
-    top: -450px;
+    top: -475px;
     max-width: 300px;
     left: 700px;
     color: #2E2E2E;
-} 
+    text-align: center;
+}
 .earth {
     padding-left: 17%;
     position: relative;
