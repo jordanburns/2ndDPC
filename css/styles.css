@@ -625,3 +625,7 @@ h2#info {
     position: relative;
     top: 10px;
 }
+
+body {
+  background: linear-gradient(black, white);
+}
