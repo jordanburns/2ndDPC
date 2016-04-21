@@ -269,7 +269,7 @@ body {background-color: #ffffff;
 }
 #collage {
     position: relative;
-    left: 650px;
+    left: 775px;
     width: 350px;
     top: -450px;
 }
@@ -494,7 +494,7 @@ div#p {
     font-size: 16px;
     position: relative;
     bottom: 400px;
-    left: 675px;
+    left: 800px;
 }
 .img-circle {
     border-radius: 50%;
