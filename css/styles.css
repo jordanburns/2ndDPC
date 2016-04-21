@@ -634,16 +634,23 @@ div#home {
 }
 div#acrostic {
     position: relative;
-    top: 600px;
+    top: 525px;
     font-size: 30px;
     background-color: white;
     left: 100px;
 }
 div#positive {
     position: relative;
-    top: 475px;
+    top: 400px;
     float: right;
     width: 700px;
 }
 div#acrostic li{list-style-type:none;
+}
+
+img#logohome {
+    position: relative;
+    top: 650px;
+    height: 100px;
+    left: 20px;
 }
