@@ -520,8 +520,10 @@ img.icon {
     padding-right: 10px;
 }
 #epp {
-	padding-top:8%;
 	position:static;
+}
+h2.odd {
+    top: -50px;
 }
 p#rrr {
     max-width: 300px;
