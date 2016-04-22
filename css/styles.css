@@ -720,3 +720,12 @@ div#new {
     left: 700px;
     bottom: 425px;
 }
+#graybox {
+   height: 100px;
+   width: 100%;
+   position: absolute;
+   clear: left;
+   background-color: #dfdfdf;
+   padding-bottom: 80px;
+   top:795px;
+}
