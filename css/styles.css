@@ -714,3 +714,7 @@ div#bluecorner {
     height: 45px;
     background: #4D6FAC;
 }
+div#hometext {
+    margin-left: 36px;
+    margin-right: 36px;
+}
