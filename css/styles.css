@@ -641,13 +641,12 @@ div#acrostic {
     top: 580px;
     font-size: 30px;
     background-color: white;
-    left: 100px;
 }
 div#positive {
     position: relative;
     top: 420px;
     float: right;
-    width: 700px;
+    width: 650px;
 }
 div#acrostic li{list-style-type:none;
 }
@@ -678,7 +677,7 @@ div#new {
 }
 
 .d {
-	padding-left: 0%;
+	margin-left: 0%;
 	
 }
 .d::first-letter {
@@ -686,14 +685,14 @@ div#new {
 	font-size: 40px;
 }
 .p {
-	padding-left: 10%;	
+	margin-left: 10%;	
 }
 .p::first-letter {
 	color: #990000;
 	font-size: 40px;
 }
 .c {
-	padding-left: 20%;	
+	margin-left: 20%;	
 }
 .c::first-letter {
 	color: #990000;
