@@ -665,14 +665,15 @@ div#new {
 }
 
 #grayhalf {
-   height: 45px;
-   border-radius: 0 0 90px 90px;
-   -moz-border-radius: 0 0 90px 90px;
-   -webkit-border-radius: 0 0 90px 90px;
-   background: #d7d7d7;
-   position: relative;
-   top: 775px;
-   background: #d7d7d7;
+    height: 45px;
+    border-radius: 0 0 90px 90px;
+    -moz-border-radius: 0 0 90px 90px;
+    -webkit-border-radius: 0 0 90px 90px;
+    background: #d7d7d7;
+    position: relative;
+    top: 775px;
+    background: #d7d7d7;
+    z-index: 1;
 }
 
 .d {
