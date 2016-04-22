@@ -276,8 +276,9 @@ h3{color:#0053A0;
     width: 500px;
     height: 350px;
 }
-a.link{color:#CC0000;
-       text-decoration:none;
+a.link {
+    color: #A80008;
+    text-decoration: underline;
 }
 
 
