@@ -630,7 +630,8 @@ div#home {
   position: relative;
    top: 735px;
    clear: right;
-   background: #104E8B;
+   background: #4D6FAC;
+   color: white;
    padding-top: 20px;
    padding-bottom: 20px;
 }
@@ -647,7 +648,6 @@ div#positive {
     top: 420px;
     float: right;
     width: 700px;
-    text-align: center;
 }
 div#acrostic li{list-style-type:none;
 }
