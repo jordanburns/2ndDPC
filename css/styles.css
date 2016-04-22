@@ -672,20 +672,24 @@ div#new {
     background: #d7d7d7;
 }
 .d {
-	padding-left: 0%;	
+	padding-left: 0%;
+	
 }
 .d::first-letter {
 	color: #990000;
+	font-size: 40px;
 }
 .p {
 	padding-left: 10%;	
 }
 .p::first-letter {
 	color: #990000;
+	font-size: 40px;
 }
 .c {
 	padding-left: 20%;	
 }
 .c::first-letter {
 	color: #990000;
+	font-size: 40px;
 }
