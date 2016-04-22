@@ -719,7 +719,7 @@ div#hometext {
     margin-right: 36px;
 }
 #indexcert {
-	padding-top: 90%;
+	position: relative;
 	margin-left: 72px;
 	margin-right: 72px;
 }
