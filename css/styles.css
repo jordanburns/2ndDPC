@@ -704,3 +704,11 @@ div#new {
 	padding-right: 15%;
 	
 }
+-div#home {
+	position: relative;  
+	top: 735px;
+ 	clear: right;
+  	background: #104E8B;
+        padding-top: 20px;
+        padding-bottom: 20px;
+}
