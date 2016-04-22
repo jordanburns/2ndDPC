@@ -560,7 +560,7 @@ footer.left{clear:left;
 footer.leftcon{clear:left; margin-top: 60%;
 }
 #indexfooter {
-	margin-top:100%;
+	margin-top:80%;
 }
 #autoimage {
     position: relative;
@@ -626,13 +626,15 @@ h2#info {
     top: 10px;
 }
 
-div#bluecorner {
-    height: 45px;
-    background: #104E8B;
-    position: absolute;
-    top: 980px;
-    width: 100%;
+div#home {
+  position: relative;
+   top: 735px;
+   clear: right;
+   background: #104E8B;
+   padding-top: 20px;
+   padding-bottom: 20px;
 }
+
 div#acrostic {
     position: relative;
     top: 580px;
@@ -663,15 +665,14 @@ div#new {
 }
 
 #grayhalf {
-    height: 25px;
-    border-radius: 0 0 90px 90px;
-    -moz-border-radius: 0 0 90px 90px;
-    -webkit-border-radius: 0 0 90px 90px;
-    background: #d7d7d7;
-    position: relative;
-    top: 775px;
-    z-index: 1;
-    background: #d7d7d7;
+   height: 45px;
+   border-radius: 0 0 90px 90px;
+   -moz-border-radius: 0 0 90px 90px;
+   -webkit-border-radius: 0 0 90px 90px;
+   background: #d7d7d7;
+   position: relative;
+   top: 775px;
+   background: #d7d7d7;
 }
 
 .d {
@@ -703,12 +704,4 @@ div#new {
 #twocol {
 	padding-right: 15%;
 	
-}
-div#home {
-	position: relative;  
-	top: 735px;
- 	clear: right;
-  	background: #104E8B;
-        padding-top: 20px;
-        padding-bottom: 20px;
 }
