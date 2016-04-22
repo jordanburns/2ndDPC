@@ -712,3 +712,9 @@ div#new {
     margin-right: 36px;
     text-align: center;
 }
+#twocol {
+    padding-right: 15%;
+    position: relative;
+    left: 700px;
+    bottom: 425px;
+}
