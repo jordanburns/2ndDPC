@@ -676,16 +676,19 @@ div#new {
 }
 .d::first-letter {
 	color: #990000;
+	font-size: 25px;
 }
 .p {
 	padding-left: 10%;	
 }
 .p::first-letter {
 	color: #990000;
+	font-size: 25px;
 }
 .c {
 	padding-left: 20%;	
 }
 .c::first-letter {
 	color: #990000;
+	font-size: 25px;
 }
