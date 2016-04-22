@@ -463,14 +463,16 @@ div#fi-100 {
     border-radius: 50%;
 }
 
-#graybox {
-    height: 100px;
-    width: 100%;
-    position: absolute;
-    clear: left;
-    background-color: #dfdfdf;
-    padding-bottom: 80px;
-    top:795px;
+#grayhalf {
+    height: 45px;
+    border-radius: 0 0 90px 90px;
+    -moz-border-radius: 0 0 90px 90px;
+    -webkit-border-radius: 0 0 90px 90px;
+    background: #dfdfdf;
+    position: relative;
+    top: 775px;
+    background: #dfdfdf;
+    z-index: 1;
 }
 div#contact {
     position: relative;
