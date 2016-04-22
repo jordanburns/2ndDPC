@@ -628,7 +628,7 @@ h2#info {
 
 div#home {
   position: relative;
-   top: 755px;
+   top: 750px;
    clear: right;
    background: #104E8B;
    padding-top: 20px;
@@ -637,7 +637,7 @@ div#home {
 
 div#acrostic {
     position: relative;
-    top: 590px;
+    top: 580px;
     font-size: 30px;
     background-color: white;
     left: 100px;
@@ -671,7 +671,7 @@ div#new {
    -webkit-border-radius: 0 0 90px 90px;
    background: #d7d7d7;
    position: relative;
-   top: 800px;
+   top: 795px;
    background: #d7d7d7;
 }
 
