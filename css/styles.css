@@ -668,11 +668,11 @@ div#new {
      background:#d7d7d7;
 }
 #d {
-	padding-left: 15%;	
+	padding-left: -15%;	
 }
 #p {
-	padding-left: 25%;	
+	padding-left: -5%;	
 }
 #c {
-	padding-left: 35%;	
+	padding-left: 5%;	
 }
