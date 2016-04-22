@@ -654,3 +654,9 @@ img#logohome {
     height: 100px;
     left: 20px;
 }
+div#new {
+    position: relative;
+    bottom: 200px;
+    margin-left: 40px;
+    margin-right: 40px;
+}
