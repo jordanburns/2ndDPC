@@ -671,21 +671,21 @@ div#new {
     top: 705px;
     background: #d7d7d7;
 }
-#d {
+.d {
 	padding-left: 0%;	
 }
-#d::first-letter {
+.d::first-letter {
 	color: #990000;
 }
-#p {
+.p {
 	padding-left: 10%;	
 }
-#p::first-letter {
+.p::first-letter {
 	color: #990000;
 }
-#c {
+.c {
 	padding-left: 20%;	
 }
-#c::first-letter {
+.c::first-letter {
 	color: #990000;
 }
