@@ -705,3 +705,10 @@ div#new {
 	padding-right: 15%;
 	
 }
+div#bluecorner {
+    position: relative;
+    top: 735px;
+    width: 100%;
+    height: 45px;
+    background: #104E8B;
+}
