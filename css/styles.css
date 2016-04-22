@@ -628,7 +628,7 @@ h2#info {
 
 div#home {
   position: relative;
-   top: 750px;
+   top: 735px;
    clear: right;
    background: #104E8B;
    padding-top: 20px;
@@ -671,7 +671,7 @@ div#new {
    -webkit-border-radius: 0 0 90px 90px;
    background: #d7d7d7;
    position: relative;
-   top: 795px;
+   top: 780px;
    background: #d7d7d7;
 }
 
