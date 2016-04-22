@@ -634,7 +634,7 @@ div#home {
 }
 div#acrostic {
     position: relative;
-    top: 525px;
+    top: 555px;
     font-size: 30px;
     background-color: white;
     left: 100px;
@@ -666,4 +666,13 @@ div#new {
      -moz-border-radius: 0 0 90px 90px;
      -webkit-border-radius: 0 0 90px 90px;
      background:#d7d7d7;
+}
+#d {
+	
+}
+#p {
+	
+}
+#c {
+	
 }
