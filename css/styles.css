@@ -670,9 +670,18 @@ div#new {
 #d {
 	padding-left: 0%;	
 }
+#d::firstletter{
+	color: #990000;
+}
 #p {
 	padding-left: 10%;	
 }
+#p::firstletter{
+	color: #990000;
+}
 #c {
 	padding-left: 20%;	
+}
+#c::firstletter{
+	color: #990000;
 }
