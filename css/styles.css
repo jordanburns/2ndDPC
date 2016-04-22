@@ -674,18 +674,18 @@ div#new {
 #d {
 	padding-left: 0%;	
 }
-.d::first-letter {
+#d::first-letter {
 	color: #990000;
 }
 #p {
 	padding-left: 10%;	
 }
-.p::first-letter {
+#p::first-letter {
 	color: #990000;
 }
 #c {
 	padding-left: 20%;	
 }
-.c::first-letter {
+#c::first-letter {
 	color: #990000;
 }
