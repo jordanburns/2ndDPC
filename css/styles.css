@@ -739,5 +739,7 @@ div#new {
    top:795px;
 }
 
-div#onecol {border: solid black;}
+div#bnft {border: solid black;
+	    padding: 1.5%;
+}
 
