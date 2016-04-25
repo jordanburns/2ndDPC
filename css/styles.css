@@ -571,7 +571,7 @@ footer.leftcon{clear:left; margin-top: 60%;
     float: right;
     position: relative;
     left: 600px;
-    bottom: 20px;
+    bottom: -40px;
 }
 li.autolist {
     margin-top: 15px;
