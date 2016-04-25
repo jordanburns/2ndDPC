@@ -546,6 +546,8 @@ footer.leftcon{clear:left; margin-top: 60%;
     position: relative;
     top: 100px;
     left: 75px;
+    width: 35%;
+    height: auto;
 }
 #autoh {
     float: right;
