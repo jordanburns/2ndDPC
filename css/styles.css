@@ -739,7 +739,8 @@ div#new {
    top:795px;
 }
 
-div#bnft {border: solid black;
+div#bnft {border: solid;
 	    padding: 1.5%;
+	    border-color: #990000;
 }
 
