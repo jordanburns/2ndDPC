@@ -546,8 +546,10 @@ footer.leftcon{clear:left; margin-top: 60%;
     position: relative;
     top: 100px;
     left: 75px;
-    width: 35%;
-    height: auto;
+   
+}
+#autoimagee {
+	width: 40%;
 }
 #autoh {
     float: right;
