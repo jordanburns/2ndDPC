@@ -736,3 +736,15 @@ div#bnft {border: solid;
 	text-align: center;
 	
 }
+
+#bluehalf {
+    height: 45px;
+    border-radius: 0 0 90px 90px;
+    -moz-border-radius: 0 0 90px 90px;
+    -webkit-border-radius: 0 0 90px 90px;
+    background: #dfdfdf;
+    position: relative;
+    top: 900px;
+    background: #dfdfdf;
+    z-index: 1;
+}
