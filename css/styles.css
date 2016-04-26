@@ -684,8 +684,10 @@ img#logohome {
 	
 }
 #twocol {
-	padding-right: 15%;
-	
+    padding-right: 15%;
+    position: relative;
+    left: 700px;
+    bottom: 550px;
 }
 div#bluecorner {
     position: relative;
