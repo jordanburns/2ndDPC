@@ -481,7 +481,8 @@ div#contact {
     position: relative;
     top: 630px;
     background-color: #E8E8E8;
-    padding-bottom: -60px;
+    margin-bottom: 0px;
+    padding-bottom: 25px;
 }
 img.icon {
     width: 25px;
