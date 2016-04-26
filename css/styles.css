@@ -759,4 +759,6 @@ div#ecp {
     padding-bottom: 3%;
 }
 
-#fullfactory {top: 400px;}
+#fullfactory {top: 400px;
+	position: relative;
+}
