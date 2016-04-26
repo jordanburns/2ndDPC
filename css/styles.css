@@ -763,6 +763,8 @@ div#ecp {
 
 #fullfactory {top: 400px;
 	position: relative;
+	height: 400px
+	width: 500px;
 }
 p.info {
     position: relative;
