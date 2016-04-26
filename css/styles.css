@@ -475,6 +475,7 @@ div#contact {
     position: relative;
     top: 630px;
     background-color: #E8E8E8;
+    padding-bottom: -60px;
 }
 img.icon {
     width: 25px;
