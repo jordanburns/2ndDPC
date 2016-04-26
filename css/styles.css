@@ -324,6 +324,7 @@ button.accordion {
     height:65px;
     border-width:1px;
     border-color:#696969;
+    max-height: 400px;
 }
 
 /* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
