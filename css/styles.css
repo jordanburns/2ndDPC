@@ -164,7 +164,8 @@ a:hover#menu-icon {
 }
 
 
-
+div#slideshow figure img { width: 20%; float: left; }
+}
 .body {height: 100%;
        	font-family: Georgia,Times,'Times New Roman',serif; 
 }
