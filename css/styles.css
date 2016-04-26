@@ -679,16 +679,6 @@ img#logohome {
 	color: #990000;
 	font-size: 40px;
 }
-#onecol {
-	margin-left: 5%;
-	
-}
-#twocol {
-    padding-right: 15%;
-    position: relative;
-    left: 700px;
-    bottom: 550px;
-}
 div#bluecorner {
     position: relative;
     top: 425px;
@@ -731,8 +721,9 @@ div#new {
     padding-right: 15%;
     position: relative;
     left: 700px;
-    bottom: 425px;
+    bottom: 550px;
 }
+
 #graybox {
    height: 100px;
    width: 100%;
