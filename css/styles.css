@@ -471,17 +471,6 @@ div#fi-100 {
     border-radius: 50%;
 }
 
-#grayhalf {
-    height: 45px;
-    border-radius: 0 0 90px 90px;
-    -moz-border-radius: 0 0 90px 90px;
-    -webkit-border-radius: 0 0 90px 90px;
-    background: #dfdfdf;
-    position: relative;
-    top: 780px;
-    background: #dfdfdf;
-    z-index: 1;
-}
 div#contact {
     position: relative;
     top: 630px;
@@ -652,7 +641,7 @@ img#logohome {
     -webkit-border-radius: 0 0 90px 90px;
     background: #dfdfdf;
     position: relative;
-    top: 625px;
+    top: 780px;
     background: #dfdfdf;
     z-index: 1;
 }
