@@ -746,5 +746,6 @@ div#new {
 div#bnft {border: solid;
 	    padding: 1.5%;
 	    border-color: #990000;
+	    border-style:double;
 }
 
