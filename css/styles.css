@@ -337,6 +337,7 @@ div.panel {
     padding: 0 18px;
     background-color: white;
     display: none;
+    max-height: 800px;
 }
 
 /* The "show" class is added to the accordion panel when the user clicks on one of the buttons. This will show the panel content */
@@ -581,7 +582,7 @@ li.autolist {
 }
 
 footer#stockfooter {
-    margin-top: 700px;
+    margin-top: 100%;
 }
 footer#undercons {
     margin-top: 45%;
