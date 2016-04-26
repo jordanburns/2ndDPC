@@ -686,12 +686,10 @@ div#hometext {
 }
 #indexcert {
     position: relative;
-    margin-left: 72px;
-    margin-right: 72px;
-    top: 800px;
+    top: 1200px;
     text-align: center;
-    padding-top:30px;
-    padding-bottom:80px;
+    padding-top: 30px;
+    padding-bottom: 80px;
 }
 #onecol {
     margin-left: 5%;
@@ -740,10 +738,10 @@ div#bnft {border: solid;
 	padding-bottom: 1%;
 }
 
-#blurb {top: 550px;
-	position: relative;
-	text-align: center;
-	
+#blurb {
+    top: 200px;
+    position: relative;
+    text-align: center;
 }
 
 #bluehalf {
