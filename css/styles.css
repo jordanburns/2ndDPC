@@ -682,7 +682,7 @@ div#hometext {
     top: 700px;
     text-align: center;
     padding-top:30px;
-    padding-bottom:30px;
+    padding-bottom:80px;
 }
 #onecol {
     margin-left: 5%;
@@ -730,6 +730,8 @@ div#bnft {border: solid;
 	padding-bottom: 1%;
 }
 
-#blurb {top: 500px;
+#blurb {top: 550px;
 	position: relative;
+	text-align: center;
+	
 }
