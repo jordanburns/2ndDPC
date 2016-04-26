@@ -313,7 +313,7 @@ a.link {
 /* Style the buttons that are used to open and close the accordion panel */
 button.accordion {
     background-color:#89cff0 ;
-    color:#d3d3d3;
+    color:#000000;
     cursor: pointer;
     padding: 18px;
     width: 100%;
