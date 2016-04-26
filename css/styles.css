@@ -525,10 +525,13 @@ footer {
 	      margin-right: 36px;
 }
 
-footer.right{clear:right;
+footer.right {
+    clear: right;
+    margin-top: -200px;
 }
 
 footer.left{clear:left;
+	  margin-top: -200px;
 }
 footer.leftcon{clear:left; margin-top: 60%;
 }
