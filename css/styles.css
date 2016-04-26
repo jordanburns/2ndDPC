@@ -319,7 +319,8 @@ button.accordion {
     width: 100%;
     transition: 0.4s;
     text-align:center;
-    font-size:16px;
+    font-size:25px;
+    font-weight: bold;
     text-decoration:underline;
     height:65px;
     border-width:1px;
