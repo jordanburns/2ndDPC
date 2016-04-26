@@ -615,14 +615,13 @@ h2#info {
 
 div#home {
     position: relative;
-    top: 550px;
+    top: 390px;
     clear: right;
     background: #4D71A3;
     color: white;
     padding-top: 20px;
     padding-bottom: 20px;
 }
-
 div#acrostic {
     position: relative;
     top: 580px;
@@ -717,7 +716,7 @@ div#hometext {
 }
 div#p {
     font-style: italic;
-    margin-top: 50px;
+    margin-top: 30px;
 }
 div#new {
     position: relative;
