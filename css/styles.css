@@ -686,7 +686,7 @@ div#hometext {
 }
 #indexcert {
     position: relative;
-    top: 1200px;
+    top: 1300px;
     text-align: center;
     padding-top: 30px;
     padding-bottom: 80px;
@@ -742,9 +742,14 @@ div#bnft {border: solid;
 }
 
 #blurb {
-    top: 200px;
+    top: 100px;
     position: relative;
     text-align: center;
+}
+div#indeximg {
+    width: 500px;
+    height: 400px;
+    margin: 0 auto;
 }
 
 #bluehalf {
