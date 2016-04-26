@@ -155,6 +155,17 @@ a:hover#menu-icon {
          width:50%;
          
 }
+@media screen and (max-width: 1260px) {
+	#slideshow {
+		display: none;
+		}	
+}
+@media screen and (min-width: 1560px) {
+	#slideshow {
+		display: none;
+		}	
+
+
 #slideshow{background-color:#d7d7d7;
            width:100%;
            height: 25%;
