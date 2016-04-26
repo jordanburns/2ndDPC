@@ -330,7 +330,7 @@ button.accordion {
 
 /* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
 button.accordion.active, button.accordion:hover {
-    background-color: #2fabe4;
+    background-color: #990000;
     outline:0;
 }
 
