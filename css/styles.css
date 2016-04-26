@@ -766,10 +766,11 @@ div#ecp {
     padding-bottom: 3%;
 }
 
-#fullfactory {top: 400px;
-	position: relative;
-	height: 400px;
-	width: 500px;
+#fullfactory {
+    top: 650px;
+    position: relative;
+    height: 400px;
+    width: 500px;
 }
 p.info {
     position: relative;
