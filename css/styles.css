@@ -739,4 +739,6 @@ div#bnft {border: solid;
 	    border-color: #990000;
 	    border-style:double;
 }
-
+#materials {
+	padding-bottom: 40px;
+}
