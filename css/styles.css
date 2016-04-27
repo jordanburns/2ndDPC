@@ -1,343 +1,356 @@
 /* #0053A0 blue, #990000 red, #666666 gray, #89cff0 lane's fav color */
-#logo {width: 75px;
-	margin-left: 36px;
-        float:left;
-   
-        
+#logo {
+    width: 75px;
+    margin-left: 36px;
+    float: left;
 }
-#title{ font-family:"Palatino Linotype", "Book Antiqua", Palatino, serif;
-        font-size:25px;
-        font-weight:bold;
-        text-align:left;
-        display:inline-block;
-        position: relative;
-        margin:40px 0px 40px 15px;
+
+#title {
+    font-family: "Palatino Linotype","Book Antiqua",Palatino,serif;
+    font-size: 25px;
+    font-weight: 700;
+    text-align: left;
+    display: inline-block;
+    position: relative;
+    margin: 40px 0 40px 15px;
 }
+
 header {
-	background: #fff;
-	width: 100%;
-	height: 76px;
-	position: fixed;
-	top: 0;
-	left: 0;
-	border-bottom: 4px solid #4C9CF1;
-	z-index: 100;
+    background: #fff;
+    width: 100%;
+    height: 76px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    border-bottom: 4px solid #4C9CF1;
+    z-index: 100;
 }
 
 #logo {
-	margin: 0;
-	float: left;
-	width: 50px;
-	height: 75px;
-	background: url(https://jordanburns.github.io/2ndDPC/images/logo2.gif) center no-repeat;
-	display: block;
+    margin: 0;
+    float: left;
+    width: 50px;
+    height: 75px;
+    background: url(https://jordanburns.github.io/2ndDPC/images/logo2.gif) center no-repeat;
+    display: block;
 }
 
-
 a {
-	color: #0053A0;
-	text-decoration: none;
-	font-weight: 700;
+    color: #0053A0;
+    text-decoration: none;
+    font-weight: 700;
 }
 
 a:hover {
-	color: #444;
+    color: #444;
 }
 
 nav {
-	text-align: center;
-	padding: 20px;
-	float: right;
+    text-align: center;
+    padding: 20px;
+    float: right;
 }
 
 .cssmenu .has-sub:hover > ul {
-	display: block;
-	z-index: 15;
+    display: block;
+    z-index: 15;
 }
 
 .cssmenu .has-sub ul {
-	display: none;
-	position: absolute;
-	padding:0px;
+    display: none;
+    position: absolute;
+    padding: 0;
 }
 
 .cssmenu .has-sub ul li {
-	display: block;
-	width: 120px;
-	padding: 0;
-	clear: left;
+    display: block;
+    width: 120px;
+    padding: 0;
+    clear: left;
 }
 
 .cssmenu .has-sub ul li a {
-	background: #db000b;
-	border-bottom: 1px #ff0f1b;
-	font-size: 11px;
-	display: block;
-	line-height: 120%;
-	padding: 10px 15px;
-	color: #fff;
-	right: 300px;
+    background: #db000b;
+    border-bottom: 1px #ff0f1b;
+    font-size: 11px;
+    display: block;
+    line-height: 120%;
+    padding: 10px 15px;
+    color: #fff;
+    right: 300px;
 }
 
 .cssmenu .has-sub ul li:hover a {
-	background: #a80008;
+    background: #a80008;
 }
 
 #menu-icon {
-	width: 40px;
-	height: 40px;
-	background: url(../img/menu-icon.png) center #0053a0;
+    width: 40px;
+    height: 40px;
+    background: url(../img/menu-icon.png) center #0053a0;
 }
 
 a:hover#menu-icon {
-	background-color: #444;
-	border-radius: 4px 4px 0 0;
+    background-color: #444;
+    border-radius: 4px 4px 0 0;
 }
 
 .cssmenu li {
-	display: block;
-	float: left;
-	padding: 10px;
+    display: block;
+    float: left;
+    padding: 10px;
 }
 
 /*MEDIA QUERY*/
 @media only screen and (max-width : 800px) {
+    header {
+        position: absolute;
+    }
 
-	header {
+    #menu-icon {
+        display: inline-block;
+    }
 
-		position: absolute;
+    nav ul,nav:active ul {
+        display: none;
+        position: absolute;
+        padding: 20px;
+        background: #fff;
+        border: 5px solid #444;
+        right: 20px;
+        top: 60px;
+        border-radius: 4px 0 4px 4px;
+        z-index: 11;
+    }
 
-	}
+    nav li {
+        text-align: center;
+        width: 100%;
+        padding: 10px 0;
+        margin: 0;
+    }
 
-	#menu-icon {
-
-		display:inline-block;
-
-	}
-
-	nav ul, nav:active ul { 
-
-		display: none;
-		position: absolute;
-		padding: 20px;
-		background: #fff;
-		border: 5px solid #444;
-		right: 20px;
-		top: 60px;
-		border-radius: 4px 0 4px 4px;
-		z-index:11;
-
-	}
-
-	nav li {
-
-		text-align: center;
-		width: 100%;
-		padding: 10px 0;
-		margin: 0;
-
-	}
-
-	nav:hover ul {
-
-		display: block;
-
-	}
-}
-#contactpara {position: absolute;
-                left: 8%;
-                top: 25%;
-}
-#myPhoto{position:absolute;
-         top:250px;
-         left:25%;
-         right:25%;
-         width:50%;
-         
+    nav:hover ul {
+        display: block;
+    }
 }
 
-
-
-#slideshow{background-color:#d7d7d7;
-           width:100%;
-           height: 25%;
+#contactpara {
+    position: absolute;
+    left: 8%;
+    top: 25%;
 }
 
-
-
-.body {height: 100%;
-       	font-family: Georgia,Times,'Times New Roman',serif; 
+#myPhoto {
+    position: absolute;
+    top: 250px;
+    left: 25%;
+    right: 25%;
+    width: 50%;
 }
+
+#slideshow {
+    background-color: #d7d7d7;
+    width: 100%;
+    height: 25%;
+}
+
+.body {
+    height: 100%;
+    font-family: Georgia,Times,'Times New Roman',serif;
+}
+
 img.slideshow {
-  background-color: #d7d7d7;
-  position: absolute;
-  transition: opacity .5s ease-in;
-  top: 80px;
-  width:100%;
-  height:500px;
-
+    background-color: #d7d7d7;
+    position: absolute;
+    transition: opacity .5s ease-in;
+    top: 80px;
+    width: 100%;
+    height: 500px;
 }
 
 img.slideshow + img.slideshow {
-  opacity: 0;
+    opacity: 0;
 }
 
-#map{top:100px;
-     left:50px;
-     position:relative;
-     width:40%;
-     float:left;
-     height:250px;
+#map {
+    top: 100px;
+    left: 50px;
+    position: relative;
+    width: 40%;
+    float: left;
+    height: 250px;
 }
 
 #content {
-        position: relative;
-        top: 100px;
-        margin-left: 8%;
-        margin-right: 8%;
-        padding-bottom:150px;  
-       max-height: 1000px;
+    position: relative;
+    top: 100px;
+    margin-left: 8%;
+    margin-right: 8%;
+    padding-bottom: 150px;
+    max-height: 1000px;
 }
 
-#form{position:relative;
-      left:-100px;
-      float:right;
-      top:97px;
-      max-height: 600px;
+#form {
+    position: relative;
+    left: -100px;
+    float: right;
+    top: 97px;
+    max-height: 600px;
 }
-h2{color:#990000;
-   position:relative;
-   top:75px;
-   text-align:center;
-   font-size:36px;
 
+h2 {
+    color: #900;
+    position: relative;
+    top: 75px;
+    text-align: center;
+    font-size: 36px;
 }
-#mission{color:#0053A0;
-         font-weight:bold;
-         text-align:center;
 
+#mission {
+    color: #0053A0;
+    font-weight: 700;
+    text-align: center;
 }
+
 #mission2 {
-	color:#0053A0;
-         font-weight:bold;
-         text-align:center;
-         padding-bottom: 40px;
+    color: #0053A0;
+    font-weight: 700;
+    text-align: center;
+    padding-bottom: 40px;
 }
 
-#google_translate_element {position: absolute;
-                           top: 50px;
-                           right: 95px;
-                           }
-#aheading {position:relative;
-    top:75px;
-    text-align:center;
+#google_translate_element {
+    position: absolute;
+    top: 50px;
+    right: 95px;
 }
 
-#automotive {  position: relative;
-        top: 100px;
-        margin-left: 8%;
-        margin-right: 8%;
-        padding-bottom:60px;  }
+#aheading {
+    position: relative;
+    top: 75px;
+    text-align: center;
+}
+
+#automotive {
+    position: relative;
+    top: 100px;
+    margin-left: 8%;
+    margin-right: 8%;
+    padding-bottom: 60px;
+}
+
 #ccompcontent {
-        margin: 70px;
-        padding-top: 30px;
-        padding-bottom: 0;
-}
-#ccompimage {
-        clear: right;
-}
-.automotive { position: absolute;
-               
-               
-}
-#automotive {  position: relative;
-        top: 100px;
-        margin-left: 8%;
-        margin-right: 8%;
-        padding-bottom:60px; 
-}
-                
-body {background-color: #ffffff;
-	height: 100%;
-	margin: 0px;
-	font-family: Georgia,Times,'Times New Roman',serif;
-	font-size:18px;
+    margin: 70px;
+    padding-top: 30px;
+    padding-bottom: 0;
 }
 
+#ccompimage {
+    clear: right;
+}
+
+.automotive {
+    position: absolute;
+}
+
+#automotive {
+    position: relative;
+    top: 100px;
+    margin-left: 8%;
+    margin-right: 8%;
+    padding-bottom: 60px;
+}
+
+body {
+    background-color: #fff;
+    height: 100%;
+    margin: 0;
+    font-family: Georgia,Times,'Times New Roman',serif;
+    font-size: 18px;
+}
 
 #main {
-	background-color: #FFFFFF;
-	margin-right: 10px;
-	margin-left: 10px;
-	background-position: center center;
-	
+    background-color: #FFF;
+    margin-right: 10px;
+    margin-left: 10px;
+    background-position: center center;
 }
 
-h3{color:#0053A0;
-   font-size:24px;
+h3 {
+    color: #0053A0;
+    font-size: 24px;
+}
 
+#paquete li {
+    padding: 1em 0;
+    font-weight: 700;
+    font-size: 18px;
 }
-#paquete li{padding:1em 0;
- 	    font-weight:bold;
- 	    font-size:18px;
-}
+
 #pck {
     width: 500px;
     height: 350px;
 }
+
 a.link {
     color: #A80008;
     text-decoration: underline;
 }
 
-
-#scep{position:relative;
-      text-align:center;
-      top:100px;
-      
-}
-.stock{float:left;
-       position:relative;
-       top:125px;
-}
-.stock2{float:left;
-}
-#row1{position:relative;
-}
-#row2{position:relative;
-      float:left;
-      display:inline-flex;
+#scep {
+    position: relative;
+    text-align: center;
+    top: 100px;
 }
 
+.stock {
+    float: left;
+    position: relative;
+    top: 125px;
+}
+
+.stock2 {
+    float: left;
+}
+
+#row1 {
+    position: relative;
+}
+
+#row2 {
+    position: relative;
+    float: left;
+    display: inline-flex;
+}
 
 /* Style the buttons that are used to open and close the accordion panel */
 button.accordion {
     background-color: #0053A0;
-    color:#ffffff;
+    color: #fff;
     cursor: pointer;
     padding: 18px;
     width: 100%;
-    transition: 0.4s;
-    text-align:center;
-    font-size:20px;
-    font-weight: bold;
-    text-decoration:underline;
-    height:65px;
-    border-width:1px;
-    border-color:#696969;
-    
+    transition: .4s;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 700;
+    text-decoration: underline;
+    height: 65px;
+    border-width: 1px;
+    border-color: #696969;
 }
 
 /* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
-button.accordion.active, button.accordion:hover {
-    background-color: #990000;
-    outline:0;
+button.accordion.active,button.accordion:hover {
+    background-color: #900;
+    outline: 0;
 }
 
 /* Style the accordion panel. Note: hidden by default */
 div.panel {
     padding: 0 18px;
-    background-color: white;
+    background-color: #fff;
     display: none;
     max-height: 800px;
 }
@@ -346,13 +359,19 @@ div.panel {
 div.panel.show {
     display: block !important;
 }
-div#accordion{position:relative;
-	      top:100px;
+
+div#accordion {
+    position: relative;
+    top: 100px;
 }
-.top{padding-top:15px;
-     left:100px;
+
+.top {
+    padding-top: 15px;
+    left: 100px;
 }
-.bottom{padding-bottom:15px;
+
+.bottom {
+    padding-bottom: 15px;
 }
 
 .qpic {
@@ -361,11 +380,13 @@ div#accordion{position:relative;
     max-width: 800px;
     padding-left: 1%;
 }
- h3#lol {
+
+h3#lol {
     position: relative;
     top: -500px;
     left: 900px;
 }
+
 #yolo {
     padding-left: 150px;
     position: relative;
@@ -375,6 +396,7 @@ div#accordion{position:relative;
     color: #2E2E2E;
     text-align: center;
 }
+
 .earth {
     padding-left: 17%;
     position: relative;
@@ -383,26 +405,31 @@ div#accordion{position:relative;
     left: 700px;
     color: #2E2E2E;
 }
+
 .earth::first-letter {
-	font-size: 20px;
-	color: #990000;
+    font-size: 20px;
+    color: #900;
 }
+
 div#dp-400 {
     position: relative;
     left: 250px;
-    padding-top:10px;
+    padding-top: 10px;
 }
+
 #sg400 {
     position: relative;
     top: -225px;
     right: 250px;
     float: right;
 }
+
 div#ws309 {
     position: relative;
     left: 250px;
     padding-top: 20px;
 }
+
 div#ks-400 {
     position: relative;
     float: right;
@@ -410,12 +437,14 @@ div#ks-400 {
     padding-top: 20px;
     top: -240px;
 }
+
 div#mb100 {
     max-width: 150px;
     position: relative;
     left: 250px;
     padding-top: 20px;
 }
+
 div#wi100 {
     max-width: 150px;
     float: right;
@@ -424,12 +453,14 @@ div#wi100 {
     position: relative;
     padding-top: 20px;
 }
+
 div#el-500 {
     position: relative;
     left: 250px;
     max-width: 150px;
-    padding-top:10px;
+    padding-top: 10px;
 }
+
 div#pr-500 {
     float: right;
     position: relative;
@@ -437,26 +468,30 @@ div#pr-500 {
     top: -313px;
     max-width: 150px;
 }
+
 div#md-500 {
     max-width: 150px;
     position: relative;
     padding-top: 40px;
     left: 250px;
 }
+
 div#cm-500 {
     float: right;
     right: 250px;
     position: relative;
     top: -350px;
-    padding-top: 0px;
-    max-width:150px;
+    padding-top: 0;
+    max-width: 150px;
 }
+
 div#hd-100 {
     position: relative;
     left: 250px;
     max-width: 150px;
-    padding-top:10px;
+    padding-top: 10px;
 }
+
 div#fi-100 {
     float: right;
     position: relative;
@@ -465,17 +500,20 @@ div#fi-100 {
     padding-top: 20px;
     top: -283px;
 }
-.picbig{
-	position: absolute;
-	width:0px;
-	-webkit-transition:width 0.3s linear 0s;
-	transition:width 0.3s linear 0s;
-	z-index:10;
+
+.picbig {
+    position: absolute;
+    width: 0;
+    -webkit-transition: width .3s linear 0;
+    transition: width .3s linear 0;
+    z-index: 10;
 }
-.pic:hover + .picbig{
-	width:300px;
-	height:300px;
+
+.pic:hover + .picbig {
+    width: 300px;
+    height: 300px;
 }
+
 .img-circle {
     border-radius: 50%;
 }
@@ -486,23 +524,28 @@ div#contact {
     background-color: #E8E8E8;
     padding-bottom: 60px;
 }
+
 img.icon {
     width: 25px;
     height: 25px;
     padding-right: 10px;
 }
+
 #epp {
-	position:static;
+    position: static;
 }
+
 h2.odd {
     top: -40px;
 }
+
 p#rrr {
     max-width: 300px;
     position: relative;
     top: -500px;
     left: 850px;
 }
+
 p#rrr {
     max-width: 300px;
     position: relative;
@@ -510,28 +553,31 @@ p#rrr {
     left: 850px;
     color: #2E2E2E;
 }
+
 img#recycle {
     position: relative;
     top: -500px;
     left: 920px;
 }
+
 .uc {
     position: relative;
     width: 100%;
     text-align: center;
     top: 100px;
 }
+
 footer {
     text-align: center;
-    background-color: #003366;
+    background-color: #036;
     color: #E8E8E8;
     padding-top: 3px;
     padding-bottom: 3px;
-    
 }
 
-#grayboxtext {margin-left: 36px;
-	      margin-right: 36px;
+#grayboxtext {
+    margin-left: 36px;
+    margin-right: 36px;
 }
 
 footer.right {
@@ -539,23 +585,30 @@ footer.right {
     margin-top: -200px;
 }
 
-footer.left{clear:left;
-	  margin-top: -200px;
+footer.left {
+    clear: left;
+    margin-top: -200px;
 }
-footer.leftcon{clear:left; margin-top: 50%;
+
+footer.leftcon {
+    clear: left;
+    margin-top: 50%;
 }
+
 #indexfooter {
     margin-top: 800px;
 }
+
 #autoimage {
     position: relative;
     top: 150px;
     left: 75px;
-   
 }
+
 #autoimagee {
-	width: 50%;
+    width: 50%;
 }
+
 #autoh {
     float: right;
     max-width: 350px;
@@ -563,6 +616,7 @@ footer.leftcon{clear:left; margin-top: 50%;
     bottom: 330px;
     right: 135px;
 }
+
 #auto2 {
     float: right;
     max-width: 450px;
@@ -571,6 +625,7 @@ footer.leftcon{clear:left; margin-top: 50%;
     bottom: 250px;
     font-size: 16px;
 }
+
 #auto {
     font-style: italic;
     float: right;
@@ -578,6 +633,7 @@ footer.leftcon{clear:left; margin-top: 50%;
     left: 600px;
     bottom: -70px;
 }
+
 li.autolist {
     margin-top: 15px;
     margin-bottom: 15px;
@@ -586,19 +642,24 @@ li.autolist {
 footer#stockfooter {
     margin-top: 40%;
 }
+
 footer#undercons {
     margin-top: 45%;
 }
+
 div#df {
     top: 225px;
 }
+
 h2#weird {
     top: 200px;
 }
+
 div#mats {
     margin-left: 50px;
     margin-right: 50px;
 }
+
 div#about2 {
     text-align: center;
     background: #d7d7d7;
@@ -617,25 +678,29 @@ h2#info {
 div#home {
     position: relative;
     top: 663px;
-    clear:right;
+    clear: right;
     background: #4D71A3;
-    color: white;
+    color: #fff;
     padding-top: 60px;
     padding-bottom: 20px;
 }
+
 div#acrostic {
     position: relative;
     top: 580px;
     font-size: 30px;
-    background-color: white;
+    background-color: #fff;
 }
+
 div#positive {
     position: relative;
     top: 400px;
     float: right;
     width: 650px;
 }
-div#acrostic li{list-style-type:none;
+
+div#acrostic li {
+    list-style-type: none;
 }
 
 img#logohome {
@@ -644,7 +709,6 @@ img#logohome {
     height: 100px;
     left: 20px;
 }
-
 
 #grayhalf {
     height: 45px;
@@ -659,31 +723,37 @@ img#logohome {
 }
 
 .d {
-	margin-left: 0%;
-	
+    margin-left: 0;
 }
+
 .d::first-letter {
-	color: #990000;
-	font-size: 40px;
+    color: #900;
+    font-size: 40px;
 }
+
 .p {
-	margin-left: 10%;	
+    margin-left: 10%;
 }
+
 .p::first-letter {
-	color: #990000;
-	font-size: 40px;
+    color: #900;
+    font-size: 40px;
 }
+
 .c {
-	margin-left: 20%;	
+    margin-left: 20%;
 }
+
 .c::first-letter {
-	color: #990000;
-	font-size: 40px;
+    color: #900;
+    font-size: 40px;
 }
+
 div#hometext {
     margin-left: 36px;
     margin-right: 36px;
 }
+
 #indexcert {
     position: relative;
     top: 1300px;
@@ -692,22 +762,28 @@ div#hometext {
     padding-bottom: 80px;
     margin-right: 72px;
 }
-#indexcert2{margin-left:72px;
-	    margin-left:72px;
+
+#indexcert2 {
+    margin-left: 72px;
+    margin-left: 72px;
 }
+
 #onecol {
     margin-left: 5%;
     width: 500px;
     position: relative;
     top: 125px;
 }
+
 #pqt {
     padding-top: 10%;
 }
+
 div#p {
     font-style: italic;
     margin-top: 70px;
 }
+
 div#new {
     position: relative;
     bottom: 300px;
@@ -716,6 +792,7 @@ div#new {
     text-align: center;
     font-size: 20px;
 }
+
 #twocol {
     padding-right: 15%;
     position: relative;
@@ -724,22 +801,24 @@ div#new {
 }
 
 #graybox {
-   height: 100px;
-   width: 100%;
-   position: absolute;
-   clear: left;
-   background-color: #dfdfdf;
-   padding-bottom: 80px;
-   top:800px;
+    height: 100px;
+    width: 100%;
+    position: absolute;
+    clear: left;
+    background-color: #dfdfdf;
+    padding-bottom: 80px;
+    top: 800px;
 }
 
-div#bnft {border: solid;
-	    padding: 1.5%;
-	    border-color: #990000;
-	    border-style:double;
+div#bnft {
+    border: solid;
+    padding: 1.5%;
+    border-color: #900;
+    border-style: double;
 }
+
 .materials {
-	padding-bottom: 1%;
+    padding-bottom: 1%;
 }
 
 #blurb {
@@ -747,6 +826,7 @@ div#bnft {border: solid;
     position: relative;
     text-align: center;
 }
+
 div#indeximg {
     width: 500px;
     height: 400px;
@@ -763,6 +843,7 @@ div#indeximg {
     top: 655px;
     z-index: 1;
 }
+
 div#ecp {
     padding-bottom: 3%;
 }
@@ -773,6 +854,7 @@ div#ecp {
     height: 400px;
     width: 500px;
 }
+
 p.info {
     position: relative;
     left: 15px;
