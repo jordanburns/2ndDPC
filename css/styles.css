@@ -1,21 +1,5 @@
 /* #0053A0 blue, #990000 red, #666666 gray, #89cff0 lane's fav color */
-#logo {
-    width: 75px;
-    margin-left: 36px;
-    float: left;
-}
-
-#title {
-    font-family: "Palatino Linotype","Book Antiqua",Palatino,serif;
-    font-size: 25px;
-    font-weight: 700;
-    text-align: left;
-    display: inline-block;
-    position: relative;
-    margin: 40px 0 40px 15px;
-}
-
-header {
+header { /*The upper part of the web page, nav bar, logo, and line*/
     background: #fff;
     width: 100%;
     height: 76px;
@@ -26,7 +10,7 @@ header {
     z-index: 100;
 }
 
-#logo {
+#logo { /*The logo in the nav bar*/
     margin: 0;
     float: left;
     width: 50px;
@@ -35,17 +19,17 @@ header {
     display: block;
 }
 
-a {
+a { /* Any <a> in the website, unless set otherwise*/
     color: #0053A0;
     text-decoration: none;
     font-weight: 700;
 }
 
-a:hover {
+a:hover { /*When an <a> is hovered over, unless set otherwise*/
     color: #444;
 }
 
-nav {
+nav { /*The start of the nav bar styles*/
     text-align: center;
     padding: 20px;
     float: right;
@@ -134,32 +118,52 @@ a:hover#menu-icon {
         display: block;
     }
 }
-
-#contactpara {
-    position: absolute;
-    left: 8%;
-    top: 25%;
+body { /*default styles for the web page*/
+    background-color: #fff;
+    height: 100%;
+    margin: 0;
+    font-family: Georgia,Times,'Times New Roman',serif;
+    font-size: 18px;
+}
+h2 { /*the red headings at the tops of pages, default for the <h2> tag*/
+    color: #900;
+    position: relative;
+    top: 75px;
+    text-align: center;
+    font-size: 36px;
+}
+h3 { /*The blue headings at any point in the web page, default for the <h3> tag*/
+    color: #0053A0;
+    font-size: 24px;
 }
 
-#myPhoto {
-    position: absolute;
-    top: 250px;
-    left: 25%;
-    right: 25%;
-    width: 50%;
+a.link { /* red links, the preferred style of link in the pages. Use <a class="link" to apply */
+    color: #A80008;
+    text-decoration: underline;
+}
+footer { /*styles the footer at the bottom of the pages*/
+    text-align: center;
+    background-color: #036;
+    color: #E8E8E8;
+    padding-top: 3px;
+    padding-bottom: 3px;
+}
+footer.right { /* If the last item on the page is styled with float:right, add <footer class="right"> */
+    clear: right;
+    margin-top: -200px;
 }
 
-#slideshow {
+footer.left { /* If the last item on the page is styled with float:left, add <footer class="left"> */
+    clear: left;
+    margin-top: -200px;
+}
+
+/*Index Styles*/
+#slideshow { /*styles for the slideshow div*/
     background-color: #d7d7d7;
     width: 100%;
 }
-
-.body {
-    height: 100%;
-    font-family: Georgia,Times,'Times New Roman',serif;
-}
-
-img.slideshow {
+img.slideshow { /*styles the individual images in the slideshow*/
     background-color: #d7d7d7;
     position: absolute;
     transition: opacity .5s ease-in;
@@ -168,8 +172,54 @@ img.slideshow {
     max-height: 500px;
 }
 
-img.slideshow + img.slideshow {
+img.slideshow + img.slideshow { /*transition effect*/
     opacity: 0;
+}
+div#acrostic { /* Dependable, Professional, Creative container*/
+    position: relative;
+    top: 580px;
+    font-size: 30px;
+    background-color: #fff;
+}
+div#acrostic li { /*Deletes the bullet points on Acrostic*/
+    list-style-type: none;
+}
+.d { /*D in Dependable*/
+    margin-left: 0;
+}
+
+.d::first-letter { /*D in Dependable*/
+    color: #900;
+    font-size: 40px;
+} 
+.p { /* P in Professional*/
+    margin-left: 10%;
+}
+
+.p::first-letter { /* P in Professional*/
+    color: #900;
+    font-size: 40px;
+}
+
+.c { /*C in Creative*/
+    margin-left: 20%;
+}
+
+.c::first-letter { /*C in Creative*/
+    color: #900;
+    font-size: 40px;
+}
+div#positive { /*Paragraph next to the acrostic*/
+    position: relative;
+    top: 400px;
+    float: right;
+    width: 650px;
+}
+/*stopping point*/
+#contactpara {
+    position: absolute;
+    left: 8%;
+    top: 25%;
 }
 
 #map {
@@ -198,13 +248,7 @@ img.slideshow + img.slideshow {
     max-height: 600px;
 }
 
-h2 {
-    color: #900;
-    position: relative;
-    top: 75px;
-    text-align: center;
-    font-size: 36px;
-}
+
 
 #mission {
     color: #0053A0;
@@ -261,13 +305,7 @@ h2 {
     padding-bottom: 60px;
 }
 
-body {
-    background-color: #fff;
-    height: 100%;
-    margin: 0;
-    font-family: Georgia,Times,'Times New Roman',serif;
-    font-size: 18px;
-}
+
 
 #main {
     background-color: #FFF;
@@ -276,10 +314,6 @@ body {
     background-position: center center;
 }
 
-h3 {
-    color: #0053A0;
-    font-size: 24px;
-}
 
 #paquete li {
     padding: 1em 0;
@@ -292,10 +326,6 @@ h3 {
     height: 350px;
 }
 
-a.link {
-    color: #A80008;
-    text-decoration: underline;
-}
 
 #scep {
     position: relative;
@@ -566,28 +596,13 @@ img#recycle {
     top: 100px;
 }
 
-footer {
-    text-align: center;
-    background-color: #036;
-    color: #E8E8E8;
-    padding-top: 3px;
-    padding-bottom: 3px;
-}
+
 
 #grayboxtext {
     margin-left: 36px;
     margin-right: 36px;
 }
 
-footer.right {
-    clear: right;
-    margin-top: -200px;
-}
-
-footer.left {
-    clear: left;
-    margin-top: -200px;
-}
 
 footer.leftcon {
     clear: left;
@@ -684,23 +699,9 @@ div#home {
     padding-bottom: 20px;
 }
 
-div#acrostic {
-    position: relative;
-    top: 580px;
-    font-size: 30px;
-    background-color: #fff;
-}
 
-div#positive {
-    position: relative;
-    top: 400px;
-    float: right;
-    width: 650px;
-}
 
-div#acrostic li {
-    list-style-type: none;
-}
+
 
 img#logohome {
     position: relative;
@@ -721,32 +722,7 @@ img#logohome {
     z-index: 1;
 }
 
-.d {
-    margin-left: 0;
-}
 
-.d::first-letter {
-    color: #900;
-    font-size: 40px;
-}
-
-.p {
-    margin-left: 10%;
-}
-
-.p::first-letter {
-    color: #900;
-    font-size: 40px;
-}
-
-.c {
-    margin-left: 20%;
-}
-
-.c::first-letter {
-    color: #900;
-    font-size: 40px;
-}
 
 div#hometext {
     margin-left: 36px;
