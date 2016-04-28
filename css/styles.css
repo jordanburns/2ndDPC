@@ -296,9 +296,50 @@ div#indeximg { /*centers image of factory*/
 /*End of styles for index.html*/
 
 /*Beginning of Styles for packaging.html*/
-
+#onecol { /*positions the first column of text*/
+    margin-left: 5%;
+    width: 500px;
+    position: relative;
+    top: 125px;
+}
+div#bnft { /*stylizes the container for the large bulleted list*/
+    border: solid;
+    padding: 1.5%;
+    border-color: #900;
+    border-style: double;
+}
+#paquete li { /*makes the font bigger in the list*/
+    padding: 1em 0;
+    font-weight: 700;
+    font-size: 18px;
+}
+#pqt { /*adds space between the list border and the text*/
+    padding-top: 10%;
+}
+#twocol { /*positions the second column of an image and a caption*/
+    padding-right: 15%;
+    position: relative;
+    left: 700px;
+    bottom: 450px;
+}
+#pck { /*Sizes the collage of packaging items. Collage made in Photoshop, to change images in collage, download image and rasterize, then edit.*/ 
+    width: 500px;
+    height: 350px;
+}
+div#p { /*The caption for the image*/
+    font-style: italic;
+    margin-top: 70px;
+}
+div#new { /*The text under the two columns. */
+    position: relative;
+    bottom: 300px;
+    margin-left: 36px;
+    margin-right: 36px;
+    text-align: center;
+    font-size: 20px;
+}
+/*end of packaging.html styles*/
 /*start*/
-
 #contactpara {
     position: absolute;
     left: 8%;
@@ -396,19 +437,6 @@ div#indeximg { /*centers image of factory*/
     margin-left: 10px;
     background-position: center center;
 }
-
-
-#paquete li {
-    padding: 1em 0;
-    font-weight: 700;
-    font-size: 18px;
-}
-
-#pck {
-    width: 500px;
-    height: 350px;
-}
-
 
 #scep {
     position: relative;
@@ -521,96 +549,6 @@ h3#lol {
 .earth::first-letter {
     font-size: 20px;
     color: #900;
-}
-
-div#dp-400 {
-    position: relative;
-    left: 250px;
-    padding-top: 10px;
-}
-
-#sg400 {
-    position: relative;
-    top: -225px;
-    right: 250px;
-    float: right;
-}
-
-div#ws309 {
-    position: relative;
-    left: 250px;
-    padding-top: 20px;
-}
-
-div#ks-400 {
-    position: relative;
-    float: right;
-    right: 240px;
-    padding-top: 20px;
-    top: -240px;
-}
-
-div#mb100 {
-    max-width: 150px;
-    position: relative;
-    left: 250px;
-    padding-top: 20px;
-}
-
-div#wi100 {
-    max-width: 150px;
-    float: right;
-    top: -285px;
-    right: 250px;
-    position: relative;
-    padding-top: 20px;
-}
-
-div#el-500 {
-    position: relative;
-    left: 250px;
-    max-width: 150px;
-    padding-top: 10px;
-}
-
-div#pr-500 {
-    float: right;
-    position: relative;
-    right: 250px;
-    top: -313px;
-    max-width: 150px;
-}
-
-div#md-500 {
-    max-width: 150px;
-    position: relative;
-    padding-top: 40px;
-    left: 250px;
-}
-
-div#cm-500 {
-    float: right;
-    right: 250px;
-    position: relative;
-    top: -350px;
-    padding-top: 0;
-    max-width: 150px;
-}
-
-div#hd-100 {
-    position: relative;
-    left: 250px;
-    max-width: 150px;
-    padding-top: 10px;
-}
-
-div#fi-100 {
-    float: right;
-    position: relative;
-    max-width: 150px;
-    right: 230px;
-    padding-top: 20px;
-    top: -283px;
 }
 
 .picbig {
@@ -763,36 +701,6 @@ img#logohome {
     top: 650px;
     height: 100px;
     left: 20px;
-}
-#pqt {
-    padding-top: 10%;
-}
-
-div#p {
-    font-style: italic;
-    margin-top: 70px;
-}
-
-div#new {
-    position: relative;
-    bottom: 300px;
-    margin-left: 36px;
-    margin-right: 36px;
-    text-align: center;
-    font-size: 20px;
-}
-
-#twocol {
-    padding-right: 15%;
-    position: relative;
-    left: 700px;
-    bottom: 450px;
-}
-div#bnft {
-    border: solid;
-    padding: 1.5%;
-    border-color: #900;
-    border-style: double;
 }
 
 .materials {
