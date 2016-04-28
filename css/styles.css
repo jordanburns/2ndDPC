@@ -215,7 +215,54 @@ div#positive { /*Paragraph next to the acrostic*/
     float: right;
     width: 650px;
 }
-/*stopping point*/
+#graybox { /*The gray text area on the home page.*/
+    height: 100px;
+    width: 100%;
+    position: absolute;
+    clear: left;
+    background-color: #dfdfdf;
+    padding-bottom: 80px;
+    top: 800px;
+}
+#grayboxtext { /*Adds the left and right margin on text inside the gray box.*/
+    margin-left: 36px;
+    margin-right: 36px;
+}
+#grayhalf { /*Creates the gray rounded edge on the gray box*/
+    height: 45px;
+    border-radius: 0 0 90px 90px;
+    -moz-border-radius: 0 0 90px 90px; /*Vendor extension-even when validating do not delete*/
+    -webkit-border-radius: 0 0 90px 90px; /*Vendor extension-even when validating do not delete*/
+    background: #dfdfdf;
+    position: relative;
+    top: 780px;
+    background: #dfdfdf;
+    z-index: 1; /*Causes the gray half circle to overlap the blue div and be the primary object*/
+}
+div#home { /*This is the blue text area.*/
+    position: relative;
+    top: 663px;
+    clear: right;
+    background: #4D71A3;
+    color: #fff;
+    padding-top: 60px;
+    padding-bottom: 20px;
+}
+div#hometext {/*Creates the margin on text in blue div.*/
+    margin-left: 36px;
+    margin-right: 36px;
+}
+#bluehalf {/*The curved edge on the blue div.*/
+    height: 45px;
+    border-radius: 0 0 90px 90px;
+    -moz-border-radius: 0 0 90px 90px; /*Vendor extension-even when validating do not delete*/
+    -webkit-border-radius: 0 0 90px 90px; /*Vendor extension-even when validating do not delete*/
+    background: #4D71A3;
+    position: relative;
+    top: 655px;
+    z-index: 1; /*Causes the blue curves to overlap any elements not labeled with a z-index.*/
+}
+
 #contactpara {
     position: absolute;
     left: 8%;
@@ -596,14 +643,6 @@ img#recycle {
     top: 100px;
 }
 
-
-
-#grayboxtext {
-    margin-left: 36px;
-    margin-right: 36px;
-}
-
-
 footer.leftcon {
     clear: left;
     margin-top: 50%;
@@ -688,21 +727,6 @@ h2#info {
     position: relative;
     top: 10px;
 }
-
-div#home {
-    position: relative;
-    top: 663px;
-    clear: right;
-    background: #4D71A3;
-    color: #fff;
-    padding-top: 60px;
-    padding-bottom: 20px;
-}
-
-
-
-
-
 img#logohome {
     position: relative;
     top: 650px;
@@ -710,24 +734,7 @@ img#logohome {
     left: 20px;
 }
 
-#grayhalf {
-    height: 45px;
-    border-radius: 0 0 90px 90px;
-    -moz-border-radius: 0 0 90px 90px;
-    -webkit-border-radius: 0 0 90px 90px;
-    background: #dfdfdf;
-    position: relative;
-    top: 780px;
-    background: #dfdfdf;
-    z-index: 1;
-}
 
-
-
-div#hometext {
-    margin-left: 36px;
-    margin-right: 36px;
-}
 
 #indexcert {
     position: relative;
@@ -774,17 +781,6 @@ div#new {
     left: 700px;
     bottom: 450px;
 }
-
-#graybox {
-    height: 100px;
-    width: 100%;
-    position: absolute;
-    clear: left;
-    background-color: #dfdfdf;
-    padding-bottom: 80px;
-    top: 800px;
-}
-
 div#bnft {
     border: solid;
     padding: 1.5%;
@@ -807,18 +803,6 @@ div#indeximg {
     height: 400px;
     margin: 0 auto;
 }
-
-#bluehalf {
-    height: 45px;
-    border-radius: 0 0 90px 90px;
-    -moz-border-radius: 0 0 90px 90px;
-    -webkit-border-radius: 0 0 90px 90px;
-    background: #4D71A3;
-    position: relative;
-    top: 655px;
-    z-index: 1;
-}
-
 div#ecp {
     padding-bottom: 3%;
 }
