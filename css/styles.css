@@ -158,7 +158,7 @@ footer.left { /* If the last item on the page is styled with float:left, add <fo
     margin-top: -200px;
 }
 
-/*Index Styles*/
+/*Styles for index.html*/
 #slideshow { /*styles for the slideshow div*/
     background-color: #d7d7d7;
     width: 100%;
@@ -262,6 +262,42 @@ div#hometext {/*Creates the margin on text in blue div.*/
     top: 655px;
     z-index: 1; /*Causes the blue curves to overlap any elements not labeled with a z-index.*/
 }
+#indexcert { /*this is the paragraph that discusses quality and environmental*/
+    position: relative;
+    top: 1300px;
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 80px;
+    margin-right: 72px;
+}
+#indexcert2 { /*adds the margin on indexcert text*/
+    margin-left: 72px;
+    margin-left: 72px;
+}
+div#indeximg { /*centers image of factory*/
+    width: 500px;
+    height: 400px;
+    margin: 0 auto;
+}
+#fullfactory { /*positions and sizes the picture of factory*/
+    top: 650px;
+    position: relative;
+    height: 400px;
+    width: 500px;
+}
+#blurb { /*the paragraph talking about where DPC is and has been*/
+    top: 100px;
+    position: relative;
+    text-align: center;
+}
+#indexfooter { /*positions the footer on the home page so there is less white space*/
+    margin-top: 800px;
+}
+/*End of styles for index.html*/
+
+/*Beginning of Styles for packaging.html*/
+
+/*start*/
 
 #contactpara {
     position: absolute;
@@ -647,11 +683,6 @@ footer.leftcon {
     clear: left;
     margin-top: 50%;
 }
-
-#indexfooter {
-    margin-top: 800px;
-}
-
 #autoimage {
     position: relative;
     top: 150px;
@@ -733,30 +764,6 @@ img#logohome {
     height: 100px;
     left: 20px;
 }
-
-
-
-#indexcert {
-    position: relative;
-    top: 1300px;
-    text-align: center;
-    padding-top: 30px;
-    padding-bottom: 80px;
-    margin-right: 72px;
-}
-
-#indexcert2 {
-    margin-left: 72px;
-    margin-left: 72px;
-}
-
-#onecol {
-    margin-left: 5%;
-    width: 500px;
-    position: relative;
-    top: 125px;
-}
-
 #pqt {
     padding-top: 10%;
 }
@@ -792,28 +799,9 @@ div#bnft {
     padding-bottom: 1%;
 }
 
-#blurb {
-    top: 100px;
-    position: relative;
-    text-align: center;
-}
-
-div#indeximg {
-    width: 500px;
-    height: 400px;
-    margin: 0 auto;
-}
 div#ecp {
     padding-bottom: 3%;
 }
-
-#fullfactory {
-    top: 650px;
-    position: relative;
-    height: 400px;
-    width: 500px;
-}
-
 p.info {
     position: relative;
     left: 15px;
