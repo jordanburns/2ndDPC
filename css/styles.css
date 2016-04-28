@@ -165,6 +165,7 @@ img.slideshow {
     transition: opacity .5s ease-in;
     top: 80px;
     width: 100%;
+    max-height: 500px;
 }
 
 img.slideshow + img.slideshow {
