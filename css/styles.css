@@ -29,7 +29,7 @@ a:hover { /*When an <a> is hovered over, unless set otherwise*/
     color: #444;
 }
 
-nav { /*The start of the nav bar styles*/
+nav { /*The nav bar styles*/
     text-align: center;
     padding: 20px;
     float: right;
@@ -339,195 +339,83 @@ div#new { /*The text under the two columns. */
     font-size: 20px;
 }
 /*end of packaging.html styles*/
-/*start*/
-#contactpara {
-    position: absolute;
-    left: 8%;
-    top: 25%;
-}
-
-#map {
-    top: 100px;
-    left: 50px;
+/*Beginning of automotive.html styles*/
+#autoimage { /*Positions the automotive collage.*/
     position: relative;
-    width: 40%;
-    float: left;
-    height: 250px;
+    top: 150px;
+    left: 75px;
 }
-
-#content {
-    position: relative;
-    top: 100px;
-    margin-left: 8%;
-    margin-right: 8%;
-    padding-bottom: 150px;
-    max-height: 1000px;
+#autoimagee {/*Sets the width of the automotive collage*/
+    width: 50%;
 }
-
-#form {
-    position: relative;
-    left: -100px;
+#autoh { /*Blue header on the list*/
     float: right;
-    top: 97px;
-    max-height: 600px;
-}
-
-
-
-#mission {
-    color: #0053A0;
-    font-weight: 700;
-    text-align: center;
-}
-
-#mission2 {
-    color: #0053A0;
-    font-weight: 700;
-    text-align: center;
-    padding-bottom: 40px;
-}
-
-#google_translate_element {
-    position: absolute;
-    top: 50px;
-    right: 95px;
-}
-
-#aheading {
+    max-width: 350px;
     position: relative;
-    top: 75px;
-    text-align: center;
+    bottom: 330px;
+    right: 135px;
 }
-
-#automotive {
+#auto2 { /*Container for the unordered list*/
+    float: right;
+    max-width: 450px;
     position: relative;
-    top: 100px;
-    margin-left: 8%;
-    margin-right: 8%;
-    padding-bottom: 60px;
+    left: 300px;
+    bottom: 250px;
+    font-size: 16px;
 }
-
+li.autolist { /*Sets the spacing between list items*/
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+#auto { /*Caption for the automotive collage*/
+    font-style: italic;
+    float: right;
+    position: relative;
+    left: 600px;
+    bottom: -70px;
+}
+/* End of automotive.html styles */
+/* Beginning of ccomp.html styles */
+#ccompimage {
+    clear: right;
+}
 #ccompcontent {
     margin: 70px;
     padding-top: 30px;
     padding-bottom: 0;
 }
-
-#ccompimage {
-    clear: right;
+/* End of  ccomp.html */
+/* Beginning of oems.html styles */
+/* End of oems.html styles */
+/* Beginning of materials.html styles */
+h2.odd { /* There was a weird h2 style. This fixes it by placing it closer to the top. */
+    top: -40px;
 }
-
-.automotive {
-    position: absolute;
+div#mats { /*This contains all the information on the page. */
+    margin-left: 50px;
+    margin-right: 50px;
 }
-
-#automotive {
-    position: relative;
-    top: 100px;
-    margin-left: 8%;
-    margin-right: 8%;
-    padding-bottom: 60px;
+.materials { /* This is the div for individual materials. */
+    padding-bottom: 1%;
 }
-
-
-
-#main {
-    background-color: #FFF;
-    margin-right: 10px;
-    margin-left: 10px;
-    background-position: center center;
+div#ecp { /* This is the last div on the page, so space is added to make it seem more natural. */
+    padding-bottom: 3%;
 }
-
-#scep {
-    position: relative;
-    text-align: center;
-    top: 100px;
-}
-
-.stock {
-    float: left;
-    position: relative;
-    top: 125px;
-}
-
-.stock2 {
-    float: left;
-}
-
-#row1 {
-    position: relative;
-}
-
-#row2 {
-    position: relative;
-    float: left;
-    display: inline-flex;
-}
-
-/* Style the buttons that are used to open and close the accordion panel */
-button.accordion {
-    background-color: #0053A0;
-    color: #fff;
-    cursor: pointer;
-    padding: 18px;
-    width: 100%;
-    transition: .4s;
-    text-align: center;
-    font-size: 20px;
-    font-weight: 700;
-    text-decoration: underline;
-    height: 65px;
-    border-width: 1px;
-    border-color: #696969;
-}
-
-/* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
-button.accordion.active,button.accordion:hover {
-    background-color: #900;
-    outline: 0;
-}
-
-/* Style the accordion panel. Note: hidden by default */
-div.panel {
-    padding: 0 18px;
-    background-color: #fff;
-    display: none;
-    max-height: 800px;
-}
-
-/* The "show" class is added to the accordion panel when the user clicks on one of the buttons. This will show the panel content */
-div.panel.show {
-    display: block !important;
-}
-
-div#accordion {
-    position: relative;
-    top: 100px;
-}
-
-.top {
-    padding-top: 15px;
-    left: 100px;
-}
-
-.bottom {
-    padding-bottom: 15px;
-}
-
-.qpic {
+/*End of materials.html styles */
+/* Beginning of quality.html styles */
+.qpic { /*Positions the image of the certifications. This applies to environmental.html as well. */
     padding-top: 13%;
     max-height: 1300px;
     max-width: 800px;
     padding-left: 1%;
 }
-
-h3#lol {
+h3#lol { /*The blue heading*/ /*Also applies to environmental.html */
     position: relative;
     top: -500px;
     left: 900px;
 }
 
-#yolo {
+#yolo { /*The Quality Policy*/
     padding-left: 150px;
     position: relative;
     top: -475px;
@@ -536,8 +424,9 @@ h3#lol {
     color: #2E2E2E;
     text-align: center;
 }
-
-.earth {
+/* End of quality.html styles */
+/* Beginning of environmental.html styles */
+.earth { /*The Environmental Policy*/
     padding-left: 17%;
     position: relative;
     top: -480px;
@@ -546,129 +435,105 @@ h3#lol {
     color: #2E2E2E;
 }
 
-.earth::first-letter {
+.earth::first-letter { /*Makes the first letter of the Environmental Policy different*/
     font-size: 20px;
     color: #900;
 }
-
-.picbig {
-    position: absolute;
-    width: 0;
-    -webkit-transition: width .3s linear 0;
-    transition: width .3s linear 0;
-    z-index: 10;
+/* End of environmental.html styles */
+/* Beginning of about.html styles */
+#content { /*Contains all the content in this page*/
+    position: relative;
+    top: 100px;
+    margin-left: 8%;
+    margin-right: 8%;
+    padding-bottom: 150px;
+    max-height: 1000px;
 }
-
-.pic:hover + .picbig {
-    width: 300px;
-    height: 300px;
+#mission { /*This is the header for "Our Mission Statement*/
+    color: #0053A0;
+    font-weight: 700;
+    text-align: center;
 }
-
-.img-circle {
-    border-radius: 50%;
+#mission2 { /*This is the actual mission.*/
+    color: #0053A0;
+    font-weight: 700;
+    text-align: center;
+    padding-bottom: 40px;
 }
-
-div#contact {
+div#about2 { /*This is the section with the gray background. */
+    text-align: center;
+    background: #d7d7d7;
+    width: 100%;
+    padding-top: 8px;
+    padding-bottom: 30px;
+}
+/* End of styles for about.html */
+/* Beginning of styles for contact.html */
+#map { /*This positions the google map in the site. */
+    top: 100px;
+    left: 50px;
+    position: relative;
+    width: 40%;
+    float: left;
+    height: 250px;
+}
+#form { /*This positions the form inside the site. */
+    position: relative;
+    left: -100px;
+    float: right;
+    top: 97px;
+    max-height: 600px;
+}
+div#contact { /*This is the gray div containing contact info for DPC.*/
     position: relative;
     top: 630px;
     background-color: #E8E8E8;
     padding-bottom: 60px;
+    
 }
-
-img.icon {
-    width: 25px;
-    height: 25px;
-    padding-right: 10px;
-}
-
-#epp {
-    position: static;
-}
-
-h2.odd {
-    top: -40px;
-}
-
-p#rrr {
-    max-width: 300px;
+h2#info { /*This is the header for the gray div.*/
+    font-size: 26px;
+    text-align: left;
     position: relative;
-    top: -500px;
-    left: 850px;
+    top: 10px;
 }
-
-p#rrr {
-    max-width: 300px;
+p.info { /* The paragraphs inside the contact info box. */
     position: relative;
-    top: -500px;
-    left: 850px;
-    color: #2E2E2E;
+    left: 15px;
+    font-size: 15px;
 }
-
-img#recycle {
-    position: relative;
-    top: -500px;
-    left: 920px;
-}
-
+/* End of contact.html styles */
+/* Beginning of docform.html styles */
+/* End of docform.html styles */
+/* Beginning of under construction styles */
 .uc {
     position: relative;
     width: 100%;
     text-align: center;
     top: 100px;
 }
-
+footer#undercons {
+    margin-top: 45%;
+}
+/* End of under construction styles */
+#aheading {
+    position: relative;
+    top: 75px;
+    text-align: center;
+}
+#main {
+    background-color: #FFF;
+    margin-right: 10px;
+    margin-left: 10px;
+    background-position: center center;
+}
+.img-circle {
+    border-radius: 50%;
+}
 footer.leftcon {
     clear: left;
     margin-top: 50%;
 }
-#autoimage {
-    position: relative;
-    top: 150px;
-    left: 75px;
-}
-
-#autoimagee {
-    width: 50%;
-}
-
-#autoh {
-    float: right;
-    max-width: 350px;
-    position: relative;
-    bottom: 330px;
-    right: 135px;
-}
-
-#auto2 {
-    float: right;
-    max-width: 450px;
-    position: relative;
-    left: 300px;
-    bottom: 250px;
-    font-size: 16px;
-}
-
-#auto {
-    font-style: italic;
-    float: right;
-    position: relative;
-    left: 600px;
-    bottom: -70px;
-}
-
-li.autolist {
-    margin-top: 15px;
-    margin-bottom: 15px;
-}
-
-footer#stockfooter {
-    margin-top: 40%;
-}
-
-footer#undercons {
-    margin-top: 45%;
-}
-
 div#df {
     top: 225px;
 }
@@ -676,42 +541,9 @@ div#df {
 h2#weird {
     top: 200px;
 }
-
-div#mats {
-    margin-left: 50px;
-    margin-right: 50px;
-}
-
-div#about2 {
-    text-align: center;
-    background: #d7d7d7;
-    width: 100%;
-    padding-top: 8px;
-    padding-bottom: 30px;
-}
-
-h2#info {
-    font-size: 26px;
-    text-align: left;
-    position: relative;
-    top: 10px;
-}
 img#logohome {
     position: relative;
     top: 650px;
     height: 100px;
     left: 20px;
-}
-
-.materials {
-    padding-bottom: 1%;
-}
-
-div#ecp {
-    padding-bottom: 3%;
-}
-p.info {
-    position: relative;
-    left: 15px;
-    font-size: 15px;
 }
