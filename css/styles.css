@@ -469,6 +469,8 @@ div#about2 { /*This is the section with the gray background. */
 }
 /* End of styles for about.html */
 /* Beginning of styles for contact.html */
+iframe#google{height:450px; /*This sizes the google map.*/
+}
 #map { /*This positions the google map in the site. */
     top: 100px;
     left: 50px;
