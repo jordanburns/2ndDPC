@@ -522,3 +522,7 @@ footer#undercons {
     margin-left: 10px;
     background-position: center center;
 }
+footer.leftcon {
+    clear: left;
+    margin-top: 50%;
+}
