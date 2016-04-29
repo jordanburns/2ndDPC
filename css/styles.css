@@ -284,7 +284,8 @@ div#indeximg { /*centers image of factory*/
     top: 650px;
     position: relative;
     height: 400px;
-    width: 500px;
+    width: 1000px;
+    border: 10px groove #BF0000;
 }
 #blurb { /*the paragraph talking about where DPC is and has been*/
     top: 100px;
