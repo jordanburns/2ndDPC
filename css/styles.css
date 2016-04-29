@@ -276,7 +276,7 @@ div#hometext {/*Creates the margin on text in blue div.*/
     margin-left: 72px;
 }
 div#indeximg { /*centers image of factory*/
-    width: 500px;
+    width: 1000px;
     height: 400px;
     margin: 0 auto;
 }
