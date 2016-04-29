@@ -297,6 +297,7 @@ div#indeximg { /*centers image of factory*/
 /*End of styles for index.html*/
 
 /*Beginning of Styles for packaging.html*/
+
 #onecol { /*positions the first column of text*/
     margin-left: 5%;
     width: 500px;
@@ -340,6 +341,7 @@ div#new { /*The text under the two columns. */
     font-size: 20px;
 }
 /*end of packaging.html styles*/
+
 /*Beginning of automotive.html styles*/
 #autoimage { /*Positions the automotive collage.*/
     position: relative;
@@ -376,6 +378,7 @@ li.autolist { /*Sets the spacing between list items*/
     bottom: -70px;
 }
 /* End of automotive.html styles */
+
 /* Beginning of ccomp.html styles */
 #ccompimage {
     clear: right;
@@ -386,8 +389,10 @@ li.autolist { /*Sets the spacing between list items*/
     padding-bottom: 0;
 }
 /* End of  ccomp.html */
+
 /* Beginning of oems.html styles */
 /* End of oems.html styles */
+
 /* Beginning of materials.html styles */
 h2.odd { /* There was a weird h2 style. This fixes it by placing it closer to the top. */
     top: -40px;
@@ -403,6 +408,7 @@ div#ecp { /* This is the last div on the page, so space is added to make it seem
     padding-bottom: 3%;
 }
 /*End of materials.html styles */
+
 /* Beginning of quality.html styles */
 .qpic { /*Positions the image of the certifications. This applies to environmental.html as well. */
     padding-top: 13%;
@@ -441,6 +447,7 @@ h3#lol { /*The blue heading*/ /*Also applies to environmental.html */
     color: #900;
 }
 /* End of environmental.html styles */
+
 /* Beginning of about.html styles */
 #content { /*Contains all the content in this page*/
     position: relative;
@@ -469,6 +476,7 @@ div#about2 { /*This is the section with the gray background. */
     padding-bottom: 30px;
 }
 /* End of styles for about.html */
+
 /* Beginning of styles for contact.html */
 iframe#google{height:450px; /*This sizes the google map.*/
 }
@@ -505,9 +513,15 @@ p.info { /* The paragraphs inside the contact info box. */
     left: 15px;
     font-size: 15px;
 }
+footer.leftcon { /* Helps keep the footer where it should be. */
+    clear: left;
+    margin-top: 50%;
+}
 /* End of contact.html styles */
+
 /* Beginning of docform.html styles */
 /* End of docform.html styles */
+
 /* Beginning of under construction styles */
 .uc {
     position: relative;
@@ -516,7 +530,11 @@ p.info { /* The paragraphs inside the contact info box. */
     top: 100px;
 }
 footer#undercons {
-    margin-top: 45%;
+    margin-top: 100%;
+}
+/* placeholder for empty/ nearly empty pages so footer will be pushed to bottom */
+.ok { 
+    height: 1000px;
 }
 /* End of under construction styles */
 #main {
@@ -524,12 +542,4 @@ footer#undercons {
     margin-right: 10px;
     margin-left: 10px;
     background-position: center center;
-}
-footer.leftcon {
-    clear: left;
-    margin-top: 50%;
-}
-/* placeholder for empty/ nearly empty pages so footer will be pushed to bottom */
-.ok { 
-    height: 1000px;
 }
