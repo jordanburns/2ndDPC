@@ -35,25 +35,25 @@ nav { /*The nav bar styles*/
     float: right;
 }
 
-.cssmenu .has-sub:hover > ul { /* This displays the dropdowns in the nav vertically*/
+.cssmenu .has-sub:hover > ul {
     display: block;
     z-index: 15;
 }
 
-.cssmenu .has-sub ul { /* This hides the dropdowns and sets nav bar into place*/
+.cssmenu .has-sub ul {
     display: none;
     position: absolute;
     padding: 0;
 }
 
-.cssmenu .has-sub ul li { /*This makes dropdowns vertical*/
+.cssmenu .has-sub ul li {
     display: block;
     width: 120px;
     padding: 0;
     clear: left;
 }
 
-.cssmenu .has-sub ul li a { /* This is styling for dropdowns*/
+.cssmenu .has-sub ul li a {
     background: #db000b;
     border-bottom: 1px #ff0f1b;
     font-size: 11px;
@@ -64,30 +64,30 @@ nav { /*The nav bar styles*/
     right: 300px;
 }
 
-.cssmenu .has-sub ul li:hover a { /*Changes text color in dropdowns when hovered*/
+.cssmenu .has-sub ul li:hover a {
     background: #a80008;
 }
 
-#menu-icon { /* Position of menu icon*/
+#menu-icon {
     width: 40px;
     height: 40px;
     background: url(../img/menu-icon.png) center #0053a0;
 }
 
-a:hover#menu-icon { /* Styles of menu icon*/
+a:hover#menu-icon {
     background-color: #444;
     border-radius: 4px 4px 0 0;
 }
 
-.cssmenu li { /* Makes nav bar horizontal and removes bullet points*/
+.cssmenu li {
     display: block;
     float: left;
     padding: 10px;
 }
 
 /*MEDIA QUERY*/
-@media only screen and (max-width : 800px) { /* Width change when vertical nav pops up*/
-    header { 
+@media only screen and (max-width : 800px) {
+    header {
         position: absolute;
     }
 
@@ -95,7 +95,7 @@ a:hover#menu-icon { /* Styles of menu icon*/
         display: inline-block;
     }
 
-    nav ul,nav:active ul { /* Styles for vertical nav bar*/
+    nav ul,nav:active ul {
         display: none;
         position: absolute;
         padding: 20px;
@@ -107,14 +107,14 @@ a:hover#menu-icon { /* Styles of menu icon*/
         z-index: 11;
     }
 
-    nav li { /* Styles for vertical nav bar*/
+    nav li {
         text-align: center;
         width: 100%;
         padding: 10px 0;
         margin: 0;
     }
 
-    nav:hover ul { /* Display vertical menu vertically*/
+    nav:hover ul {
         display: block;
     }
 }
@@ -469,13 +469,15 @@ div#about2 { /*This is the section with the gray background. */
 }
 /* End of styles for about.html */
 /* Beginning of styles for contact.html */
+iframe#google{height:450px; /*This sizes the google map.*/
+}
 #map { /*This positions the google map in the site. */
     top: 100px;
     left: 50px;
     position: relative;
-    width: 40%;
+    width: 600px;
     float: left;
-    height: 250px;
+    height: 450px;
 }
 #form { /*This positions the form inside the site. */
     position: relative;
