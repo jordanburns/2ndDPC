@@ -281,11 +281,12 @@ div#indeximg { /*centers image of factory*/
     margin: 0 auto;
 }
 #fullfactory { /*positions and sizes the picture of factory*/
-    top: 650px;
+top: 650px;
     position: relative;
     height: 400px;
     width: 1000px;
-    border: 10px groove #BF0000;
+    border: 5px solid#BF0000;
+    border-radius: 50px;
 }
 #blurb { /*the paragraph talking about where DPC is and has been*/
     top: 100px;
