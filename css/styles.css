@@ -516,34 +516,3 @@ footer#undercons {
     margin-top: 45%;
 }
 /* End of under construction styles */
-#aheading {
-    position: relative;
-    top: 75px;
-    text-align: center;
-}
-#main {
-    background-color: #FFF;
-    margin-right: 10px;
-    margin-left: 10px;
-    background-position: center center;
-}
-.img-circle {
-    border-radius: 50%;
-}
-footer.leftcon {
-    clear: left;
-    margin-top: 50%;
-}
-div#df {
-    top: 225px;
-}
-
-h2#weird {
-    top: 200px;
-}
-img#logohome {
-    position: relative;
-    top: 650px;
-    height: 100px;
-    left: 20px;
-}
