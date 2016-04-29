@@ -516,3 +516,9 @@ footer#undercons {
     margin-top: 45%;
 }
 /* End of under construction styles */
+#main {
+    background-color: #FFF;
+    margin-right: 10px;
+    margin-left: 10px;
+    background-position: center center;
+}
