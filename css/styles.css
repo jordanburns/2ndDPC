@@ -477,6 +477,9 @@ div#about2 { /*This is the section with the gray background. */
     padding-top: 8px;
     padding-bottom: 30px;
 }
+#staff{margin-left:10px;
+        margin-right:10px;
+}
 /* End of styles for about.html */
 
 /* Beginning of styles for contact.html */
