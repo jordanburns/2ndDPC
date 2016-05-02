@@ -1,4 +1,3 @@
-
 /*Tips: 
 	Use http://www.dirtymarkup.com/ to help clean code after editing. 
 	Use https://validator.w3.org/#validate_by_input to validate HTML.
@@ -7,7 +6,8 @@
          extensions will be marked as incorrect. Do not remove them. )
     Use the application Pixie to find colors on the page, and use december.com to find new shades of colors.
 */
-header { /*The upper part of the web page, nav bar, logo, and line*/
+header {
+/*The upper part of the web page, nav bar, logo, and line*/
     background: #fff;
     width: 100%;
     height: 76px;
@@ -18,7 +18,8 @@ header { /*The upper part of the web page, nav bar, logo, and line*/
     z-index: 100;
 }
 
-#logo { /*The logo in the nav bar*/
+#logo {
+/*The logo in the nav bar*/
     margin: 0;
     float: left;
     width: 50px;
@@ -27,41 +28,48 @@ header { /*The upper part of the web page, nav bar, logo, and line*/
     display: block;
 }
 
-a { /* Any <a> in the website, unless set otherwise*/
+a {
+/* Any <a> in the website, unless set otherwise*/
     color: #0053A0;
     text-decoration: none;
     font-weight: 700;
 }
 
-a:hover { /*When an <a> is hovered over, unless set otherwise*/
+a:hover {
+/*When an <a> is hovered over, unless set otherwise*/
     color: #444;
 }
 
-nav { /*The nav bar styles*/
+nav {
+/*The nav bar styles*/
     text-align: center;
     padding: 20px;
     float: right;
 }
 
-.cssmenu .has-sub:hover > ul {/* This displays the dropdowns in the nav vertically*/
+.cssmenu .has-sub:hover > ul {
+/* This displays the dropdowns in the nav vertically*/
     display: block;
     z-index: 15;
 }
 
-.cssmenu .has-sub ul {/* This hides the dropdowns and sets nav bar into place*/
+.cssmenu .has-sub ul {
+/* This hides the dropdowns and sets nav bar into place*/
     display: none;
     position: absolute;
     padding: 0;
 }
 
-.cssmenu .has-sub ul li {/*This makes dropdowns vertical*/
+.cssmenu .has-sub ul li {
+/*This makes dropdowns vertical*/
     display: block;
     width: 120px;
     padding: 0;
     clear: left;
 }
 
-.cssmenu .has-sub ul li a {/* This is styling for dropdowns*/
+.cssmenu .has-sub ul li a {
+/* This is styling for dropdowns*/
     background: #db000b;
     border-bottom: 1px #ff0f1b;
     font-size: 11px;
@@ -72,29 +80,34 @@ nav { /*The nav bar styles*/
     right: 300px;
 }
 
-.cssmenu .has-sub ul li:hover a {/*Changes text color in dropdowns when hovered*/
+.cssmenu .has-sub ul li:hover a {
+/*Changes text color in dropdowns when hovered*/
     background: #a80008;
 }
 
-#menu-icon {/* Position of menu icon*/
+#menu-icon {
+/* Position of menu icon*/
     width: 40px;
     height: 40px;
     background: url(../img/menu-icon.png) center #0053a0;
 }
 
-a:hover#menu-icon {/* Styles of menu icon*/
+a:hover#menu-icon {
+/* Styles of menu icon*/
     background-color: #444;
     border-radius: 4px 4px 0 0;
 }
 
-.cssmenu li {/* Makes nav bar horizontal and removes bullet points*/
+.cssmenu li {
+/* Makes nav bar horizontal and removes bullet points*/
     display: block;
     float: left;
     padding: 10px;
 }
 
 /*MEDIA QUERY*/
-@media only screen and (max-width : 800px) {/* Width change when vertical nav pops up*/
+@media only screen and (max-width : 800px) {
+    /* Width change when vertical nav pops up*/
     header {
         position: absolute;
     }
@@ -103,7 +116,8 @@ a:hover#menu-icon {/* Styles of menu icon*/
         display: inline-block;
     }
 
-    nav ul,nav:active ul {/* Styles for vertical nav bar*/
+    nav ul,nav:active ul {
+    /* Styles for vertical nav bar*/
         display: none;
         position: absolute;
         padding: 20px;
@@ -114,65 +128,81 @@ a:hover#menu-icon {/* Styles of menu icon*/
         border-radius: 4px 0 4px 4px;
         z-index: 11;
     }
- 
-    nav li {/* Styles for vertical nav bar*/
+
+    nav li {
+    /* Styles for vertical nav bar*/
         text-align: center;
         width: 100%;
         padding: 10px 0;
         margin: 0;
     }
 
-    nav:hover ul {/* Display vertical menu vertically*/
+    nav:hover ul {
+    /* Display vertical menu vertically*/
         display: block;
     }
 }
 
-body { /*default styles for the web page*/
+body {
+/*default styles for the web page*/
     background-color: #fff;
     height: 100%;
     margin: 0;
     font-family: Georgia,Times,'Times New Roman',serif;
     font-size: 18px;
 }
-h2 { /*the red headings at the tops of pages, default for the <h2> tag*/
+
+h2 {
+/*the red headings at the tops of pages, default for the <h2> tag*/
     color: #900;
     position: relative;
     top: 75px;
     text-align: center;
     font-size: 36px;
 }
-h3 { /*The blue headings at any point in the web page, default for the <h3> tag*/
+
+h3 {
+/*The blue headings at any point in the web page, default for the <h3> tag*/
     color: #0053A0;
     font-size: 24px;
 }
 
-a.link { /* red links, the preferred style of link in the pages. Use <a class="link" to apply */
+a.link {
+/* red links, the preferred style of link in the pages. Use <a class="link" to apply */
     color: #A80008;
     text-decoration: underline;
 }
-footer { /*styles the footer at the bottom of the pages*/
+
+footer {
+/*styles the footer at the bottom of the pages*/
     text-align: center;
     background-color: #036;
     color: #E8E8E8;
     padding-top: 3px;
     padding-bottom: 3px;
 }
-footer.right { /* If the last item on the page is styled with float:right, add <footer class="right"> */
+
+footer.right {
+/* If the last item on the page is styled with float:right, add <footer class="right"> */
     clear: right;
     margin-top: -200px;
 }
 
-footer.left { /* If the last item on the page is styled with float:left, add <footer class="left"> */
+footer.left {
+/* If the last item on the page is styled with float:left, add <footer class="left"> */
     clear: left;
     margin-top: -200px;
 }
 
 /*Styles for index.html*/
-#slideshow { /*styles for the slideshow div*/
+#slideshow {
+/*styles for the slideshow div*/
     background-color: #d7d7d7;
     width: 100%;
 }
-img.slideshow { /*styles the individual images in the slideshow*/
+
+img.slideshow {
+/*styles the individual images in the slideshow*/
     background-color: #d7d7d7;
     position: absolute;
     transition: opacity .5s ease-in;
@@ -181,50 +211,67 @@ img.slideshow { /*styles the individual images in the slideshow*/
     max-height: 500px;
 }
 
-img.slideshow + img.slideshow { /*transition effect*/
+img.slideshow + img.slideshow {
+/*transition effect*/
     opacity: 0;
 }
-div#acrostic { /* Dependable, Professional, Creative container*/
+
+div#acrostic {
+/* Dependable, Professional, Creative container*/
     position: relative;
     top: 580px;
     font-size: 30px;
     background-color: #fff;
 }
-div#acrostic li { /*Deletes the bullet points on Acrostic*/
+
+div#acrostic li {
+/*Deletes the bullet points on Acrostic*/
     list-style-type: none;
 }
-.d { /*D in Dependable*/
+
+.d {
+/*D in Dependable*/
     margin-left: 0;
 }
 
-.d::first-letter { /*D in Dependable*/
+.d::first-letter {
+/*D in Dependable*/
     color: #900;
     font-size: 40px;
-} 
-.p { /* P in Professional*/
+}
+
+.p {
+/* P in Professional*/
     margin-left: 10%;
 }
 
-.p::first-letter { /* P in Professional*/
+.p::first-letter {
+/* P in Professional*/
     color: #900;
     font-size: 40px;
 }
 
-.c { /*C in Creative*/
+.c {
+/*C in Creative*/
     margin-left: 20%;
 }
 
-.c::first-letter { /*C in Creative*/
+.c::first-letter {
+/*C in Creative*/
     color: #900;
     font-size: 40px;
 }
-div#positive { /*Paragraph next to the acrostic*/
+
+div#positive {
+/*Paragraph next to the acrostic*/
     position: relative;
     top: 400px;
     float: right;
     width: 650px;
 }
-#graybox { /*The gray text area on the home page.*/
+
+#graybox {
+/*The gray text area on the home page.*/
     height: 100px;
     width: 100%;
     position: absolute;
@@ -233,22 +280,31 @@ div#positive { /*Paragraph next to the acrostic*/
     padding-bottom: 80px;
     top: 800px;
 }
-#grayboxtext { /*Adds the left and right margin on text inside the gray box.*/
+
+#grayboxtext {
+/*Adds the left and right margin on text inside the gray box.*/
     margin-left: 36px;
     margin-right: 36px;
 }
-#grayhalf { /*Creates the gray rounded edge on the gray box*/
+
+#grayhalf {
+/*Creates the gray rounded edge on the gray box*/
     height: 45px;
     border-radius: 0 0 90px 90px;
-    -moz-border-radius: 0 0 90px 90px; /*Vendor extension-even when validating do not delete*/
-    -webkit-border-radius: 0 0 90px 90px; /*Vendor extension-even when validating do not delete*/
+    -moz-border-radius: 0 0 90px 90px;
+/*Vendor extension-even when validating do not delete*/
+    -webkit-border-radius: 0 0 90px 90px;
+/*Vendor extension-even when validating do not delete*/
     background: #dfdfdf;
     position: relative;
     top: 780px;
     background: #dfdfdf;
-    z-index: 1; /*Causes the gray half circle to overlap the blue div and be the primary object*/
+    z-index: 1;
+/*Causes the gray half circle to overlap the blue div and be the primary object*/
 }
-div#home { /*This is the blue text area.*/
+
+div#home {
+/*This is the blue text area.*/
     position: relative;
     top: 663px;
     clear: right;
@@ -257,21 +313,30 @@ div#home { /*This is the blue text area.*/
     padding-top: 60px;
     padding-bottom: 20px;
 }
-div#hometext {/*Creates the margin on text in blue div.*/
+
+div#hometext {
+/*Creates the margin on text in blue div.*/
     margin-left: 36px;
     margin-right: 36px;
 }
-#bluehalf {/*The curved edge on the blue div.*/
+
+#bluehalf {
+/*The curved edge on the blue div.*/
     height: 45px;
     border-radius: 0 0 90px 90px;
-    -moz-border-radius: 0 0 90px 90px; /*Vendor extension-even when validating do not delete*/
-    -webkit-border-radius: 0 0 90px 90px; /*Vendor extension-even when validating do not delete*/
+    -moz-border-radius: 0 0 90px 90px;
+/*Vendor extension-even when validating do not delete*/
+    -webkit-border-radius: 0 0 90px 90px;
+/*Vendor extension-even when validating do not delete*/
     background: #4D71A3;
     position: relative;
     top: 655px;
-    z-index: 1; /*Causes the blue curves to overlap any elements not labeled with a z-index.*/
+    z-index: 1;
+/*Causes the blue curves to overlap any elements not labeled with a z-index.*/
 }
-#indexcert { /*this is the paragraph that discusses quality and environmental*/
+
+#indexcert {
+/*this is the paragraph that discusses quality and environmental*/
     position: relative;
     top: 1300px;
     text-align: center;
@@ -279,70 +344,94 @@ div#hometext {/*Creates the margin on text in blue div.*/
     padding-bottom: 80px;
     margin-right: 72px;
 }
-#indexcert2 { /*adds the margin on indexcert text*/
+
+#indexcert2 {
+/*adds the margin on indexcert text*/
     margin-left: 72px;
     margin-left: 72px;
 }
-div#indeximg { /*centers image of factory*/
+
+div#indeximg {
+/*centers image of factory*/
     width: 1000px;
     height: 400px;
     margin: 0 auto;
 }
-#fullfactory { /*positions and sizes the picture of factory*/
-top: 650px;
+
+#fullfactory {
+/*positions and sizes the picture of factory*/
+    top: 650px;
     position: relative;
     height: 400px;
     width: 1000px;
     border: 5px solid#BF0000;
     border-radius: 50px;
 }
-#blurb { /*the paragraph talking about where DPC is and has been*/
+
+#blurb {
+/*the paragraph talking about where DPC is and has been*/
     top: 100px;
     position: relative;
     text-align: center;
 }
-#indexfooter { /*positions the footer on the home page so there is less white space*/
+
+#indexfooter {
+/*positions the footer on the home page so there is less white space*/
     margin-top: 800px;
 }
+
 /*End of styles for index.html*/
-
 /*Beginning of Styles for packaging.html*/
-
-#onecol { /*positions the first column of text*/
+#onecol {
+/*positions the first column of text*/
     margin-left: 5%;
     width: 500px;
     position: relative;
     top: 125px;
 }
-div#bnft { /*stylizes the container for the large bulleted list*/
+
+div#bnft {
+/*stylizes the container for the large bulleted list*/
     border: solid;
     padding: 1.5%;
     border-color: #900;
     border-style: double;
 }
-#paquete li { /*makes the font bigger in the list*/
+
+#paquete li {
+/*makes the font bigger in the list*/
     padding: 1em 0;
     font-weight: 700;
     font-size: 18px;
 }
-#pqt { /*adds space between the list border and the text*/
+
+#pqt {
+/*adds space between the list border and the text*/
     padding-top: 10%;
 }
-#twocol { /*positions the second column of an image and a caption*/
+
+#twocol {
+/*positions the second column of an image and a caption*/
     padding-right: 15%;
     position: relative;
     left: 700px;
     bottom: 450px;
 }
-#pck { /*Sizes the collage of packaging items. Collage made in Photoshop, to change images in collage, download image and rasterize, then edit.*/ 
+
+#pck {
+/*Sizes the collage of packaging items. Collage made in Photoshop, to change images in collage, download image and rasterize, then edit.*/
     width: 500px;
     height: 350px;
 }
-div#p { /*The caption for the image*/
+
+div#p {
+/*The caption for the image*/
     font-style: italic;
     margin-top: 70px;
 }
-div#new { /*The text under the two columns. */
+
+div#new {
+/*The text under the two columns. */
     position: relative;
     bottom: 300px;
     margin-left: 36px;
@@ -350,25 +439,32 @@ div#new { /*The text under the two columns. */
     text-align: center;
     font-size: 20px;
 }
-/*end of packaging.html styles*/
 
+/*end of packaging.html styles*/
 /*Beginning of automotive.html styles*/
-#autoimage { /*Positions the automotive collage.*/
+#autoimage {
+/*Positions the automotive collage.*/
     position: relative;
     top: 150px;
     left: 75px;
 }
-#autoimagee {/*Sets the width of the automotive collage*/
+
+#autoimagee {
+/*Sets the width of the automotive collage*/
     width: 50%;
 }
-#autoh { /*Blue header on the list*/
+
+#autoh {
+/*Blue header on the list*/
     float: right;
     max-width: 350px;
     position: relative;
     bottom: 330px;
     right: 135px;
 }
-#auto2 { /*Container for the unordered list*/
+
+#auto2 {
+/*Container for the unordered list*/
     float: right;
     max-width: 450px;
     position: relative;
@@ -376,63 +472,79 @@ div#new { /*The text under the two columns. */
     bottom: 250px;
     font-size: 16px;
 }
-li.autolist { /*Sets the spacing between list items*/
+
+li.autolist {
+/*Sets the spacing between list items*/
     margin-top: 15px;
     margin-bottom: 15px;
 }
-#auto { /*Caption for the automotive collage*/
+
+#auto {
+/*Caption for the automotive collage*/
     font-style: italic;
     float: right;
     position: relative;
     left: 600px;
     bottom: -70px;
 }
-/* End of automotive.html styles */
 
+/* End of automotive.html styles */
 /* Beginning of ccomp.html styles */
 #ccompimage {
     clear: right;
 }
+
 #ccompcontent {
     margin: 70px;
     padding-top: 30px;
     padding-bottom: 0;
 }
-/* End of  ccomp.html */
 
+/* End of  ccomp.html */
 /* Beginning of oems.html styles */
 /* End of oems.html styles */
-
 /* Beginning of materials.html styles */
-h2.odd { /* There was a weird h2 style. This fixes it by placing it closer to the top. */
+h2.odd {
+/* There was a weird h2 style. This fixes it by placing it closer to the top. */
     top: -40px;
 }
-div#mats { /*This contains all the information on the page. */
+
+div#mats {
+/*This contains all the information on the page. */
     margin-left: 50px;
     margin-right: 50px;
 }
-.materials { /* This is the div for individual materials. */
+
+.materials {
+/* This is the div for individual materials. */
     padding-bottom: 1%;
 }
-div#ecp { /* This is the last div on the page, so space is added to make it seem more natural. */
+
+div#ecp {
+/* This is the last div on the page, so space is added to make it seem more natural. */
     padding-bottom: 3%;
 }
-/*End of materials.html styles */
 
+/*End of materials.html styles */
 /* Beginning of quality.html styles */
-.qpic { /*Positions the image of the certifications. This applies to environmental.html as well. */
+.qpic {
+/*Positions the image of the certifications. This applies to environmental.html as well. */
     padding-top: 7%;
     max-height: 1300px;
     max-width: 800px;
     padding-left: 1%;
 }
-h3#lol { /*The blue heading*/ /*Also applies to environmental.html */
+
+h3#lol {
+/*The blue heading*/
+/*Also applies to environmental.html */
     position: relative;
     top: -500px;
     left: 900px;
 }
 
-#yolo { /*The Quality Policy*/
+#yolo {
+/*The Quality Policy*/
     padding-left: 150px;
     position: relative;
     top: -475px;
@@ -441,9 +553,11 @@ h3#lol { /*The blue heading*/ /*Also applies to environmental.html */
     color: #2E2E2E;
     text-align: center;
 }
+
 /* End of quality.html styles */
 /* Beginning of environmental.html styles */
-.earth { /*The Environmental Policy*/
+.earth {
+/*The Environmental Policy*/
     padding-left: 17%;
     position: relative;
     top: -480px;
@@ -452,14 +566,16 @@ h3#lol { /*The blue heading*/ /*Also applies to environmental.html */
     color: #2E2E2E;
 }
 
-.earth::first-letter { /*Makes the first letter of the Environmental Policy different*/
+.earth::first-letter {
+/*Makes the first letter of the Environmental Policy different*/
     font-size: 20px;
     color: #900;
 }
-/* End of environmental.html styles */
 
+/* End of environmental.html styles */
 /* Beginning of about.html styles */
-#content { /*Contains all the content in this page*/
+#content {
+/*Contains all the content in this page*/
     position: relative;
     top: 100px;
     margin-left: 8%;
@@ -467,33 +583,45 @@ h3#lol { /*The blue heading*/ /*Also applies to environmental.html */
     padding-bottom: 150px;
     max-height: 1000px;
 }
-#mission { /*This is the header for "Our Mission Statement*/
+
+#mission {
+/*This is the header for "Our Mission Statement*/
     color: #0053A0;
     font-weight: 700;
     text-align: center;
 }
-#mission2 { /*This is the actual mission.*/
+
+#mission2 {
+/*This is the actual mission.*/
     color: #0053A0;
     font-weight: 700;
     text-align: center;
     padding-bottom: 40px;
 }
-div#about2 { /*This is the section with the gray background. */
+
+div#about2 {
+/*This is the section with the gray background. */
     text-align: center;
     background: #d7d7d7;
     width: 100%;
     padding-top: 8px;
     padding-bottom: 30px;
 }
-#staff{margin-left:10px;
-        margin-right:10px;
-}
-/* End of styles for about.html */
 
-/* Beginning of styles for contact.html */
-iframe#google{height:450px; /*This sizes the google map.*/
+#staff {
+    margin-left: 10px;
+    margin-right: 10px;
 }
-#map { /*This positions the google map in the site. */
+
+/* End of styles for about.html */
+/* Beginning of styles for contact.html */
+iframe#google {
+    height: 450px;
+/*This sizes the google map.*/
+}
+
+#map {
+/*This positions the google map in the site. */
     top: 100px;
     left: 50px;
     position: relative;
@@ -501,41 +629,49 @@ iframe#google{height:450px; /*This sizes the google map.*/
     float: left;
     height: 450px;
 }
-#form { /*This positions the form inside the site. */
+
+#form {
+/*This positions the form inside the site. */
     position: relative;
     left: -100px;
     float: right;
     top: 97px;
     max-height: 600px;
 }
-div#contact { /*This is the gray div containing contact info for DPC.*/
+
+div#contact {
+/*This is the gray div containing contact info for DPC.*/
     position: relative;
     top: 630px;
     background-color: #E8E8E8;
     padding-bottom: 40px;
-    
 }
-h2#info { /*This is the header for the gray div.*/
+
+h2#info {
+/*This is the header for the gray div.*/
     font-size: 26px;
     text-align: left;
     position: relative;
     top: 10px;
     left: -65px;
 }
-p.info { /* The paragraphs inside the contact info box. */
+
+p.info {
+/* The paragraphs inside the contact info box. */
     position: relative;
     left: -45px;
     font-size: 15px;
 }
-footer.leftcon { /* Helps keep the footer where it should be. */
+
+footer.leftcon {
+/* Helps keep the footer where it should be. */
     clear: left;
     margin-top: 50%;
 }
-/* End of contact.html styles */
 
+/* End of contact.html styles */
 /* Beginning of docform.html styles */
 /* End of docform.html styles */
-
 /* Beginning of under construction styles */
 .uc {
     position: relative;
@@ -543,13 +679,16 @@ footer.leftcon { /* Helps keep the footer where it should be. */
     text-align: center;
     top: 100px;
 }
+
 footer#undercons {
     margin-top: 100%;
 }
+
 /* placeholder for empty/ nearly empty pages so footer will be pushed to bottom */
-.ok { 
+.ok {
     height: 1000px;
 }
+
 /* End of under construction styles */
 #main {
     background-color: #FFF;
