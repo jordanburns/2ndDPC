@@ -1,4 +1,12 @@
-/* #0053A0 blue, #990000 red, #666666 gray, #89cff0 lane's fav color */
+
+/*Tips: 
+	Use http://www.dirtymarkup.com/ to help clean code after editing. 
+	Use https://validator.w3.org/#validate_by_input to validate HTML.
+	Use https://jigsaw.w3.org/css-validator/#validate_by_input+with_options to validate CSS.
+		(Make sure you go to More Options, and then pick CSS3. Note that vendor 
+         extensions will be marked as incorrect. Do not remove them. )
+    Use the application Pixie to find colors on the page, and use december.com to find new shades of colors.
+*/
 header { /*The upper part of the web page, nav bar, logo, and line*/
     background: #fff;
     width: 100%;
