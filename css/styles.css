@@ -413,7 +413,7 @@ div#ecp { /* This is the last div on the page, so space is added to make it seem
 
 /* Beginning of quality.html styles */
 .qpic { /*Positions the image of the certifications. This applies to environmental.html as well. */
-    padding-top: 13%;
+    padding-top: 7%;
     max-height: 1300px;
     max-width: 800px;
     padding-left: 1%;
