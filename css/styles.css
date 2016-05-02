@@ -520,10 +520,11 @@ h2#info { /*This is the header for the gray div.*/
     text-align: left;
     position: relative;
     top: 10px;
+    left: -65px;
 }
 p.info { /* The paragraphs inside the contact info box. */
     position: relative;
-    left: 15px;
+    left: -45px;
     font-size: 15px;
 }
 footer.leftcon { /* Helps keep the footer where it should be. */
