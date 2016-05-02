@@ -512,7 +512,7 @@ div#contact { /*This is the gray div containing contact info for DPC.*/
     position: relative;
     top: 630px;
     background-color: #E8E8E8;
-    padding-bottom: 60px;
+    padding-bottom: 40px;
     
 }
 h2#info { /*This is the header for the gray div.*/
