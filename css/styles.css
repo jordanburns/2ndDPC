@@ -488,11 +488,11 @@ li.autolist {
 
 /* End of automotive.html styles */
 /* Beginning of ccomp.html styles */
-#ccompimage {
+#ccompimage { /* The image on construction comp. */
     clear: right;
 }
 
-#ccompcontent {
+#ccompcontent { /* All content in ccomp.html */
     margin: 70px;
     padding-top: 30px;
     padding-bottom: 0;
@@ -500,6 +500,12 @@ li.autolist {
 
 /* End of  ccomp.html */
 /* Beginning of oems.html styles */
+.oems { /* The only text on the OEMs page. */
+    position: relative;
+    top: 100px;
+    margin: 36px;
+    text-align: center;
+}
 /* End of oems.html styles */
 /* Beginning of materials.html styles */
 h2.odd {
