@@ -352,13 +352,11 @@ div#hometext {
 }
 div#indeximg {
 /*centers image of factory*/
-    width: 1000px;
-    height: 400px;
+    width: 100%;
     margin: 0 auto;
 }
-
 #fullfactory {
-/*positions and sizes the picture of factory*/
+/*positions and sizes the picture of the factory*/
     top: 650px;
     position: relative;
     max-height: 400px;
