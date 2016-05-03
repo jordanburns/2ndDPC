@@ -350,9 +350,10 @@ div#hometext {
     margin-left: 72px;
     margin-left: 72px;
 }
-
 div#indeximg {
 /*centers image of factory*/
+    width: 1000px;
+    height: 400px;
     margin: 0 auto;
 }
 
