@@ -106,7 +106,7 @@ a:hover#menu-icon {
 }
 
 /*MEDIA QUERY*/
-@media only screen and (max-width : 800px) {
+@media only screen and (max-width : 950px) {
     /* Width change when vertical nav pops up*/
     header {
         position: absolute;
