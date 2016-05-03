@@ -353,8 +353,6 @@ div#hometext {
 
 div#indeximg {
 /*centers image of factory*/
-    width: 1000px;
-    height: 400px;
     margin: 0 auto;
 }
 
@@ -362,8 +360,8 @@ div#indeximg {
 /*positions and sizes the picture of factory*/
     top: 650px;
     position: relative;
-    height: 400px;
-    width: 1000px;
+    max-height: 400px;
+    max-width: 1000px;
     border: 5px solid#BF0000;
     border-radius: 50px;
 }
