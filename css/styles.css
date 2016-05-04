@@ -443,8 +443,8 @@ div#new {
 #autoimage {
 /*Positions the automotive collage.*/
     position: relative;
-    top: 45%;
-    left: 25%;
+    top: 150px
+    left: 5%;
     
 }
 
