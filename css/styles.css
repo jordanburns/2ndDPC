@@ -458,8 +458,8 @@ div#new {
     float: right;
     max-width: 40%;
     position: relative;
-    bottom: 34%;
-    right: -20%
+    bottom: 350px;
+    right: -5%;
 }
 
 #auto2 {
