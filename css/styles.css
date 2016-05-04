@@ -602,6 +602,7 @@ h3#lol {
     font-weight: 700;
     text-align: center;
     padding-bottom: 40px;
+    max-height: 40%;
 }
 
 div#about2 {
