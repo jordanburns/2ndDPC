@@ -442,9 +442,11 @@ div#new {
 /*Beginning of automotive.html styles*/
 #autoimage {
 /*Positions the automotive collage.*/
-    position: relative;
-    top: 150px;
-    left: 75px;
+    position: absolute;
+    top: 45%;
+    left: 25%;
+    height: 500px;
+    width: 500px;
 }
 
 #autoimagee {
