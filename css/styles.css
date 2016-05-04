@@ -232,6 +232,7 @@ div#acrostic li {
 .d {
 /*D in Dependable*/
     margin-left: 0;
+    max-width: 10%;
 }
 
 .d::first-letter {
@@ -243,6 +244,7 @@ div#acrostic li {
 .p {
 /* P in Professional*/
     margin-left: 10%;
+    max-width: 10%;
 }
 
 .p::first-letter {
@@ -254,6 +256,7 @@ div#acrostic li {
 .c {
 /*C in Creative*/
     margin-left: 20%;
+    max-width: 10%;
 }
 
 .c::first-letter {
@@ -268,6 +271,7 @@ div#positive {
     top: 400px;
     float: right;
     width: 650px;
+    max-width: 60%;
 }
 
 #graybox {
