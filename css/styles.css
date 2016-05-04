@@ -456,10 +456,10 @@ div#new {
 #autoh {
 /*Blue header on the list*/
     float: right;
-    max-width: 150px;
+    max-width: 350px;
     position: relative;
     bottom: 330px;
-    right: -20%;
+    right: 135px;
 }
 
 #auto2 {
