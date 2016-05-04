@@ -497,6 +497,7 @@ li.autolist {
     margin: 70px;
     padding-top: 30px;
     padding-bottom: 0;
+    max-height: 70%;
 }
 
 /* End of  ccomp.html */
@@ -612,6 +613,7 @@ div#about2 {
     width: 100%;
     padding-top: 8px;
     padding-bottom: 30px;
+    max-height: 30%;
 }
 
 #staff {
