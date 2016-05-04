@@ -587,7 +587,7 @@ h3#lol {
     margin-left: 8%;
     margin-right: 8%;
     padding-bottom: 150px;
-    max-height: 1000px;
+    max-height: 80%;
 }
 
 #mission {
@@ -619,6 +619,7 @@ div#about2 {
 #staff {
     margin-left: 10px;
     margin-right: 10px;
+    max-height: 10%;
 }
 
 /* End of styles for about.html */
