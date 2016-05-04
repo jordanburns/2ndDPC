@@ -442,11 +442,10 @@ div#new {
 /*Beginning of automotive.html styles*/
 #autoimage {
 /*Positions the automotive collage.*/
-    position: absolute;
+    position: relative;
     top: 45%;
     left: 25%;
-    height: 500px;
-    width: 500px;
+    
 }
 
 #autoimagee {
@@ -703,4 +702,4 @@ footer#undercons {
     background-position: center center;
 }
 #acrostic2 { 600px; }
-#autocol1 {position: relative; width:500px; height:500px; }  
+
