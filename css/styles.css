@@ -356,7 +356,7 @@ div#hometext {
 }
 div#indeximg {
 /*centers image of factory*/
-    width: 1000px;
+    width: 95%;
     margin: 0 auto;
     height: 400px;
 }
@@ -365,7 +365,7 @@ div#indeximg {
     top: 650px;
     position: relative;
     max-height: 400px;
-    max-width: 1000px;
+    max-width: 95%;
     border: 5px solid#BF0000;
     border-radius: 50px;
 }
