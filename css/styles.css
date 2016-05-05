@@ -89,7 +89,7 @@ nav {
 /* Position of menu icon*/
     width: 40px;
     height: 40px;
-    background: url(images/menu-icon.png) center #0053a0;
+    background: url(https://raw.githubusercontent.com/jordanburns/2ndDPC/gh-pages/images/menu-icon.png) center #0053a0;
 }
 
 a:hover#menu-icon {
