@@ -150,6 +150,7 @@ body {
     margin: 0;
     font-family: Georgia,Times,'Times New Roman',serif;
     font-size: 18px;
+    max-width: 100%;
 }
 
 h2 {
