@@ -644,14 +644,14 @@ iframe#google {
     float: left;
     height: 450px;
 }
-
 #form {
-/*This positions the form inside the site. */
+	/*This positions the form inside the site. */
     position: relative;
     left: -100px;
     float: right;
-    top: 97px;
+    top: 50px;
     max-height: 600px;
+    right: 50px;
 }
 
 div#contact {
