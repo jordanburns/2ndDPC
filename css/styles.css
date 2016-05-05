@@ -715,5 +715,7 @@ footer#undercons {
 
 #aboutinfo {max-height: 80%;}
  
+ /*first paragraph in Construction Comp */
  #ccomp1 {max-width: 60%; padding-bottom: 10%; line-height: 1.2;}
- #ccomp2 {max-width: 60%;}
+ /*second paragraph in Construction Comp */
+ #ccomp2 {max-width: 60%; line-height: 1.2;}
