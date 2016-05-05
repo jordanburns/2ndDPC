@@ -715,5 +715,5 @@ footer#undercons {
 
 #aboutinfo {max-height: 80%;}
  
- #ccomp1 {max-width: 60%;}
+ #ccomp1 {max-width: 60%; padding-bottom: 10%; line-height: 1.2;}
  #ccomp2 {max-width: 60%;}
