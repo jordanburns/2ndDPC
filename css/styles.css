@@ -496,6 +496,7 @@ li.autolist {
 /* Beginning of ccomp.html styles */
 #ccompimage { /* The image on construction comp. */
     clear: right;
+    padding-left: 5%;
 }
 
 #ccompcontent { /* All content in ccomp.html */
