@@ -522,7 +522,7 @@ li.autolist {
 }
 #oemlist {
 	margin: 72px;
-	padding: 3px;
+	line-height: 1.5;
 }
 /* End of oems.html styles */
 /* Beginning of materials.html styles */
