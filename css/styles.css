@@ -516,7 +516,7 @@ li.autolist {
 }
 #oemman {
 	position: relative;
-	float: left;
+	padding-top: 30%;
 	max-width: 40%;
 }
 /* End of oems.html styles */
