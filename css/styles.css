@@ -511,14 +511,14 @@ li.autolist {
 .oems { /* The first sentence in OEMS. */
     position: relative;
     top: 100px;
-    margin: 36px;
+    margin: 10%;
     text-align: center;
 }
 #oemman {
 	position: relative;
 	padding-top: 10%;
 	max-width: 40%;
-	margin: 36px;
+	margin: 20%;
 }
 #oemlist {
 	margin: 72px;
