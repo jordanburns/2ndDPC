@@ -482,14 +482,14 @@ li.autolist {
     margin-top: 15px;
     margin-bottom: 15px;
 }
-
-#auto {
-/*Caption for the automotive collage*/
+#auto { /*List of applications**/
     font-style: italic;
     float: right;
     position: relative;
-    left: 600px;
-    bottom: -70px;
+    bottom: 200px;
+    width: 40%;
+    max-width: 500px;
+    left: 50px;
 }
 
 /* End of automotive.html styles */
@@ -522,7 +522,7 @@ li.autolist {
 }
 #oemlist {
 	margin: 72px;
-	line-height: 1.5;
+	padding: 3px;
 }
 /* End of oems.html styles */
 /* Beginning of materials.html styles */
