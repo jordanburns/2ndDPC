@@ -525,6 +525,7 @@ li.autolist {
 #oemlist {
 	margin-left: 15%;
 	padding: 3px;
+	line-height: 1.5;
 }
 /* End of oems.html styles */
 /* Beginning of materials.html styles */
