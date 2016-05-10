@@ -508,13 +508,14 @@ li.autolist {
 
 /* End of  ccomp.html */
 /* Beginning of oems.html styles */
-.oems { /* The only text on the OEMs page. */
+.oems { /* The first sentence in OEMS. */
     position: relative;
     top: 100px;
     margin: 36px;
     text-align: center;
 }
 #oemman {
+	position: relative;
 	float: left;
 	max-width: 40%;
 }
