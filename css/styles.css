@@ -6,6 +6,13 @@
          extensions will be marked as incorrect. Do not remove them. )
     Use the application Pixie to find colors on the page, and use december.com to find new shades of colors.
 */
+#injmold {
+    position: relative;
+    margin-left: 72px;
+    margin-right: 72px;
+    text-align: center;
+    top: 100px;
+}
 header {
 /*The upper part of the web page, nav bar, logo, and line*/
     background: #fff;
