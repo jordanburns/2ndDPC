@@ -514,6 +514,10 @@ li.autolist {
     margin: 36px;
     text-align: center;
 }
+#oemman {
+	float: left;
+	max-width: 40%;
+}
 /* End of oems.html styles */
 /* Beginning of materials.html styles */
 h2.odd {
