@@ -519,11 +519,11 @@ li.autolist {
 	position: relative;
 	padding-top: 10%;
 	max-width: 40%;
-	margin-left: 20%;
-	margin-right: 20%;
+	margin-left: 15%;
+	margin-right: 15%;
 }
 #oemlist {
-	margin-left: 25%;
+	margin-left: 20%;
 	padding: 3px;
 }
 /* End of oems.html styles */
