@@ -518,6 +518,10 @@ li.autolist {
 	position: relative;
 	padding-top: 30%;
 	max-width: 40%;
+	margin: 36px;
+}
+#oemlist {
+	
 }
 /* End of oems.html styles */
 /* Beginning of materials.html styles */
