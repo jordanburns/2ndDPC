@@ -512,6 +512,7 @@ li.autolist {
     position: relative;
     top: 100px;
     margin-left: 10%;
+    margin-right: 10%;
     text-align: center;
 }
 #oemman {
@@ -519,6 +520,7 @@ li.autolist {
 	padding-top: 10%;
 	max-width: 40%;
 	margin-left: 20%;
+	margin-right: 20%;
 }
 #oemlist {
 	margin-left: 72px;
