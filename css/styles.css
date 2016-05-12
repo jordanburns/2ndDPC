@@ -539,6 +539,9 @@ li.autolist {
 	bottom: 330px;
 	left: 55%;
 }
+footer#oemfooter{
+	margin-top: -20%;
+}
 /* End of oems.html styles */
 /* Beginning of materials.html styles */
 h2.odd {
@@ -721,7 +724,7 @@ footer.leftcon {
 }
 
 footer#undercons {
-    margin-top: 15%;
+    margin-top: 100%;
 }
 
 /* placeholder for empty/ nearly empty pages so footer will be pushed to bottom */
