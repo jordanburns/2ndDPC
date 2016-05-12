@@ -522,6 +522,7 @@ li.autolist {
     margin-right: 10%;
     text-align: center;
 }
+/* sentence before list */
 #oemman {
 	position: relative;
 	padding-top: 10%;
@@ -529,16 +530,19 @@ li.autolist {
 	margin-left: 13%;
 	margin-right: 13%;
 }
+/* list of companies */
 #oemlist {
 	margin-left: 15%;
 	padding: 3px;
 	line-height: 1.5;
 }
+/* picture of company logos */
 #oemcars {
 	position:relative;
 	bottom: 330px;
 	left: 55%;
 }
+/* footer on oem page */
 footer#oemfooter{
 	margin-top: -20%;
 }
