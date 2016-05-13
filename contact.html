@@ -16,66 +16,72 @@
     </script><!--This is where script would go on this page if it had any.-->
 </head>
 <body>
-    <header>
-        <a href="index.html" id="logo"></a> <!--This is the DPC logo.-->
-        <nav>
-            <!--This is where the navigation bar code starts.-->
-            <a href="#" id="menu-icon"></a> 
-            <!--This is the dropdown on the navbar for MOBILE.-->
-            <div class='cssmenu'>
-                <ul>
-                    <li class='active'>
-                        <a href='index.html'><span>Home</span></a>
-                    </li>
-                    <!--Each of these li's represents one of the buttons on the navbar. There is stylizing code for them in CSS.-->
-                    <li class='active has-sub'>
-                        <a href='#'><span>Product</span></a>
-                        <ul>
-                            <li>
-                                <a href=
-                                'packaging.html'><span>Packaging</span></a>
-                            </li>
-                            <li>
-                                <a href=
-                                'automotive.html'><span>Automotive</span></a>
-                            </li>
-                            <li>
-                                <a href='ccomp.html'><span>Construction
-                                Comp</span></a>
-                            </li>
-                            <li class='last'>
-                                <a href='oems.html'><span>OEMS</span></a>
-                            </li>
-                        </ul>
-                    </li>
-                    <li class='active'>
-                        <a href='materials.html'><span>Materials</span></a>
-                    </li>
-                    <li class='active has-sub'>
-                        <a href='#l'><span>Certifications</span></a>
-                        <ul>
-                            <li>
-                                <a href='quality.html'><span>Quality</span></a>
-                            </li>
-                            <li class='last'>
-                                <a href=
-                                'environmental.html'><span>Environmental</span></a>
-                            </li>
-                        </ul>
-                    </li>
-                    <li class='active'>
-                        <a href='about.html'><span>About</span></a>
-                    </li>
-                    <li class='active'>
-                        <a href='contact.html'><span>Contact</span></a>
-                    </li>
-                    <li class='active last'>
-                        <a href='docform.html'><span>Docs and Forms</span></a>
-                    </li>
-                </ul>
-            </div>
-        </nav>
-    </header>
+    <div style=
+	"width: 100%; background-color: #fff; z-index: 10; position: fixed; right: 20px; top: 0px; height: 83px;">
+	<a href="index.html"><img id="logo1" src=
+	"https://raw.githubusercontent.com/jordanburns/1stDPC/gh-pages/images/DPC-Larger.png"></a>
+		<nav id="nav" role="navigation">
+			<a href="#nav" title="Show navigation">Show navigation</a> <a href="#"
+			title="Hide navigation">Hide navigation</a>
+			<ul class="clearfix">
+				<li class="active">
+					<a href="index.html">Home</a>
+				</li>
+				<li>
+					<a aria-haspopup="true" href="index.html"><span>Product</span></a>
+					<ul>
+						<li>
+							<a href="automotive.html">Automotive</a>
+						</li>
+						<li>
+							<a href="packaging.html">Packaging</a>
+						</li>
+						<li>
+							<a href="ccomp.html">Construction Comp</a>
+						</li>
+						<li>
+							<a href="oem.html">OEMS</a>
+						</li>
+					</ul>
+				</li>
+				<li>
+					<a aria-haspopup="true" href="index.html"><span>Materials</span></a>
+					<ul>
+						<li>
+							<a href="eps.html">EPS</a>
+						</li>
+						<li>
+							<a href="epp.html">EPP</a>
+						</li>
+						<li>
+							<a href="epe.html">EPE</a>
+						</li>
+						<li>
+							<a href="epe_eps_copolymer.html">EPE/EPS</a>
+						</li>
+					</ul>
+				</li>
+				<li>
+					<a aria-haspopup="true" href="index.html"><span>Certification</span></a>
+					<ul>
+						<li>
+							<a href="mig.html">MIG</a>
+						</li>
+						<li>
+							<a href="environmental.html">Environment</a>
+						</li>
+					</ul>
+				</li>
+				<li>
+					<a aria-haspopup="true" href="about.html">About Us</a>
+				</li>
+				<li>
+					<a aria-haspopup="true" href="contact.html">Contact Us</a>
+				</li>
+			</ul>
+		</nav>
+		<h1>Diversified Plastics Corporation</h1>
+	</div>
     <div>
         <!--This div encompasses all the sub-divs that have text and the map in them.-->
         <div id="main">
