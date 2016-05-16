@@ -677,11 +677,13 @@ div#mats {
 /*This contains all the information on the page. */
     margin-left: 50px;
     margin-right: 50px;
+    margin-top: 10%;
 }
 
 .materials {
 /* This is the div for individual materials. */
     padding-bottom: 1%;
+    padding-top
 }
 
 div#ecp {
