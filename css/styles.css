@@ -520,6 +520,55 @@ div#indeximg {
     top: 125px;
 }
 
+.mainwrapper
+	{display: inline;
+    text-align: center;
+    vertical-align: middle;
+    font-family: Georgia, "Times New Roman", Times, serif;
+    font-style: italic;
+    width: 40%;}
+	
+	.subwrapper
+	{display: table;
+    width: 50%;
+    height: auto;
+    float: right;}
+	
+	.picture
+	{width: 150px;
+    height: 150px;
+    border: 3px solid #A30000;
+    margin: 5em;
+    float: left;
+    vertical-align: middle;
+    display: table-cell;}
+	
+	.packagetext
+	{display: table-cell;
+    text-align: center;
+    vertical-align: middle;
+    font-family: Georgia, "Times New Roman", Times, serif;
+    font-style: italic;
+    top: 50%;
+    height: 275px;
+    padding-right: 3em;}
+	
+	.title
+	{font-weight: bold;
+    font: Verdana, Geneva, sans-serif;
+    color: #0053ad;
+    text-align: center;
+    font-size: 24pt;
+    text-decoration: underline;}
+    
+    .packfooter {text-align: center;
+	    background-color: #036;
+	    color: #E8E8E8;
+	    padding-top: 3px;
+	    padding-bottom: 3px;
+	    margin-top: 60%;
+	}
+
 div#bnft {
 /*stylizes the container for the large bulleted list*/
     border: solid;
