@@ -561,7 +561,7 @@ div#indeximg {
     font-size: 24pt;
     text-decoration: underline;}
     
-    .packfooter {text-align: center;
+    #packfooter {text-align: center;
 	    background-color: #036;
 	    color: #E8E8E8;
 	    padding-top: 3px;
