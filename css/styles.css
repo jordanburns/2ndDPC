@@ -335,6 +335,7 @@ footer.left {
 #slider, #slider .sliderInner {
     width:1260px;height:500px;/* Must be the same size as the slider images */
     border-radius:3px;
+    top: 110px;
 }
 
 #slider {
