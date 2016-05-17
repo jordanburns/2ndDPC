@@ -328,7 +328,7 @@ footer.left {
 }
 #sliderFrame 
 {
-    width:1260px;
+    width:100%;
     margin:0; /*center-aligned*/
 }
 
