@@ -333,7 +333,7 @@ footer.left {
 }
 
 #slider, #slider .sliderInner {
-    width:100&;height:27em;/* Must be the same size as the slider images */
+    width:100%;height:27em;/* Must be the same size as the slider images */
     border-radius:3px;
     top: 110px;
 }
