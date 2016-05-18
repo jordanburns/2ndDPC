@@ -6,13 +6,6 @@
          extensions will be marked as incorrect. Do not remove them. )
     Use the application Pixie to find colors on the page, and use december.com to find new shades of colors.
 */
-#injmold {
-    position: relative;
-    margin-left: 72px;
-    margin-right: 72px;
-    text-align: center;
-    top: 100px;
-}
 /*MEDIA QUERY*/
 @media only screen and (max-width : 950px) {
 	/* Width change when vertical nav pops up*/
@@ -791,6 +784,26 @@ footer#oemfooter{
 	margin-top: -20%;
 }
 /* End of oems.html styles */
+/*Beginning of injmold.html styles*/
+#injmold { /*Styles and aligns the text*/
+    position: relative;
+    margin-left: 72px;
+    margin-right: 72px;
+    text-align: center;
+    top: 100px;
+}
+div#accurate { /*Positions and centers the image*/
+    margin: 0 auto;
+    height: 400px;
+    width: 600px;
+    position: relative;
+    top: 150px;
+}
+img#accurateimg { /*Sizes the image*/
+    height: 400px;
+    width: 600px;
+}
+/*End of injmold.html styles*/
 /* Beginning of materials.html styles */
 h2.odd {
 /* There was a weird h2 style. This fixes it by placing it closer to the top. */
