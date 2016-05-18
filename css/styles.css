@@ -284,7 +284,7 @@ h2 {
 /*the red headings at the tops of pages, default for the <h2> tag*/
     color: #900;
     position: relative;
-    top: 75px;
+    top: 100px;
     text-align: center;
     font-size: 36px;
 }
