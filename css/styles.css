@@ -827,7 +827,9 @@ div#ecp {
 /* This is the last div on the page, so space is added to make it seem more natural. */
     padding-bottom: 3%;
 }
-
+ul.mat{position:relative; /*Indents the ordered lists of benefits*/
+	left:30px;
+}
 /*End of materials.html styles */
 /* Beginning of quality.html styles */
 .qpic {
