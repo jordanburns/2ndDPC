@@ -1059,20 +1059,34 @@ iframe#google {
     float: left;
     height: 450px;
 }
-#form {
-	/*This positions the form inside the site. */
+div#cards { /*Moves all of the cards down from the top*/
     position: relative;
-    left: -100px;
-    float: right;
-    top: 50px;
-    max-height: 600px;
-    right: 50px;
+    top: 100px;
 }
-
+img#ap { /*Accurate Plastic's business card*/
+    height: 200px;
+    position: relative;
+    float: right;
+    left: -100px;
+}
+img#dp1 {/* First business card */
+    height: 200px;
+    position: relative;
+    float: right;
+    left: -70px;
+    top: 20px;
+}
+img#dp2 { /* Second business card*/
+    height: 200px;
+    float: right;
+    position: relative;
+    left: -70px;
+    top: 40px;
+}
 div#contact {
 /*This is the gray div containing contact info for DPC.*/
     position: relative;
-    top: 630px;
+    top: 900px;
     background-color: #E8E8E8;
     padding-bottom: 40px;
 }
