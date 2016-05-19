@@ -684,6 +684,8 @@ div#indeximg {
     text-align: center;
     margin:36px;
 }
+#blurbtext {margin-left: 36px;
+    margin-right: 36px; } 
 
 /*End of styles for index.html*/
 /*Beginning of Styles for packaging.html*/
