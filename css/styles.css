@@ -925,6 +925,13 @@ img#accurateimg { /*Sizes the image*/
     height: 400px;
     width: 600px;
 }
+img#alogo { /*Positions and sizes Accurate Plastics's logo*/
+    height: 50px;
+    width: 50px;
+    position: relative;
+    top: 10px;
+    padding-left: 10px;
+}
 /*End of injmold.html styles*/
 /* Beginning of materials.html styles */
 h2.odd {
