@@ -680,7 +680,7 @@ div#indeximg {
 }
 #fullfactory {
 /*positions and sizes the picture of the factory*/
-    top: 300px;
+    top: 350px;
     position: relative;
     max-height: 400px;
     max-width: 95%;
@@ -690,7 +690,7 @@ div#indeximg {
 
 #blurb {
 /*the paragraph talking about where DPC is and has been*/
-    top: 100px;
+    top: 20px;
     position: relative;
     text-align: center;
 }
