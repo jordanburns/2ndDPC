@@ -15,8 +15,6 @@
 h1 {
 	margin: -20px;
 	color: #fff;
-	max-height: 45px;
-	font-size: 100%;
 /*white*/
 	font-family: 'Phosphate Pro',serif;
 	text-align: center;
@@ -600,8 +598,10 @@ div#positive {
     position: absolute;
     clear: left;
     background-color: #dfdfdf;
+    padding-top: 10%;
     padding-bottom: 80px;
-    top: 800px;
+    top: 675px;
+    
 }
 
 #grayboxtext {
@@ -620,7 +620,7 @@ div#positive {
 /*Vendor extension-even when validating do not delete*/
     background: #dfdfdf;
     position: relative;
-    top: 170px;
+    top: 142px;
     background: #dfdfdf;
     z-index: 1;
 /*Causes the gray half circle to overlap the blue div and be the primary object*/
@@ -629,7 +629,7 @@ div#positive {
 div#home {
 /*This is the blue text area.*/
     position: relative;
-    top: 663px;
+    top: 400px;
     clear: right;
     background: #4D71A3;
     color: #fff;
