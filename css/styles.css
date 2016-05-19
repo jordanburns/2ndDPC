@@ -572,7 +572,7 @@ div#acrostic li {
     font-size: 40px;
 }
 
-div#positive {
+div.positive {
 /*Paragraph next to the acrostic*/
     position: relative;
     float: right;
