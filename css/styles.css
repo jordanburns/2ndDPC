@@ -328,6 +328,7 @@ footer.left {
     /*max-width:720px;*/
     margin:0 auto;/*center-aligned */
     font-size:0px;
+    position:relative;
     box-sizing:border-box;
 }
 
