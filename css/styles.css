@@ -314,25 +314,22 @@ footer.left {
     margin-top: -200px;
 }
 
-/*Styles for index.html*/
-/* Visit http://www.menucool.com/responsive-slider for instructions */
-
-
 #ninja-slider {
     width:100%;
     background:#FFF;
     padding: 0!important;
 
     margin:0 auto;
+    overflow:hidden;
     box-sizing:border-box;
 }
 
 #ninja-slider .slider-inner {
     /*max-width:720px;*/
     margin:0 auto;/*center-aligned */
+    font-size:0px;
     position:relative;
     box-sizing:border-box;
-    top: 68px;
 }
 
 #ninja-slider ul {
@@ -429,11 +426,6 @@ footer.left {
 	100% {opacity:0; -webkit-transform:translateY(100%);}
 }
 
-/* ---------Arrow buttons ------- */   
-/* The arrow button id should be: slider id + ("-prev", "-next", and "-pause-play") */ 
-/* Usually the ninja-slider.js will create the arrow buttons and pager(nav dots) automatically, unless you have added their markup manually to the HTML as this demo did.
-   This demo has put them inside a DIV.navWrapper. 
-*/  
 
 div.navsWrapper {
     position:absolute;
