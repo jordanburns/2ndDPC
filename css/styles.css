@@ -316,100 +316,222 @@ footer.left {
 }
 
 /*Styles for index.html*/
-#sliderFrame, #sliderFrame div {
-    box-sizing: content-box;
-}
-#sliderFrame 
-{
+/* Visit http://www.menucool.com/responsive-slider for instructions */
+
+
+#ninja-slider {
     width:100%;
-    margin:0; /*center-aligned*/
+    background:#FFF;
+    padding: 0!important;
+
+    margin:0 auto;
+    overflow:hidden;
+    box-sizing:border-box;
 }
 
-#slider, #slider .sliderInner {
-    width:100%;height:100%; min-height: 800px;/* Must be the same size as the slider images */
-    border-radius:3px;
-    top: 110px;
-}
-
-#slider {
-    background-color:white;
+#ninja-slider .slider-inner {
+    /*max-width:720px;*/
+    margin:0 auto;/*center-aligned */
+    font-size:0px;
     position:relative;
-    margin:0 auto; /*center-aligned*/
-    transform: translate3d(0,0,0);
-    box-shadow: 0px 1px 5px #999999;
+    box-sizing:border-box;
 }
 
-/* the link style (if an image is wrapped by a link) */
-#slider a.imgLink, #slider .video {
-    z-index:2;
+#ninja-slider ul {
+    position:relative;
+    list-style:none;
+    padding:0;
+    box-sizing:border-box;
+    background:black;
+}
+
+#ninja-slider li {    
+    width:100%;
+    height:100%;
+    top:0;
+    left:0;
+    position: absolute;
+    font-size:12px;
+    list-style:none;
+    margin:0;
+    padding:0;
+    opacity:0;
+    overflow:hidden;
+    box-sizing:border-box;
+}
+
+/*
+#ninja-slider li::after {
+    content:"";
+    display:block;
+    position:absolute;
+    width:100%;
+    height:100%;
+    background:transparent url(pattern.png) repeat 0 0;
+    top:0;left:0;
+}
+*/
+
+
+#ninja-slider li.ns-show {
+    opacity:1;
+}
+
+
+/* --------- slider image ------- */  
+#ninja-slider .ns-img {
+    background-color:rgba(0,0,0,0.8);
+    background-size:contain;/*Note: If transitionType is zoom, it will be overridden to cover.*/
+
+    /*box-shadow: 0 1px 5px rgba(0,0,0,.8),inset 0 0 2px rgba(255,255,255,.4);*/
+    border-radius:4px;
+
+    cursor:default;
+    display:block;
+    position: absolute;
+    width:100%;
+    height:100%;
+    background-repeat:no-repeat;
+    background-position:center center;
+}
+
+
+/*---------- Captions -------------------*/
+
+#ninja-slider .caption {
+    font-size:5em;
+    font-family: 'Bree Serif', sans-serif;
+    position:absolute;
+    width:100%;
+    text-align:center;
+    color:rgba(255,255,255,0.8);
+    bottom:7%;
+}
+#ninja-slider li[class*='-s'] .caption {
+    /* 5s = (delay + transitionSpeed) set in the ninja-slider.js */
+    -webkit-animation: titleAnimation 5s linear both;
+    animation: titleAnimation 5s linear both;
+}
+
+@keyframes titleAnimation { 
+	0% { opacity:0; }
+	10% { opacity:0;transform: translateY(-20%);}
+	20% { opacity:1;transform: translateY(0%);}
+	70% {opacity:1;transform: translateY(0%);}
+	80% {opacity:0;transform: translateY(100%);}
+	100% {opacity:0;transform: translateY(100%);}
+}
+
+@-webkit-keyframes titleAnimation { 
+	0% { opacity:0; }
+	10% { opacity:0; -webkit-transform:translateY(-20%);}
+	25% { opacity:1; -webkit-transform:translateY(0%);}
+	70% {opacity:1; -webkit-transform:translateY(0%);}
+	80% {opacity:0; -webkit-transform:translateY(100%);}
+	100% {opacity:0; -webkit-transform:translateY(100%);}
+}
+
+/* ---------Arrow buttons ------- */   
+/* The arrow button id should be: slider id + ("-prev", "-next", and "-pause-play") */ 
+/* Usually the ninja-slider.js will create the arrow buttons and pager(nav dots) automatically, unless you have added their markup manually to the HTML as this demo did.
+   This demo has put them inside a DIV.navWrapper. 
+*/  
+
+div.navsWrapper {
+    position:absolute;
+    height:52px;
+    right:90px;
+    bottom:9%;
+    z-index:10;
+}
+ 
+#ninja-slider-prev, #ninja-slider-next
+{
+    position: absolute;
+    display:inline-block;
+    width:52px;
+    height:52px;
+    line-height:52px;
+    margin:0;
+    border:2px solid white;
+    backface-visibility:hidden;
+    color:white;
+    overflow:hidden;
+    -webkit-user-select: none;
+    user-select:none;
+    font-family:sans-serif;
+    font-size:14px;
+    transition:all 0.5s;
     cursor:pointer;
-    position:absolute;
-    top:0px;left:0px;border:0;padding:0;margin:0;
-    width:100%;height:100%;
-}
-#slider .video {
-    background:transparent url(video.png) no-repeat 50% 50%;
 }
 
-/* Caption styles */
-#slider .mc-caption {
-    position:absolute;
-    width:100%;
-    height:auto;
-    padding:10px 0;/* 10px will increase the height.*/
-    left:0px;
-    bottom:0px;top:auto;
-    overflow:hidden;
-    font: bold 14px/20px Arial;
-    color:#EEE;
-    text-align:center;
-    background:rgba(0,0,0,0.3);
-}
-#slider .mc-caption a {
-    color:#FB0;
-}
-#slider .mc-caption a:hover {
-    color:#DA0;
+#ninja-slider-prev {
+    left:auto; right:-1px;
 }
 
-
-/* ------ built-in navigation bullets wrapper ------*/
-#slider .navBulletsWrapper  {
-    top:320px;
-    text-align:center;
-    background:none;
-    position:relative;
-    z-index:3;
+#ninja-slider-next {
+    left:-1px; right:auto;
 }
 
-/* each bullet */
-#slider .navBulletsWrapper div 
-{
-    width:11px; height:11px;
-    font-size:0;color:White;/*hide the index number in the bullet element*/
-    background:transparent url(bullet.png) no-repeat 0 0;
-    display:inline-block; *display:inline; zoom:1;
-    overflow:hidden;cursor:pointer;
-    margin:0 6px;/* set distance between each bullet*/
+#ninja-slider-prev:hover, #ninja-slider-next:hover {width:80px;background-color:rgba(0,0,0,0.6);}
+
+/*pagination within the prev/next buttons*/
+#ninja-slider-prev div {margin-right:41px;white-space:nowrap;float:right;opacity:0;}
+#ninja-slider-next div {margin-left:41px;white-space:nowrap;opacity:0;}
+#ninja-slider-prev:hover div, #ninja-slider-next:hover div {opacity:1;}
+
+/* arrows */
+#ninja-slider-prev::before, #ninja-slider-next::before {
+    position: absolute;
+    top: 17px;
+    content: "";
+    display: inline-block;
+    width: 13px;
+    height: 13px;
+    border-left: 4px solid white;
+    border-top: 4px solid white;
+    backface-visibility:hidden;
 }
 
-#slider .navBulletsWrapper .active {background-position:0 -11px;}
-
-
-/* --------- Others ------- */
-
-#slider img, #slider>b, #slider a>b {
-    position:absolute; border:none; display:none;
+#ninja-slider-prev::before {
+    -ms-transform:rotate(-45deg);/*IE 9*/
+    -webkit-transform:rotate(-45deg);
+    transform: rotate(-45deg);
+    right:15px;
 }
 
-#slider .sliderInner {
-    overflow:hidden;
-    position:absolute; top:0; left:0;
+#ninja-slider-next::before {
+    -ms-transform:rotate(135deg);/*IE 9*/
+    -webkit-transform:rotate(135deg);
+    transform: rotate(135deg);
+    left:15px;
 }
 
-#slider>a, #slider video, #slider audio {display:none;}
-#slider div {-webkit-transform: translate3d(0,0,0);transform: translate3d(0,0,0);}
 
+/*------ pager(nav bullets) ------*/      
+/* The pager id should be: slider id + "-pager" */
+#ninja-slider-pager, #ninja-slider-pause-play { display:none;} 
+
+
+/*Responsive settings*/
+@media only screen and (max-width:500px){
+
+    #ninja-slider-prev, #ninja-slider-next, #ninja-slider-pager {
+        display:none;
+    }
+}
+
+@media only screen and (max-width:1100px){    
+    #ninja-slider .caption {
+        font-size:7em;
+    }
+}
+
+@media only screen and (max-width:700px){    
+    #ninja-slider .caption {
+        font-size:3em;
+    }
+}
 
 div#acrostic {
 /* Dependable, Professional, Creative container*/
