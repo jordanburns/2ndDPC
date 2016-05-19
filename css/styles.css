@@ -865,6 +865,13 @@ li.autolist {
     max-height: 70%;
 }
 
+ #ccomp1 {max-width: 60%; /*first paragraph in Construction Comp */
+ 	 padding-bottom: 3%;
+ 	 line-height: 1.5;}
+
+ #ccomp2 {max-width: 60%;  /*second paragraph in Construction Comp */
+ 	  line-height: 1.5;}
+
 /* End of  ccomp.html */
 /* Beginning of oems.html styles */
 .oems { /* The first sentence in OEMS. */
@@ -1145,7 +1152,3 @@ footer#undercons {
 
 #aboutinfo {max-height: 80%;}
  
- /*first paragraph in Construction Comp */
- #ccomp1 {max-width: 60%; padding-bottom: 7%; line-height: 1.5;}
- /*second paragraph in Construction Comp */
- #ccomp2 {max-width: 60%; line-height: 1.5;}
