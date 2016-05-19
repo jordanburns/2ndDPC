@@ -603,6 +603,9 @@ div#negative {
     margin-left: 36px;
     margin-right: 36px;
 }
+#whiteboxtext { margin-left: 36px;
+    margin-right: 36px;
+}
 #grayhalf {
 /*The curved edge on the blue div.*/
     height: 45px;
@@ -679,7 +682,6 @@ div#indeximg {
 /*the paragraph talking about where DPC is and has been*/
     position: relative;
     text-align: center;
-    margin:36px;
 }
 
 /*End of styles for index.html*/
