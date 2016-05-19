@@ -1156,4 +1156,11 @@ footer#undercons {
 
 
 #aboutinfo {max-height: 80%;}
- 
+ #acrostic2 {
+    top: 600px;
+    position: absolute;
+    left: 10px;
+    width: 100%;
+    height: auto;
+    max-width: 361px;
+}
