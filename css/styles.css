@@ -572,12 +572,16 @@ div#acrostic li {
     font-size: 40px;
 }
 
-div.positive {
+div#positive {
 /*Paragraph next to the acrostic*/
     position: relative;
     float: right;
     width: 650px;
     max-width: 60%;
+}
+div#negative {
+	width: 100%
+	position: relative;
 }
 
 #graybox {
