@@ -572,7 +572,7 @@ div#acrostic li {
     font-size: 40px;
 }
 
-div#positive {
+div#whitebox {
 /*Paragraph next to the acrostic*/
     position: relative;
    
@@ -679,7 +679,6 @@ div#indeximg {
 /*the paragraph talking about where DPC is and has been*/
     position: relative;
     text-align: center;
-    margin:36px;
 }
 
 #indexfooter {
