@@ -14,13 +14,13 @@
 
 h1 {
 	margin: -20px;
-	color: #fff;
-/*white*/
+	color: #fff; /*white*/
 	font-family: 'Phosphate Pro',serif;
 	text-align: center;
-	background-color: #a30000;
-/*red*/
+	background-color: #a30000; /*red*/
 	clear: right;
+	max-height:45px;
+	font-size: 100%;
 }
 
 #logo1 {
