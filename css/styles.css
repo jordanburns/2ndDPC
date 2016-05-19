@@ -681,11 +681,6 @@ div#indeximg {
     text-align: center;
 }
 
-#indexfooter {
-/*positions the footer on the home page so there is less white space*/
-    margin-top: 800px;
-}
-
 /*End of styles for index.html*/
 /*Beginning of Styles for packaging.html*/
 #onecol {
