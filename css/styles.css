@@ -576,7 +576,7 @@ div#positive {
 /*Paragraph next to the acrostic*/
     position: relative;
    
-    width: 650px;
+    width: 100%;
     margin:36px;
 }
 div#negative {
