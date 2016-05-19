@@ -586,14 +586,11 @@ div#negative {
 
 #graybox {
 /*The gray text area on the home page.*/
-    height: 100px;
-    width: 100%;
-    position: absolute;
-    clear: left;
     background-color: #dfdfdf;
-    padding-top: 10%;
-    padding-bottom: 80px;
-    
+    position: relative;
+    clear: right;
+    padding-top: 60px;
+    padding-bottom: 20px;
 }
 
 #grayboxtext {
@@ -601,9 +598,8 @@ div#negative {
     margin-left: 36px;
     margin-right: 36px;
 }
-
 #grayhalf {
-/*Creates the gray rounded edge on the gray box*/
+/*The curved edge on the blue div.*/
     height: 45px;
     border-radius: 0 0 90px 90px;
     -moz-border-radius: 0 0 90px 90px;
@@ -612,11 +608,9 @@ div#negative {
 /*Vendor extension-even when validating do not delete*/
     background: #dfdfdf;
     position: relative;
-    background: #dfdfdf;
     z-index: 1;
-/*Causes the gray half circle to overlap the blue div and be the primary object*/
+/*Causes the blue curves to overlap any elements not labeled with a z-index.*/
 }
-
 div#home {
 /*This is the blue text area.*/
     position: relative;
