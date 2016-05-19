@@ -660,7 +660,7 @@ div#hometext {
 #indexcert {
 /*this is the paragraph that discusses quality and environmental*/
     position: relative;
-    top: 1300px;
+    top: 950px;
     text-align: center;
     padding-top: 30px;
     padding-bottom: 80px;
@@ -676,11 +676,11 @@ div#indeximg {
 /*centers image of factory*/
     width: 95%;
     margin: 0 auto;
-    height: 400px;
+    height: 150px;
 }
 #fullfactory {
 /*positions and sizes the picture of the factory*/
-    top: 650px;
+    top: 300px;
     position: relative;
     max-height: 400px;
     max-width: 95%;
