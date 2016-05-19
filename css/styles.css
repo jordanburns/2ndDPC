@@ -332,9 +332,9 @@ footer.left {
 #ninja-slider .slider-inner {
     /*max-width:720px;*/
     margin:0 auto;/*center-aligned */
-    font-size:0px;
     position:relative;
     box-sizing:border-box;
+    top: 68px;
 }
 
 #ninja-slider ul {
