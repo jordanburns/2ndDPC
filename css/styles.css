@@ -1110,7 +1110,7 @@ p.info {
 footer.leftcon {
 /* Helps keep the footer where it should be. */
     clear: left;
-    margin-top: 50%;
+    margin-top: 70%;
 }
 
 /* End of contact.html styles */
