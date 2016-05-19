@@ -870,8 +870,13 @@ li.autolist {
  	 line-height: 1.5;}
 
  #ccomp2 {max-width: 60%;  /*second paragraph in Construction Comp */
- 	  line-height: 1.5;}
-
+ 	  line-height: 1.5;
+ 	  padding-bottom:3%;
+ }
+ul#key { /*Positions the ul */
+    position: relative;
+    left: 30px;
+}
 /* End of  ccomp.html */
 /* Beginning of oems.html styles */
 .oems { /* The first sentence in OEMS. */
