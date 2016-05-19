@@ -534,7 +534,8 @@ div.navsWrapper {
 div#acrostic {
 /* Dependable, Professional, Creative container*/
     position: relative;
-    top: 580px;
+    left: 20px;
+    top: 375px;
     font-size: 30px;
     background-color: #fff;
 }
@@ -583,7 +584,7 @@ div#acrostic li {
 div#positive {
 /*Paragraph next to the acrostic*/
     position: relative;
-    top: 400px;
+    top: 200px;
     float: right;
     width: 650px;
     max-width: 60%;
@@ -627,7 +628,7 @@ div#positive {
 div#home {
 /*This is the blue text area.*/
     position: relative;
-    top: 400px;
+    top: 300px;
     clear: right;
     background: #4D71A3;
     color: #fff;
@@ -651,7 +652,7 @@ div#hometext {
 /*Vendor extension-even when validating do not delete*/
     background: #4D71A3;
     position: relative;
-    top: 655px;
+    top: 300px;
     z-index: 1;
 /*Causes the blue curves to overlap any elements not labeled with a z-index.*/
 }
