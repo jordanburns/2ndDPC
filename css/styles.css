@@ -812,6 +812,9 @@ div#new {
     width: 50%;
 }
 
+autocol1 {
+	width:50%;
+}
 #autoh {
 /*Blue header on the list*/
     float: right;
@@ -842,7 +845,7 @@ li.autolist {
     position: relative;
     bottom: 200px;
     width: 40%;
-    max-width: 500px;
+    
     left: 50px;
 }
 
