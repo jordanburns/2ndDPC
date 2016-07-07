@@ -812,7 +812,11 @@ div#new {
     width: 50%;
 }
 
-autocol1 {
+#autocol1 {
+	width:50%;
+}
+
+#autocol2 {
 	width:50%;
 }
 #autoh {
