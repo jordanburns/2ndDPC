@@ -812,7 +812,9 @@ div#new {
 /*Sets the width of the automotive collage*/
     width: 50%;
 }
-
+#autos{
+	width:100%;
+}
 #autocol1 {
 	width:50%;
 }
