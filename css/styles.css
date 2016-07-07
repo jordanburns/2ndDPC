@@ -305,6 +305,7 @@ footer {
 footer.right {
 /* If the last item on the page is styled with float:right, add <footer class="right"> */
     clear: right;
+    clear: left;
     margin-top: -200px;
 }
 
