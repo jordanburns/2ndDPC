@@ -818,6 +818,7 @@ div#new {
 
 #autocol2 {
 	width:50%;
+	float:left;
 }
 #autoh {
 /*Blue header on the list*/
