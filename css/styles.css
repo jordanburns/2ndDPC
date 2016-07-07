@@ -803,10 +803,8 @@ div#new {
 #autoimage {
 /*Positions the automotive collage.*/
     position: relative;
-    top: 150px;
-    left: 75px;
-    
-}
+    padding: 2em;
+    }
 
 #autoimagee {
 
