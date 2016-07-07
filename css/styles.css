@@ -817,6 +817,7 @@ div#new {
 }
 #autocol1 {
 	width:50%;
+	float:left;
 }
 
 #autocol2 {
