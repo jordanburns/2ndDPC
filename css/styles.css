@@ -527,7 +527,7 @@ div.navsWrapper {
 div#acrostic {
 /* Dependable, Professional, Creative container*/
     position: relative;
-    left: 20px;
+    margin: 0 auto;
     font-size: 30px;
     background-color: #fff;
 }
