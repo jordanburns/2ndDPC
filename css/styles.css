@@ -21,6 +21,9 @@ h1 {
 	clear: right;
 }
 
+p { display:block;
+}
+
 #logo1 {
 	width: 175px;
 	position: absolute;
