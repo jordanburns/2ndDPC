@@ -574,17 +574,13 @@ div#acrostic li {
 }
 
 div#whitebox {
-/*Paragraph next to the acrostic*/
+/*Paragraph below to the acrostic*/
     position: relative;
-   
     width: 100%;
     margin:36px;
-    background-color: #dfdfdf;
-    
     clear: right;
-    padding-top: 60px;
-    padding-bottom: 20px;
-}
+    }
+    
 div#negative {
 	width: 100%;
 	position: relative;
