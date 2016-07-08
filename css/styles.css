@@ -577,8 +577,9 @@ div#whitebox {
 /*Paragraph below to the acrostic*/
     position: relative;
     width: 100%;
-    margin:36px;
+    margin: 36px;
     clear: right;
+    text-align: center;
     }
     
 div#negative {
