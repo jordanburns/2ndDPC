@@ -686,6 +686,9 @@ div#indeximg {
     border-radius: 50px;
 	
 }
+div#title {
+	width:100%;
+}
 
 }
 #blurb {
