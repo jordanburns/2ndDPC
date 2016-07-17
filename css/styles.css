@@ -678,7 +678,16 @@ div#indeximg {
     border: 5px solid#BF0000;
     border-radius: 50px;
 }
+#factory {
+    position: relative;
+    max-height: 400px;
+    max-width: 95%;
+    border: 5px solid#BF0000;
+    border-radius: 50px;
+	
+}
 
+}
 #blurb {
 /*the paragraph talking about where DPC is and has been*/
     position: relative;
