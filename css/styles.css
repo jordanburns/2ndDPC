@@ -684,8 +684,9 @@ div#indeximg {
     max-width: 95%;
     border: 5px solid#BF0000;
     border-radius: 50px;
-	
+    top: 110px;
 }
+
 #title {
 	width:100%;
 }
