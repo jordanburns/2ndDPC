@@ -1102,54 +1102,46 @@ div#cards { /*Moves all of the cards down from the top*/
     position: relative;
     top: 100px;
 }
-img#ap { /*Accurate Plastic's business card*/
-    height: 200px;
+
+img#buscard {/* First business card */
     position: relative;
     float: right;
-    left: -100px;
+    top:-50px;
+    padding:1em;
 }
-img#dp1 {/* First business card */
-    height: 200px;
-    position: relative;
-    float: right;
-    left: -70px;
-    top: 20px;
-}
-img#dp2 { /* Second business card*/
-    height: 200px;
-    float: right;
-    position: relative;
-    left: -70px;
-    top: 40px;
-}
+
 div#contact {
 /*This is the gray div containing contact info for DPC.*/
-    position: relative;
-    top: 900px;
+    width:500px;
+    margin:0 auto;
+}
+div#contactbox {
+/*This is the gray div containing contact info for DPC.*/
+   padding:2em 0em 6em 0em;
+    clear:right;
     background-color: #E8E8E8;
-    padding-bottom: 40px;
+    margin:0 auto;
+
 }
 
 h2#info {
 /*This is the header for the gray div.*/
     font-size: 26px;
-    text-align: left;
+    text-align: center;
     position: relative;
     top: 10px;
-    left: -65px;
 }
 
 p.info {
 /* The paragraphs inside the contact info box. */
     position: relative;
-    left: -45px;
+    margin: auto 0;
     font-size: 15px;
 }
 
 footer.leftcon {
 /* Helps keep the footer where it should be. */
     clear: left;
-    margin-top: 70%;
 }
 
 /* End of contact.html styles */
