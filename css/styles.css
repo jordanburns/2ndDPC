@@ -305,6 +305,7 @@ footer {
     padding-bottom: 3px;
 }
 
+
 footer.right {
 /* If the last item on the page is styled with float:right, add <footer class="right"> */
     clear: right;
@@ -937,6 +938,11 @@ div#new {
 footer#oemfooter{
 	margin-top: -20%;
 }
+
+#end{
+    height: 300px;
+    float:left;
+}
 /* End of oems.html styles */
 /*Beginning of injmold.html styles*/
 #injmold { /*Styles and aligns the text*/
@@ -952,6 +958,7 @@ footer#oemfooter{
     width: 600px;
     position: relative;
     top: 150px;
+    float:none;
 }
 img#accurateimg { /*Sizes the image*/
     height: 400px;
@@ -989,7 +996,7 @@ div#ecp {
     padding-bottom: 3%;
 }
 ul.mat{position:relative; /*Indents the ordered lists of benefits*/
-	left:30px;
+	left:30px:
 }
 /*End of materials.html styles */
 /* Beginning of quality.html styles */
