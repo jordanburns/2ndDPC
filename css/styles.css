@@ -815,49 +815,55 @@ div#new {
 /*Beginning of automotive.html styles*/
 #autoimage {
 /*Positions the automotive collage.*/
-    position: relative;
-    padding: 2em;
+    padding: 2em 1em 1em 1em;
+    max-width: 100%;
+    height: auto;
+    width: auto\9; /* ie8 */
     }
 
-#autoimagee {
 
-   
-}
 #autos{
 	width:100%;
 	height:100%;
 }
 #autocol1 {
-	display:inline;
+	display:block;
 	width:50%;
 	float:left;
 }
 
 #autocol2 {
-	display:inline;
+	display:block;
 	width:50%;
 	float:left;
 }
 #autoh {
 /*Blue header on the list*/
     float: right;
-    max-width: 350px;
-    position: relative;
-    bottom: 330px;
-    right: 135px;
+    padding-top:2em;
+    max-width: 100%;
+    height: auto;
+    width: auto\9; /* ie8 */
 }
+
+#autoheader{
+    color: #0053A0;
+    font-size: 24px;
+    padding-top:2em;
+    padding-right:1em;
+}
+
 
 #auto2 {
 /*Container for the unordered list*/
-    float: right;
-    max-width: 450px;
-    position: relative;
-    left: 300px;
-    bottom: 250px;
+    max-width: 100%;
+    padding:0em 1em 1em 1em;
+    height: auto;
+    width: auto\9; /* ie8 */
     font-size: 16px;
 }
 
-li.autolist {
+.autolist {
 /*Sets the spacing between list items*/
     margin-top: 15px;
     margin-bottom: 15px;
@@ -894,7 +900,7 @@ li.autolist {
  	  line-height: 1.5;
  	  padding-bottom:3%;
  }
-ul#key { /*Positions the ul */
+#key { /*Positions the ul */
     position: relative;
     left: 30px;
 }
@@ -940,7 +946,7 @@ footer#oemfooter{
     text-align: center;
     top: 100px;
 }
-div#accurate { /*Positions and centers the image*/
+#accurate { /*Positions and centers the image*/
     margin: 0 auto;
     height: 400px;
     width: 600px;
@@ -975,7 +981,7 @@ div#mats {
 .materials {
 /* This is the div for individual materials. */
     padding-bottom: 1%;
-    padding-top
+    padding-top:1%;
 }
 
 div#ecp {
