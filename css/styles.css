@@ -858,7 +858,7 @@ div#new {
 #auto2 {
 /*Container for the unordered list*/
     max-width: 100%;
-    padding:4em 1em 1em 1em;
+    padding:5em 1em 1em 1em;
     height: auto;
     width: auto\9; /* ie8 */
     font-size: 16px;
