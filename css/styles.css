@@ -1116,10 +1116,10 @@ div#contact {
 }
 div#contactbox {
 /*This is the gray div containing contact info for DPC.*/
-   padding:2em 0em 6em 0em;
+   padding:1em 0em 4em 0em;
     clear:right;
     background-color: #E8E8E8;
-    margin:0 auto;
+    margin:6em auto 0em;
 
 }
 
