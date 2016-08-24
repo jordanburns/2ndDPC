@@ -1109,13 +1109,6 @@ div#cards { /*Moves all of the cards down from the top*/
     top: 100px;
 }
 
-img#buscard {/* First business card */
-    position: relative;
-    float: right;
-    top:-50px;
-    padding:1em;
-}
-
 div#contact {
 /*This is the gray div containing contact info for DPC.*/
     width:500px;
